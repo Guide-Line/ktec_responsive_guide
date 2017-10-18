@@ -8,7 +8,7 @@
 
 
 
-- 상품( [down](http://www.google.co.kr))
+- 상품( [down](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/goods/goods.zip))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
