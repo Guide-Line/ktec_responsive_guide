@@ -8,4 +8,4 @@
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
-| ![Aaron Swartz](img/320.jpg) | 내용 11 | 내용 12 |
+| ![Aaron Swartz](goods/img/320.jpg) | ![Aaron Swartz](goods/img/768.jpg) | ![Aaron Swartz](goods/img/1200.jpg) |
