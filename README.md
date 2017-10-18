@@ -9,4 +9,4 @@
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
-| ![Aaron Swartz](goods/img/320.jpg) | ![Aaron Swartz](goods/img/768.jpg) | ![Aaron Swartz](goods/img/1200.jpg) |
+| ![screen](goods/img/320.jpg) | ![screen](goods/img/768.jpg) | ![screen](goods/img/1200.jpg) |
