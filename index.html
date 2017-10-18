@@ -9,21 +9,13 @@
 	<style type="text/css">
         *{padding: 0; margin:0;border:0;}
         .rel{position: relative; width:100%;}
+        #p_wrapper{position: relative; width:100%;}
+        
 	</style>
 	<!-- jQuery -->
 	<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
 	<script type="text/javascript">
-        $(window).load(function(){
-            resizeFun()
-        })
-        $(window).resize(function () {
-            resizeFun()
-        });
-        function resizeFun() {
-            var docWidth = document.body.offsetWidth;
-            
-            $("#body_w980").css({"width":docWidth + "px" , "overflow":"hidden"})           
-        }
+      
 	</script>
 </head>
 <body>
@@ -35,12 +27,14 @@
 		<section id="p_contents">
 			<!-- Contents Area -->
 			
-            <h1 id="goods">goods</h1>
+            <h1 id="goods">goods_responsive</h1>
 			
 			<div class="rel">
 			    
-                <iframe class="goods-obj" src="http://eventimg.auction.co.kr/md/auction/09D730FD87/goods.html"  width="100%"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                <iframe class="goods-obj" src="http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_responsive.html"  width="1200px"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 			</div>
+			
+           
 			
 		</section>
 		<footer id="p_footer">

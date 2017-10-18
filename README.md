@@ -9,11 +9,10 @@
 
 
 <!--- 상품( [goods.zip](https://app.box.com/s/8ki7fw4sknlraetb76rrexvec3tnzrma) , [미리보기](http://promotion.auction.co.kr/promotion/md/eventview.aspx?txtMD=09D730FD87))-->
-- 반응형 상품( [goods_responsive.zip](https://app.box.com/s/hkmiac202geb1i646p414395qcw0yzsb), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_responsive.html))
+- 반응형 상품( [goods_responsive.zip](https://app.box.com/s/a9dkkgwqk8v44rf9kieu9rlilw5gkogw), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_responsive.html))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/320.jpg) | ![screen](goods/img/768.jpg) | ![screen](goods/img/1200.jpg) |
 
 
-- 고정 상품
