@@ -8,7 +8,7 @@
 
 
 
-- 상품( [down](https://app.box.com/s/8ki7fw4sknlraetb76rrexvec3tnzrma))
+- 상품( [goods.zip](https://app.box.com/s/8ki7fw4sknlraetb76rrexvec3tnzrma))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
