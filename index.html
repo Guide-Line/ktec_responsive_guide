@@ -13,16 +13,20 @@
 	<!-- jQuery -->
 	<script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
 	<script type="text/javascript">
-		<!--
-
-		//-->
+        $(window).load(function(){
+            resizeFun()
+        })
+        $(window).resize(function () {
+            resizeFun()
+        });
+        function resizeFun() {
+            var docWidth = document.body.offsetWidth;
+            
+            $("#body_w980").css({"width":docWidth + "px" , "overflow":"hidden"})           
+        }
 	</script>
 </head>
 <body>
-	
-	<div id="layerWrap2" class="fixed" style="display:none;">
-		<div id="dimmed"></div>
-	</div>
 
 	<main role="main" id="p_wrapper">
 		<header id="p_header">
@@ -30,9 +34,12 @@
 		</header>
 		<section id="p_contents">
 			<!-- Contents Area -->
-			<div id="goods" class="rel">
+			
+            <h1 id="goods">goods</h1>
+			
+			<div class="rel">
 			    
-                <iframe class="" src="http://eventimg.auction.co.kr/md/auction/09D730FD87/goods.html"  width="100%"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                <iframe class="goods-obj" src="http://eventimg.auction.co.kr/md/auction/09D730FD87/goods.html"  width="100%"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
 			</div>
 			
 		</section>
