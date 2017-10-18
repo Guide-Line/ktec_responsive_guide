@@ -3,12 +3,12 @@
 
 - 지원
 
->browse( IE9이상 , chrome , firefox )  
+>browse( IE9이상 , chrome , firefox ) , mobile ( android , ios)  
 >responsive size :  320 < 768(767) < 1200(1199)
 
 
 
-- 상품
+- 상품( [down](http://www.google.co.kr))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
