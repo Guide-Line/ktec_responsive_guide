@@ -8,7 +8,7 @@
 
 
 
-- 상품( [goods.zip](https://app.box.com/s/8ki7fw4sknlraetb76rrexvec3tnzrma))
+- 상품( [goods.zip](https://app.box.com/s/8ki7fw4sknlraetb76rrexvec3tnzrma) , [미리보기](http://promotion.auction.co.kr/promotion/md/eventview.aspx?txtMD=09D730FD87))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
