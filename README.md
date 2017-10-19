@@ -16,3 +16,9 @@
 | ![screen](goods/img/goods_type1_320.jpg) | ![screen](goods/img/goods_type1_768.jpg) | ![screen](goods/img/goods_type1_1200.jpg) |
 
 
+- 반응형 상품( [goods_type2.zip](https://app.box.com/s/iwxj66rpf2m4h50v3winuu995zpm69ua), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type2.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_768.jpg) | ![screen](goods/img/goods_type2_1200.jpg) |
+
