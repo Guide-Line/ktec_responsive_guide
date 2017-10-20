@@ -18,7 +18,7 @@
             .pc{display: none}
 
 
-            /*Î™®Î∞îÏùº 640 ÏÇ¨Ïù¥Ï¶à Ï†úÌïúÌï¥Ï†ú*/
+            /*∏πŸ¿œ ªÁ¿Ã¡Ó ¡¶«— «Æ∏≤*/
             .platform {
                 max-width: 100% !important;
                 padding: 0;
@@ -41,12 +41,12 @@
 
                 if(local_url.indexOf("PROMOTION/MD") == -1){   
                     device_str = "mobile"
-                    $(".deviceR").html("ÎîîÎ∞îÏù¥Ïä§ : " + device_str)
+                    $(".deviceR").html("?îÎ∞î?¥Ïä§ : " + device_str)
                     $(".mobile").css('display' ,'block')
 
                 }else{               
                     device_str = "pc"
-                    $(".deviceR").html("ÎîîÎ∞îÏù¥Ïä§ : " + device_str)
+                    $(".deviceR").html("?îÎ∞î?¥Ïä§ : " + device_str)
                     $(".pc").css('display' ,'block')
                 }
 
@@ -56,11 +56,11 @@
             });
             function resizeFun() {
                 var docWidth = document.body.offsetWidth;
-                $(".sizeR").html("ÏÇ¨Ïù¥Ï¶à : " + docWidth)
+                $(".sizeR").html("?¨Ïù¥Ï¶?: " + docWidth)
             }
 
 
-            /*Î™®Î∞îÏùºÏù¥Î©¥ true Î¶¨ÌÑ¥*/
+            
             function checkMobileDevice() {
                 var mobileKeyWords = new Array('Android', 'iPhone', 'iPod', 'BlackBerry', 'Windows CE', 'SAMSUNG', 'LG', 'MOT', 'SonyEricsson');
                 for (var info in mobileKeyWords) {
@@ -80,15 +80,15 @@
 
         <div id="p_wrapper">
             <div id="p_header">
-                <h3 class="sizeR">ÏÇ¨Ïù¥Ï¶à</h3>
-                <h3 class="deviceR">ÎîîÎ∞îÏù¥Ïä§</h3>
+                <h3 class="sizeR"></h3>
+                <h3 class="deviceR"></h3>
             </div>
-            <div id="p_contents" style="background-color: #666666">
+            <div id="p_contents" style="background-color: #e6e6e6">
 
 
-                <!--Î™®Î∞îÏùº or Ïõπ ÏóêÎî∞Îùº Î≥¥Ïó¨Ï£ºÎäî Í≤ΩÏö∞Í∞Ä Îã¨ÎùºÏßê-->
-                <!--<a class="mobile btn01" href="javascript:alert('Î™®Î∞îÏùº Ïø†Ìè∞Îã§Ïö¥')"><img src="http://eventimg.auction.co.kr/md/auction/09C6E94CB1/w_btn_buy.png" alt=""></a>
-                <a class="pc btn01" href="javascript:alert('Ïõπ Ïø†Ìè∞Îã§Ïö¥')"><img src="http://eventimg.auction.co.kr/md/auction/09C6E94CB1/w_btn_buy.png" alt=""></a>-->
+                <!-- ∏πŸ¿œ ¿• º±≈√πˆ∆∞ -->
+                <!--<a class="mobile btn01" href="javascript:alert('¿• ƒÌ∆˘¥ŸøÓ')"><img src="http://eventimg.auction.co.kr/md/auction/09C6E94CB1/w_btn_buy.png" alt=""></a>
+                <a class="pc btn01" href="javascript:alert('∏πŸ¿œ ƒÌ∆˘ ¥ŸøÓ')"><img src="http://eventimg.auction.co.kr/md/auction/09C6E94CB1/w_btn_buy.png" alt=""></a>-->
                 
 
                 <h3 id="goods_type1">goods_type1.html </h3>
@@ -101,6 +101,12 @@
 
                 <div class="rel">
                     <iframe class="" src="http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type2.html"  width="100%"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                </div>
+                
+                <h3 id="goods_type2">goods_today_pick.html </h3>
+
+                <div class="rel">
+                    <iframe class="" src="http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_today_pick.html"  width="100%"  frameborder="0" scrolling="no" allowtransparency="true"></iframe>
                 </div>
 
 

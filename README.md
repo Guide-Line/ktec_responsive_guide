@@ -21,5 +21,13 @@
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
-| ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_768.jpg) | ![screen](goods/img/goods_type2_1200.jpg) |
+| ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_320.jpg) |
+
+
+- TODAY'S PICK 상품 ( [goods_today_pick.zip](https://app.box.com/s/fg0kp0jrqyj5k0l08i11q5p97voqsln2), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_today_pick.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/today_pick_320.jpg) | ![screen](goods/img/today_pick_768.jpg) | ![screen](goods/img/today_pick_1200.jpg) |
+
 
