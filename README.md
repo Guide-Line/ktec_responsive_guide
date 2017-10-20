@@ -1,11 +1,24 @@
 # ktec_responsive_guide
-
-
 - 지원
 
 >browse( IE9이상 , chrome , firefox ) , mobile ( android , ios)  
 >responsive size :  320 < 768(767) < 1200(1199)
 
+<br>
+
+### Table of Contents
+
+  1. [TODAY'S PICK 상품](#todaypick)
+  
+  1. [반응형 상품 goods_type1](#references)
+  
+  1. [반응형 상품 goods_type2](#references)
+  
+  
+  <br>
+
+
+<a name="todaypick"></a>
 - TODAY'S PICK 상품 ( [goods_today_pick.zip](https://app.box.com/s/fg0kp0jrqyj5k0l08i11q5p97voqsln2), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_today_pick.html))
 
 | 320px | 768px | 1200px |
