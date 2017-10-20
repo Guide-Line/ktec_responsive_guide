@@ -10,9 +10,9 @@
 
   1. [TODAY'S PICK 상품](#todaypick)
   
-  1. [반응형 상품 goods_type1](#references)
+  1. [반응형 상품 goods_type1](#goods_type1)
   
-  1. [반응형 상품 goods_type2](#references)
+  1. [반응형 상품 goods_type2](#goods_type2)
   
   
   <br>
@@ -25,15 +25,20 @@
 | :---: | :---: | :---: |
 | ![screen](goods/img/today_pick_320.jpg) | ![screen](goods/img/today_pick_768.jpg) | ![screen](goods/img/today_pick_1200.jpg) |
 
+<br>
+<br>
 
+<a name="goods_type1"></a>
 - 반응형 상품( [goods_type1.zip](https://app.box.com/s/5lo9drxadhcsxpt2hgwlw50wbmycxu5e), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type1.html))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/goods_type1_320.jpg) | ![screen](goods/img/goods_type1_768.jpg) | ![screen](goods/img/goods_type1_1200.jpg) |
 
+<br>
+<br>
 
-
+<a name="goods_type2"></a>
 - 반응형 상품( [goods_type2.zip](https://app.box.com/s/iwxj66rpf2m4h50v3winuu995zpm69ua), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type2.html))
 
 | 320px | 768px | 1200px |
