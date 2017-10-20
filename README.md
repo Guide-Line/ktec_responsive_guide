@@ -10,9 +10,9 @@
 
   1. [TODAY'S PICK 상품](#todaypick)
   
-  1. [반응형 상품 goods_type1](#goods_type1)
+  1. [반응형 상품 2단](#goods_type1)
   
-  1. [반응형 상품 goods_type2](#goods_type2)
+  1. [반응형 상품 4단](#goods_type2)
   
   
   <br>
@@ -43,7 +43,7 @@
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
-| ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_320.jpg) |
+| ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_768.jpg) | ![screen](goods/img/goods_type2_1200.jpg) |
 
 
 
