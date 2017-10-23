@@ -15,6 +15,8 @@
   
   1. [반응형 상품 4단](#goods_type2)
   
+  1. [쿠폰 type1](#coupon_type1)
+  
   
   <br>
 
