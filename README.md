@@ -28,7 +28,7 @@
 | :---: | :---: | :---: |
 | ![screen](goods/img/today_pick_320.jpg) | ![screen](goods/img/today_pick_768.jpg) | ![screen](goods/img/today_pick_1200.jpg) |
 
-<a href="#top">? back to top</a>
+<a href="#top">бу back to top</a>
 
 <br>
 <br>
@@ -40,7 +40,7 @@
 | :---: | :---: | :---: |
 | ![screen](goods/img/goods_type1_320.jpg) | ![screen](goods/img/goods_type1_768.jpg) | ![screen](goods/img/goods_type1_1200.jpg) |
 
-<a href="#top">? back to top</a>
+<a href="#top">бу back to top</a>
 
 <br>
 <br>
@@ -52,7 +52,7 @@
 | :---: | :---: | :---: |
 | ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_768.jpg) | ![screen](goods/img/goods_type2_1200.jpg) |
 
-<a href="#top">? back to top</a>
+<a href="#top">бу back to top</a>
 
 <br>
 <br>
@@ -64,7 +64,7 @@
 | :---: | :---: | :---: |
 | ![screen](goods/img/coupon_type1_320.jpg) | ![screen](goods/img/coupon_type1_768.jpg) | ![screen](goods/img/coupon_type1_1200.jpg) |
 
-<a href="#top">? back to top</a>
+<a href="#top">бу back to top</a>
 
 
 
