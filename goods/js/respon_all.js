@@ -3,6 +3,7 @@ jQuery.fn.extend({
     live: function (event, callback) {
        if (this.selector) {
             jQuery(document).on(event, this.selector, callback);
+           
         }
     }
 });
@@ -892,6 +893,8 @@ var moduleSwiper = function () {
 					if(owlStageWidth < sliderWrapWidth) leftMargin = (sliderWrapWidth - owlStageWidth) / 2;
 
 					mySwiper.css("left", leftMargin + "px");
+                    
+                   
 				}
 
 				mySwiper.css("overflow", "initial");
@@ -921,6 +924,7 @@ var moduleSwiper = function () {
 							trans_pos_check();
 							if(transPosition < transOffset){
 								mySwiper.find('.owl-stage').css('transform','translate3d('+ transOffset +'px,0px,0px)');
+                                
 							}
 						}
 					});
@@ -1040,6 +1044,7 @@ var moduleSwiper = function () {
 
 	/* relation promotion */
 	function promSwiper(){
+        
 		var targetSwiper2 = $('.module_prom .sliderwrap2 .owl-carousel');
 		targetSwiper2.each(function(){
 			var $this = $(this).parents('.sliderwrap2');
@@ -1098,17 +1103,23 @@ var moduleSwiper = function () {
 						var li_seletor2 = mySwiper.find('.owl-item:nth-last-child(2)');
 						var li_seletor3 = mySwiper.find('.owl-item:nth-last-child(3)');
 						var li_seletor4 = mySwiper.find('.owl-item:nth-last-child(4)');
+                        
+                 
 						if(window_width > list_width*3){
 							if(li_seletor1.hasClass('active') && li_seletor2.hasClass('active') && li_seletor3.hasClass('active') && !li_seletor4.hasClass('active')){
 								mySwiper.find('.owl-stage').css('transform','translate3d('+ right_align_width +'px,0px,0px)');
+                                
+                               
 							}
 						}else if(window_width > list_width*2){
 							if(li_seletor1.hasClass('active') && li_seletor2.hasClass('active') && !li_seletor3.hasClass('active')){
 								mySwiper.find('.owl-stage').css('transform','translate3d('+ right_align_width +'px,0px,0px)');
+                               
 							}
 						}else{
 							if(!li_not_selector.hasClass('active')){
 								mySwiper.find('.owl-stage').css('transform','translate3d('+ right_align_width +'px,0px,0px)');
+                               
 							}
 						}
 					});
@@ -1193,10 +1204,10 @@ var moduleSwiper = function () {
 	if($('.module_bigsale .sliderwrap3').length > 0) { saleSwiper(); }
 	if($('.module_bigsale .sliderwrap').length > 0) { saleSwiper2(); }
 
-	/* ÄíÆù */
+    /* ÄíÆù */
 	function couponSwiper(){
 		var targetSwiper = $('.module_coupon.coupon_type1 .sliderwrap .owl-carousel');
-
+        
 		targetSwiper.each(function(){
 			var $this = $(this).parents('.sliderwrap'),
 				mySwiper = $(this),
@@ -1229,8 +1240,10 @@ var moduleSwiper = function () {
 			chkLen == 2 ? $this.addClass('item2') : null;
 		});
 	}
-
-	if($('.module_coupon.coupon_type1 .sliderwrap').length > 0) {
+    
+    //$('.module_coupon.coupon_type1 .sliderwrap').css("border" , "1px solid red")
+    
+	if($('.module_coupon.coupon_type1 .sliderwrap').length > 0) {        
         couponSwiper();
 	}
 }

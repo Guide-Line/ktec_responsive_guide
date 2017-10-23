@@ -1,7 +1,7 @@
 # ktec_responsive_guide
-- ì§€ì›
+- Áö¿ø
 
->browse( IE9ì´ìƒ , chrome , firefox ) , mobile ( android , ios)  
+>browse( IE9ÀÌ»ó , chrome , firefox ) , mobile ( android , ios)  
 >responsive size :  320 < 768(767) < 1200(1199)
 
 <br>
@@ -9,49 +9,60 @@
 <a name="top"></a>
 ### Table of Contents
 
-  1. [TODAY'S PICK ìƒí’ˆ](#todaypick)
+  1. [TODAY'S PICK »óÇ°](#todaypick)
   
-  1. [ë°˜ì‘í˜• ìƒí’ˆ 2ë‹¨](#goods_type1)
+  1. [¹İÀÀÇü »óÇ° 2´Ü](#goods_type1)
   
-  1. [ë°˜ì‘í˜• ìƒí’ˆ 4ë‹¨](#goods_type2)
+  1. [¹İÀÀÇü »óÇ° 4´Ü](#goods_type2)
   
   
   <br>
 
 
 <a name="todaypick"></a>
-- TODAY'S PICK ìƒí’ˆ ( [goods_today_pick.zip](https://app.box.com/s/fg0kp0jrqyj5k0l08i11q5p97voqsln2), [ë¯¸ë¦¬ë³´ê¸°](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_today_pick.html))
+- TODAY'S PICK »óÇ° ( [goods_today_pick.zip](https://app.box.com/s/fg0kp0jrqyj5k0l08i11q5p97voqsln2), [¹Ì¸®º¸±â](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_today_pick.html))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/today_pick_320.jpg) | ![screen](goods/img/today_pick_768.jpg) | ![screen](goods/img/today_pick_1200.jpg) |
 
-<a href="#top">â¬† back to top</a>
+<a href="#top">? back to top</a>
 
 <br>
 <br>
 
 <a name="goods_type1"></a>
-- ë°˜ì‘í˜• ìƒí’ˆ( [goods_type1.zip](https://app.box.com/s/5lo9drxadhcsxpt2hgwlw50wbmycxu5e), [ë¯¸ë¦¬ë³´ê¸°](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type1.html))
+- ¹İÀÀÇü »óÇ°( [goods_type1.zip](https://app.box.com/s/5lo9drxadhcsxpt2hgwlw50wbmycxu5e), [¹Ì¸®º¸±â](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type1.html))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/goods_type1_320.jpg) | ![screen](goods/img/goods_type1_768.jpg) | ![screen](goods/img/goods_type1_1200.jpg) |
 
-<a href="#top">â¬† back to top</a>
+<a href="#top">? back to top</a>
 
 <br>
 <br>
 
 <a name="goods_type2"></a>
-- ë°˜ì‘í˜• ìƒí’ˆ( [goods_type2.zip](https://app.box.com/s/iwxj66rpf2m4h50v3winuu995zpm69ua), [ë¯¸ë¦¬ë³´ê¸°](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type2.html))
+- ¹İÀÀÇü »óÇ°( [goods_type2.zip](https://app.box.com/s/iwxj66rpf2m4h50v3winuu995zpm69ua), [¹Ì¸®º¸±â](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type2.html))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_768.jpg) | ![screen](goods/img/goods_type2_1200.jpg) |
 
-<a href="#top">â¬† back to top</a>
+<a href="#top">? back to top</a>
 
+<br>
+<br>
+
+<a name="coupon_type1"></a>
+-  ÄíÆù( [coupon_type1.zip](https://app.box.com/s/x6wcwy2p3qivpxzsby0kj9l059egsk0e), [¹Ì¸®º¸±â](http://eventimg.auction.co.kr/md/auction/09D730FD87/coupon_type1.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/coupon_type1_320.jpg) | ![screen](goods/img/coupon_type1_768.jpg) | ![screen](goods/img/coupon_type1_1200.jpg) |
+
+<a href="#top">? back to top</a>
 
 
 
