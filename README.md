@@ -19,6 +19,14 @@
   
   1. [쿠폰버튼 type1](#coupon_btn_type1)
   
+  1. [스토리 type2](#story_type2)
+    
+  1. [스토리 type4](#story_type4)
+  
+  1. [스토리 type5](#story_type5)
+  
+  1. [스토리 type6](#story_type6)
+  
   
   <br>
 
