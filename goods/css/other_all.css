@@ -1,0 +1,23 @@
+@charset "euc-kr";
+
+*{padding: 0; border:0; margin:0;}   
+a{text-decoration: none;}
+
+/*ÄíÆùÅ¸ÀÔ1*/
+.coupon_type1{overflow:visible;position:relative; width:100%; text-align: center; font-family: Tahoma,'NS Korean', 'Malgun Gothic', '¸¼Àº °íµñ', AppleSDGothicNeo, Helvetica, dotum, µ¸¿ò, sans-serif !important;}
+.coupon_type1 .btn_cp{display:block;width:344px;height:65px;margin:15px auto 0;background-color:#222;cursor:pointer}
+.coupon_type1 .btn_cp span{display:inline-block;font-size:23px;line-height:65px;color:#fff;vertical-align:middle}
+.coupon_type1 .btn_cp span.ico_cp{width:24px;height:24px;margin-left:8px;background:none}
+
+@media screen and (max-width:1199px){
+    /*ÄíÆùÅ¸ÀÔ1*/
+    .coupon_type1 {font-family: AppleSDGothicNeo, Helvetica, sans-serif !important;}
+    .coupon_type1 .btn_cp{width:270px;height:51px;margin-top:20px}
+    .coupon_type1 .btn_cp span{font-size:17px;line-height:46px}
+}
+@media screen and (max-width: 767px) {
+    /*ÄíÆùÅ¸ÀÔ1*/
+    .coupon_type1 {font-family: AppleSDGothicNeo, Helvetica, sans-serif !important;}
+    .coupon_type1 .btn_cp{width:244px;height:46px;margin-top:18px}
+    .coupon_type1 .btn_cp span{font-size:17px;line-height:46px}
+}
