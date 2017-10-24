@@ -80,4 +80,50 @@
 
 <a href="#top">▲ back to top</a>
 
+<br>
+<br>
 
+<a name="story_type2"></a>
+-  스토리 타입2( [story_type2.zip](https://app.box.com/s/bkl45f1vugayrkoc939x68llubn0jtey), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/story_type2.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/story_type2_320.jpg) | ![screen](goods/img/story_type2_768.jpg) | ![screen](goods/img/story_type2_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
+
+<br>
+<br>
+
+<a name="story_type4"></a>
+-  스토리 타입4( [story_type4.zip](https://app.box.com/s/6lxealcealq2c0bhzv3qd7ymazbr8y42), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/story_type4.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/story_type4_320.jpg) | ![screen](goods/img/story_type4_768.jpg) | ![screen](goods/img/story_type4_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
+
+<br>
+<br>
+
+<a name="story_type5"></a>
+-  스토리 타입5( [story_type5.zip](https://app.box.com/s/lxxxdt8nfb8sgn8o9dag9m1ovceht7pk), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/story_type5.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/story_type5_320.jpg) | ![screen](goods/img/story_type5_768.jpg) | ![screen](goods/img/story_type5_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
+
+<br>
+<br>
+
+<a name="story_type6"></a>
+-  스토리 타입2( [story_type6.zip](https://app.box.com/s/gnsbmljve2c3h7ae2b2mdrypukb4eien), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/story_type6.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/story_type6_320.jpg) | ![screen](goods/img/story_type6_768.jpg) | ![screen](goods/img/story_type6_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
