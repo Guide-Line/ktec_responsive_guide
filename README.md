@@ -19,7 +19,11 @@
   
   1. [쿠폰버튼 type1](#coupon_btn_type1)
   
+  1. [스토리 type1](#story_type1)
+  
   1. [스토리 type2](#story_type2)
+  
+  1. [스토리 type3](#story_type3)
     
   1. [스토리 type4](#story_type4)
   
@@ -95,12 +99,36 @@
 <br>
 <br>
 
+<a name="story_type1"></a>
+-  스토리 타입1( [story_type1.zip](https://app.box.com/s/uqiarx60ixwkjm1ssjlsxvmxhgtx481g), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/story_type1.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/story_type1_320.jpg) | ![screen](goods/img/story_type1_768.jpg) | ![screen](goods/img/story_type1_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
+
+<br>
+<br>
+
 <a name="story_type2"></a>
 -  스토리 타입2( [story_type2.zip](https://app.box.com/s/bkl45f1vugayrkoc939x68llubn0jtey), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/story_type2.html))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/story_type2_320.jpg) | ![screen](goods/img/story_type2_768.jpg) | ![screen](goods/img/story_type2_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
+
+<br>
+<br>
+
+<a name="story_type3"></a>
+-  스토리 타입3( [story_type2.zip](https://app.box.com/s/6914ih58h5e3mz9jw6i6zaf3e6qicsmf), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/story_type3.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/story_type3_320.jpg) | ![screen](goods/img/story_type3_768.jpg) | ![screen](goods/img/story_type3_1200.jpg) |
 
 <a href="#top">▲ back to top</a>
 
