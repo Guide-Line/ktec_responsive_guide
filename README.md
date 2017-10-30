@@ -29,6 +29,8 @@
   
   1. [상단비주얼(top , left , bottom)](#top_visual)
   
+  1. [동영상 삽입 타입](#youtobe_type)
+  
   
   <br>
 
@@ -147,5 +149,17 @@
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/top_visual_320.jpg) | ![screen](goods/img/top_visual_768.jpg) | ![screen](goods/img/top_visual_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
+
+<br>
+<br>
+
+<a name="youtobe_type"></a>
+-  동영상 삽입 타입( [youtobe_type.zip](https://app.box.com/s/r7m5gm7kcvk2k0r7diq55108eiq02ux3), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/youtobe_type.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/youtobe_type_320.jpg) | ![screen](goods/img/youtobe_type_768.jpg) | ![screen](goods/img/youtobe_type_1200.jpg) |
 
 <a href="#top">▲ back to top</a>
