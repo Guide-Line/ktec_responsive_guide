@@ -27,7 +27,7 @@
   
   1. [스토리 type6](#story_type6)
   
-  1. [상단비주얼](#top_visual)
+  1. [상단비주얼(top , left , bottom)](#top_visual)
   
   
   <br>
