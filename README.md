@@ -124,7 +124,7 @@
 <br>
 
 <a name="story_type3"></a>
--  스토리 타입3( [story_type2.zip](https://app.box.com/s/6914ih58h5e3mz9jw6i6zaf3e6qicsmf), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/story_type3.html))
+-  스토리 타입3( [story_type3.zip](https://app.box.com/s/6914ih58h5e3mz9jw6i6zaf3e6qicsmf), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/story_type3.html))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
