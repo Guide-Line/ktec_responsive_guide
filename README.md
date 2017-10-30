@@ -142,7 +142,7 @@
 <br>
 
 <a name="top_visual"></a>
--  스토리 타입6( [top_visual.zip](https://app.box.com/s/8tiez2s5vp8uhbbi86gx2o238ybheh1v), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/top_visual_types.html))
+-  상단 비주얼 타입 ( top , bottom , left )( [top_visual.zip](https://app.box.com/s/8tiez2s5vp8uhbbi86gx2o238ybheh1v), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/top_visual_types.html))
 
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
