@@ -214,6 +214,8 @@ var cpLayerFunc = {
         this.layerContent.empty();
         this.layerContainer.hide();
         this.fixedViewPort(false);
+        
+        
     },
     /**
 	 * 레이어 프레임 세로 중앙정렬
@@ -282,10 +284,10 @@ var moduleSwiper = function () {
 			function setWidth ( item ) {
 				var item;
 				if (winWidth < 640){
-						item = '192%';
-					} else {
-						item = '100%';
-					}
+                    item = '192%';
+                } else {
+                    item = '100%';
+                }
 				return item;
 			}
 
@@ -1209,6 +1211,7 @@ var moduleSwiper = function () {
 		var targetSwiper = $('.module_coupon.coupon_type1 .sliderwrap .owl-carousel');
         
 		targetSwiper.each(function(){
+           
 			var $this = $(this).parents('.sliderwrap'),
 				mySwiper = $(this),
 				chkLen = mySwiper.find('.item').length,

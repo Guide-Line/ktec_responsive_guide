@@ -46,6 +46,8 @@ a{text-decoration:none}
 .ico{content:"";display:inline-block;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat}
 .blind{display:block;overflow:hidden;position:absolute;top:-999em;left:0;font-size:0;line-height:0;text-indent:-999em}
 
+
+
 .module_wrap{position:relative;min-width:1200px;font-family:Tahoma,'NS Korean', 'Malgun Gothic', '¸¼Àº °íµñ', AppleSDGothicNeo, Helvetica, dotum, µ¸¿ò, sans-serif !important;font-size:initial;line-height:initial;letter-spacing:-1px}
 .module_wrap img{max-width:none;border:0;vertical-align:top}
 .module_wrap .caroufredsel_wrapper{cursor:auto !important}
@@ -857,7 +859,7 @@ a{text-decoration:none}
 .promotion_close .link_home .ico{width:5px;height:10px;margin:15px 0 0 5px;background-position:-176px -134px;vertical-align:top}
 .ie_7 .promotion_close .link_home .ico{margin-top:5px}
 
-/** Tablet **/
+/** Tablet**/
 @media screen and (max-width:1199px){
     .ico{background-size:250px auto}
     .module .paginate a{background:url(http://pics.auction.co.kr/pc/hanbando/common/paging_rtn.png) no-repeat 0 0;background-size:16px auto}

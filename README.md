@@ -27,6 +27,8 @@
   
   1. [스토리 type6](#story_type6)
   
+  1. [상단비주얼](#top_visual)
+  
   
   <br>
 
@@ -133,5 +135,17 @@
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/story_type6_320.jpg) | ![screen](goods/img/story_type6_768.jpg) | ![screen](goods/img/story_type6_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
+
+<br>
+<br>
+
+<a name="top_visual"></a>
+-  스토리 타입6( [top_visual.zip](https://app.box.com/s/8tiez2s5vp8uhbbi86gx2o238ybheh1v), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/top_visual_types.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/top_visual_320.jpg) | ![screen](goods/img/top_visual_768.jpg) | ![screen](goods/img/top_visual_1200.jpg) |
 
 <a href="#top">▲ back to top</a>
