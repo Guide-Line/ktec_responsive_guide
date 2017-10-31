@@ -297,3 +297,102 @@
 ```
 
 <a href="#top">▲ back to top</a>
+
+- mobile
+
+```
+
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="euc-kr">
+        <title>옥션 - 모바일 쇼핑은 옥션</title>
+        <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1, user-scalable=no" />
+        <meta http-equiv="cleartype" content="on"/>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.css">
+        <!-- Custom CSS -->
+        <style type="text/css">
+            *{margin:0;padding:0; border:0;}
+            li{list-style:none;}
+            img{border:0;}
+            .blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
+
+            #p_wrapper{margin:0 auto;width: 100%;position: relative;text-align: center;overflow: hidden; max-width:1200px;}        
+            #p_wrapper img{width:100%;vertical-align:top;}
+
+            #p_header{position:relative;width:100%;}
+            /* Header내 SNS버튼 */
+            #p_header #p_share{position: absolute;top:4%; right:2%; width:12%; z-index:10;}	
+
+            #p_container{width: 100%;position:relative;}
+
+            /* 상단 고정 navigation */
+            #p_navi{z-index:100;position:relative;}
+            #p_navi .p_navi_cnt{z-index:10;overflow:hidden;background:#d5fed4;max-width:640px;margin:0 auto;position: relative;}
+            #p_navi .p_navi_cnt ul{overflow:hidden;position: absolute;top:0;left:0;width: 100%;height: 100%;}
+            #p_navi .p_navi_cnt ul li{float:left;height: 100%;position: relative;width: 33.3333333333333333%;}
+            #p_navi .p_navi_cnt ul li a{width:100%;display: block;height: 100%;}
+
+            /* imgInfinitePlay for Web / Mobile */
+            .imgInfinitePlay{overflow:hidden;margin:0 auto;position:relative;}
+            .imgInfinitePlay ul{position: absolute;top:0;left:0;width: 100%;height: 100%;}
+            .imgInfinitePlay ul li{position:absolute;top:0;left:0;height:100%;width: 100%;}
+
+            /* 프로모션 최상단 고정 */
+            .fixed{position:fixed;top:0;left:0;width:100%;margin:0;z-index:900;}
+
+            /* 이벤트 팝업 */
+            #layerWrap2{position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999; }
+            #layerWrap2 #layerPopCouponType{position:absolute; z-index:2; left:50%; top:50%; }
+            #layerWrap2 #dimmed{position:absolute;left:0%;top:0%;width:100%;height:100%;background:#000;opacity:0.5;z-index:1;filter: alpha(opacity:'50')}
+
+            /*폰트변경*/
+            @media screen and (max-width:1199px){
+                #p_wrapper *{font-family: AppleSDGothicNeo, Helvetica, sans-serif !important;}
+            }
+        </style>
+        <!-- jQuery -->
+        <script type="text/javascript" src="http://script.auction.co.kr/common/jquery.js"></script>
+        <script src="http://eventimg.auction.co.kr/md/auction/0868D4BD4A/swiper.min.js"></script>
+        <!-- Common Promotion Script -->
+        <script src="http://eventimg.auction.co.kr/md/auction/08405BF42E/promotion.iac.js"></script>
+        <!-- Custom Script -->
+        <script type="text/javascript"></script>
+
+
+        <!--한반도 관련소스-->
+        <link rel="stylesheet" type="text/css" href="http://script.auction.co.kr/pc/style/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="goods/css/respon_all.css" />
+        <script type="text/javascript" src="http://script.auction.co.kr/mobile/v2/vendor/jquery-2.0.3.min.js"></script>
+
+    </head>
+    <body>
+
+        <main role="main" id="p_wrapper">
+            <header id="p_header">
+                <!-- Header Area -->
+
+            </header>
+            <section id="p_contents">
+                <!-- Contents Area -->
+
+
+
+            </section>
+            <footer id="p_footer">
+                <!-- Footer Area -->
+            </footer>
+        </main>
+
+        <!--한반도소스-->
+        <script type="text/javascript" src="http://script.auction.co.kr/Common/library/jquery/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="http://script.auction.co.kr/Common/library/jquery.lazyload.1.9.3.js"></script>
+        <script type="text/javascript" src="http://script.auction.co.kr/Common/library/owl.carousel.js"></script>
+        <script type="text/javascript" src="goods/js/respon_all.js"></script>
+    </body>
+</html>
+
+```
+
+<a href="#top">▲ back to top</a>
