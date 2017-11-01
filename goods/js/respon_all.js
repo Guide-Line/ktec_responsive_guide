@@ -255,9 +255,15 @@ var cpLayerFunc = {
 var moduleSwiper = function () {
 	var winWidth = $(window).outerWidth();
 
-	$('.module .top_banner.dark, .module.autoimg .top_banner, .module_prom .sliderwrap2 .item .link_prom, .module .prev_banner, .module .next_banner').each(function(){
+	$('.module .top_banner.dark, .module.autoimg .top_banner, .module_prom .sliderwrap2 .item .link_prom').each(function(){
 		$(this).append("<span class='dimmed'></span>");
 	});
+    
+    
+    /* ÇÑ¹Ýµµ ¿ÀÇÂ
+    $('.module .top_banner.dark, .module.autoimg .top_banner, .module_prom .sliderwrap2 .item .link_prom, .module .prev_banner, .module .next_banner').each(function(){
+        $(this).append("<span class='dimmed'></span>");
+    });*/
 
 	/* banner slider */
 	function bnrSwiper(){

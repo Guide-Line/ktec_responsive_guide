@@ -38,6 +38,8 @@
   
   1. [상단비주얼(top , left , bottom)](#top_visual)
   
+  1. [상단비주얼(bg=100%)](#top_visual2)
+  
   1. [동영상 삽입 타입](#youtobe_type)
   
   
@@ -182,6 +184,18 @@
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/top_visual_320.jpg) | ![screen](goods/img/top_visual_768.jpg) | ![screen](goods/img/top_visual_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
+
+<br>
+<br>
+
+<a name="top_visual2"></a>
+-  상단 비주얼 타입2 ( bg=100% )( [top_visual2.zip](https://app.box.com/s/bpah8tq0qqzul3ljegloguqd1ia05nbm), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/top_visual_types1.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/top_visual2_320.jpg) | ![screen](goods/img/top_visual2_768.jpg) | ![screen](goods/img/top_visual2_1200.jpg) |
 
 <a href="#top">▲ back to top</a>
 
