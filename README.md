@@ -12,7 +12,7 @@
 <a name="top"></a>
 ### Table of Contents
 
-  1. [HTML Æû](#html_form)
+  1. [HTML Æû](#html_form) : ( [À¥](#web) , [¸ð¹ÙÀÏ](#mobile)  )
   
   1. [TODAY'S PICK »óÇ°](#todaypick)
   
@@ -215,6 +215,7 @@
 <br>
 
 <a name="html_form"></a>
+<a name="web"></a>
 -  web
 
 ```
@@ -314,7 +315,7 @@
 ```
 
 <a href="#top">¡ã back to top</a>
-
+<a name="mobile"></a>
 - mobile
 
 ```
