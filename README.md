@@ -406,7 +406,7 @@
         <script type="text/javascript" src="http://script.auction.co.kr/Common/library/jquery/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="http://script.auction.co.kr/Common/library/jquery.lazyload.1.9.3.js"></script>
         <script type="text/javascript" src="http://script.auction.co.kr/Common/library/owl.carousel.js"></script>
-        <script type="text/javascript" src="goods/js/respon_all.js"></script>
+        <script type="text/javascript" src="http://eventimg.auction.co.kr/md/auction/09D730FD87/respon_all.js"></script>
     </body>
 </html>
 
