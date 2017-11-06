@@ -6,7 +6,7 @@
 
 - [웹퍼블리싱 레퍼런스 바로가기](http://192.168.99.62:777/auction/)
 
-- [디바이스 기기별 측정](https://material.io/devices/)
+- [디바이스 기기별 측정 바로가기](https://material.io/devices/)
 
 
 <br>
