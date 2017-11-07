@@ -46,7 +46,7 @@
   
   1. [동영상 삽입 타입](#youtobe_type)
   
-  1. [오늘의 딜(남은시간,calendar)](#todaydeal)
+  1. [오늘의 딜(남은시간,calendar)](#todaydeal)![screen](goods/img/new.jpg)
   
   
   
