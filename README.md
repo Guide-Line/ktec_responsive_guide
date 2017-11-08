@@ -4,7 +4,7 @@
 >browse( IE9이상 , chrome , firefox ) , mobile ( android , ios)  
 >responsive size :  320 < 768(767) < 1200(1199)
 
-- [JavaScript Style Guide](https://github.com/Guide-Line/javascript)![screen](goods/img/new.jpg)
+- [JavaScript Style Guide](https://github.com/Guide-Line/javascript) ![screen](goods/img/n_icon.gif)
 
 - [웹퍼블리싱 레퍼런스 바로가기](http://192.168.99.62:777/auction/)
 
@@ -48,7 +48,7 @@
   
   1. [동영상 삽입 타입](#youtobe_type)
   
-  1. [오늘의 딜(남은시간,calendar)](#todaydeal)![screen](goods/img/new.jpg)
+  1. [오늘의 딜(남은시간,calendar)](#todaydeal) ![screen](goods/img/n_icon.gif)
   
   
   
