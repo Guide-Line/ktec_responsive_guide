@@ -629,7 +629,7 @@ a{text-decoration:none}
 .filter_view-change_gallery .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/290_noimg.gif)}
 .filter_view-change_gallery .elements_info{position:relative;height:186px;padding:14px 20px 0 12px}
 .ie_low .filter_view-change_gallery .elements_info{height:187px}
-.filter_view-change_gallery .elements_item .title{margin-right:60px;margin-bottom:11px;line-height:24px}
+.filter_view-change_gallery .elements_item .title{margin-right:0px;margin-bottom:11px;line-height:24px}
 .ie_low .filter_view-change_gallery .elements_item .title{height:48px;margin-bottom:11px}
 .filter_view-change_gallery .elements_item .price{margin:0 0 9px}
 .ie_low .filter_view-change_gallery .elements_item .price{margin-bottom:7px}
@@ -657,7 +657,7 @@ a{text-decoration:none}
 .filter_view-change_deal .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/590_noimg.gif)}
 .filter_view-change_deal .elements_info{position:relative;height:127px;padding:17px 20px 0 19px}
 .ie_low .filter_view-change_deal .elements_info{height:127px}
-.filter_view-change_deal .elements_item .title{height:25px;margin-right:70px;margin-bottom:8px;font-size:22px;line-height:25px}
+.filter_view-change_deal .elements_item .title{height:25px;margin-right:0px;margin-bottom:8px;font-size:22px;line-height:25px}
 .filter_view-change_deal .elements_item .price{height:30px}
 .filter_view-change_deal .elements_item .price .discount{margin-right:5px;font-size:30px;line-height:30px}
 .ie_7 .filter_view-change_deal .elements_item .price .discount{line-height:35px}
@@ -1115,7 +1115,7 @@ a{text-decoration:none}
     .filter_view-change_gallery .elements_item .label_soldout{width:100px;height:100px;margin:-50px 0 0 -50px;background-size:245.0980392156863px auto;background-position:0 -298.0392156862745px}
     .filter_view-change_gallery .elements_item .label_adult{width:100px;height:100px;margin:-50px 0 0 -50px;background-size:245.0980392156863px auto;background-position:-122.5490196078431px -298.0392156862745px}
     .filter_view-change_gallery .elements_img{width:184px;height:184px}
-    .filter_view-change_gallery .elements_item .title{margin:-1px 34px 9px 0;font-size:14px;line-height:18px}
+    .filter_view-change_gallery .elements_item .title{margin:-1px 0px 9px 0;font-size:14px;line-height:18px}
     .filter_view-change_gallery .elements_item .price{line-height:16px}
     .filter_view-change_gallery .elements_item .price li{float:left;margin-right:3px}
     .filter_view-change_gallery .elements_item .price .discount{float:left;margin-top:0;margin-bottom:0;letter-spacing:-0.5px;line-height:18px}
@@ -1136,7 +1136,7 @@ a{text-decoration:none}
     .filter_view-change_deal .elements_img{width:372px;height:193px}
     .filter_view-change_deal .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/688_noimg.gif);background-size:cover}
     .filter_view-change_deal .elements_info{height:95px;padding-top:13px}
-    .filter_view-change_deal .elements_item .title{height:19px;margin:0 49px 6px 0;text-overflow:ellipsis}
+    .filter_view-change_deal .elements_item .title{height:19px;margin:0 0px 6px 0;text-overflow:ellipsis}
     .filter_view-change_deal .elements_item .price .discount{float:left;font-size:22px;line-height:22px}
     .filter_view-change_deal .elements_item.joinprd .price .selling span{display:inline-block;font-size:19px}
     .filter_view-change_deal .elements_item .price .selling strong{font-size:22px;line-height:22px;letter-spacing:-0.5px}
@@ -1412,7 +1412,7 @@ a{text-decoration:none}
     .module_item .elements_img .noimg{height:0;padding-bottom:100%}
     .module_item .elements_item{float:none;width:100%}
     .module_item .elements_item .inner{width:100%}
-    .module_item .elements_item .title{margin-right:40px;}
+    .module_item .elements_item .title{margin-right:0px;}
     .module_item .elements_item .price .discount{line-height:18px}
     .module_item .elements_item .btn_wish{right:10px}
 
@@ -1422,7 +1422,7 @@ a{text-decoration:none}
     .filter_view-change_gallery .elements_img a{position:absolute;top:0;left:0}
     .filter_view-change_gallery .elements_item{float:left;width:50%;min-height:188px}
     .filter_view-change_gallery .elements_item .inner{width:96%}
-    .filter_view-change_gallery .elements_item .title{margin-right:34px}
+    .filter_view-change_gallery .elements_item .title{margin-right:0px}
     .filter_view-change_gallery .elements_item .price{margin-right:-10px}
     .filter_view-change_gallery .elements_item .delivery{position:absolute}
     .filter_view-change_gallery .elements_item .btn_wish{right:1px}    
