@@ -1,0 +1,1411 @@
+@charset "euc-kr";
+/* typography */
+@font-face{
+    font-family:'NS Korean';font-style:normal;font-weight:400;
+    src:url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype');
+    src:local('Noto Sans DemiLight'),local('NotoSans-DemiLight'), 
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+} 
+@font-face{
+    font-family:'NS Korean';font-style:normal;font-weight:bold;
+    src:url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.eot),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype');
+    src:local('Noto Sans Bold'),local('NotoSans-Bold'),	
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.woff) format('woff'),
+        url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.otf) format('opentype');
+}
+/* 옥션 쿠폰 UI용 커스텀 산돌고딕 시네마 */
+@font-face{
+    font-family:'SDCinemaTheater';font-style:normal;font-weight:bold;
+    src:url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.eot),
+        url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.eot?#iefix) format('embedded-opentype');
+    src:local('SDCinemaTheater'),
+        url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.woff) format('woff'),
+        url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.otf) format('opentype'),
+        url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.ttf);
+}
+img{color:transparent}
+body, html{margin:0;padding:0;-webkit-text-size-adjust:none;}
+ul,ol,li{list-style:none}
+div, p, strong, a, ul, li, button,em, img, label, input{margin:0;padding:0}
+.module_wrap a{cursor:default}
+.module_wrap a:link,.module_wrap a:visited,.module_wrap a:active,.module_wrap a:hover{color:#676767; text-decoration:none}
+.module_wrap a[href]:link,.module_wrap a[href]:visited,.module_wrap a[href]:active,.module_wrap a[href]:hover{cursor:pointer}
+.module_wrap a:hover span, .module_wrap a:hover, .module_wrap a:hover strong{text-decoration:none}
+.module_wrap a:focus{outline:none}
+
+
+
+button{font-family:Tahoma,'NS Korean', 'Malgun Gothic', '맑은 고딕', AppleSDGothicNeo, Helvetica, dotum, 돋움, sans-serif !important;border:0;cursor:pointer}
+button.button{-webkit-appearance:initial}
+label{cursor:pointer}
+em{font-style:normal}
+a{text-decoration:none}
+.ico{content:"";display:inline-block;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat}
+.blind{display:block;overflow:hidden;position:absolute;top:-999em;left:0;font-size:0;line-height:0;text-indent:-999em}
+
+
+
+.module_wrap{position:relative;min-width:1200px;font-family:Tahoma,'NS Korean', 'Malgun Gothic', '맑은 고딕', AppleSDGothicNeo, Helvetica, dotum, 돋움, sans-serif !important;font-size:initial;line-height:initial;letter-spacing:-1px}
+.module_wrap img{max-width:none;border:0;vertical-align:top}
+.module_wrap .caroufredsel_wrapper{cursor:auto !important}
+.module_wrap .owl-carousel{display:block}
+
+.module{overflow:hidden;position:relative;background-color:#fff;color:#222}
+.module.bg_black{background-color:#1c1f23;color:#fff}
+.module.bg_gray{background-color:#f7f8fa;color:#222}
+.module.bg_dgray{background-color:#e9e9eb;color:#222}
+.module .section{overflow:hidden;position:relative;width:1200px;margin:0 auto; padding-bottom: 10px;}
+
+.module .imgwrap{overflow:hidden;display:block;position:relative}
+.module .title span{overflow:hidden;max-width:100%;white-space:nowrap}
+.module .top_banner{position:relative}
+.module .top_banner .title{position:absolute;z-index:1;top:41px;left:0;width:100%;color:#222}
+.module .top_banner .name{margin-bottom:10px;font-size:21px;color:#222}
+.module .top_banner .name span{display:inline-block;zoom:1;*display:inline;position:relative;height:38px;padding:0 34px;background:rgba(0,0,0,0.05);border:1px solid rgb(34,34,34);border:1px solid rgba(34,34,34,0.25);color:inherit;line-height:38px}
+.module .top_banner .tit{margin-bottom:15px;font-size:54px;font-weight:bold;color:inherit;line-height:1.25}
+.module .top_banner .tit span{display:inline-block;max-width:none;padding:0 2px 1px 0;border-bottom:5px solid rgb(34, 34, 34);border-bottom:5px solid rgba(34, 34, 34, 0.9)}
+.module .top_banner .title.line2 .tit{font-size:42px;line-height:1.2}
+.module .top_banner .title.line2 .tit span{border-width:4px}
+.module .top_banner .title.line2 .tit + .tit{margin-top:-21px}
+.ie_low .module .top_banner .title.line2 .tit + .tit{margin-top:-25px}
+.module .top_banner .title.big .tit span{padding-bottom:6px}
+.module .top_banner .stit{font-size:20px;color:inherit}
+.module .top_banner.align_left .title{padding-left:100px;text-align:left}
+.module .top_banner.align_center .title{text-align:center}
+.module .top_banner.align_top .title{top:40px}
+.module .top_banner.align_bottom .title{top:auto;bottom:25px}
+.module .top_banner.dark .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/dim_25.png) repeat 0 0}
+.module .top_banner.dark .title, .module .top_banner.dark .title .name, .module .top_banner.dark .title .head_tit, .module .top_banner.dark .title .date,
+.module .top_banner.dark .prdinfo .price, .module .top_banner.dark .prdinfo .prdname, .module .top_banner.dark .title p, .module .top_banner.dark .title span{color:#fff}
+.module .top_banner.dark .name span{background:rgba(0,0,0,0.05);border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.5)}
+.module .top_banner.dark .tit span{border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.9)}
+.module .top_banner.txt_white .title, .module .top_banner.txt_white .title .name, .module .top_banner.txt_white .title .head_tit, .module .top_banner.txt_white .title .date,
+.module .top_banner.txt_white .prdinfo .price, .module .top_banner.txt_white .prdinfo .prdname{color:#fff}
+.module .top_banner.txt_white .name span{background:rgba(0,0,0,0.05);border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.5)}
+.module .top_banner.txt_white .tit span{border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.9)}
+.module .top_banner .title.big .tit{margin:23px 0 12px;font-size:110px;line-height:1}
+.module .top_banner .title.big .tit span{border-width:10px}
+.module .paginate{position:absolute;z-index:1;bottom:25px;left:0;width:100%;height:8px;font-size:0;text-align:center}
+.module .paginate a{display:inline-block;width:8px;height:8px;margin:0 4px;background:url(http://pics.auction.co.kr/pc/hanbando/common/paging.png) no-repeat 0 0;opacity:1;filter:alpha(opacity:'100');vertical-align:middle}
+.module .paginate a.selected{background-position:-8px 0}
+.module .owl-dots{position:absolute;z-index:1;bottom:25px;left:0;width:100%;height:8px;font-size:0;text-align:center}
+.module .owl-dots .owl-dot{display:inline-block;zoom:1;*display:inline;width:8px;height:8px;margin:0 4px;background:url(http://pics.auction.co.kr/pc/hanbando/common/paging.png) no-repeat 0 0;opacity:1;filter:alpha(opacity:'100');vertical-align:middle}
+.module .owl-dots .owl-dot.active{background-position:-8px 0}
+.module .element .title{overflow:hidden;margin-bottom:40px;text-align:center}
+.module .element .tit{height:60px;font-size:39px;font-weight:bold;color:inherit;line-height:1.2}
+.module .element .tit span{display:inline-block;zoom:1;*display:inline;padding:0 1px 2px 2px;border-bottom:4px solid rgb(34, 34, 34);border-bottom:4px solid rgba(34, 34, 34, 0.9)}
+.module.bg_black .element .tit span{border-color:#fff}
+.module .element .stit{margin:9px 0 5px;font-size:23px;color:inherit;line-height:1.2}
+/* ie_low */
+.ie_low .module .top_banner .name span{line-height:33px}
+.ie_low .module .top_banner .tit span{padding-bottom:5px;letter-spacing:-3px}
+.ie_low .module .top_banner .title.big .tit span{padding-bottom:19px}
+
+/* 상단 배너 */
+.module_banner.bg_black, .module_banner .txt_black{color:#222}
+.module_banner .txt_black .title .tit span{border-bottom:5px solid rgb(34, 34, 34);border-bottom:5px solid rgba(34, 34, 34, 0.9)}
+.module_banner .top_banner{position:relative;width:1200px;height:400px;margin:0 auto;background-position:center top;background-repeat:no-repeat;text-align:center}
+.module_banner .top_banner img{position:absolute;top:0;left:0;width:1200px;height:100%}
+.module_banner .sliderwrap{position:relative;z-index:1;margin:0 auto}
+.module_banner .sliderwrap ul{overflow:hidden;list-style:none}
+.module_banner .sliderwrap ul li{display:inline-block;zoom:1;*display:inline;margin:0;text-align:center}
+.module_banner .btn_prev, .module_banner .btn_next{position:absolute;z-index:1;top:50%;width:26px;height:50px;margin-top:-25px;background:url(/images/hanbando/admin/module/arrows.png) no-repeat 0 0;font-size:0;cursor:pointer}
+.module_banner .dark .btn_prev, .module_banner .dark .btn_next{background-image:url(/images/hanbando/admin/module/arrows2.png)}
+.module_banner .txt_white .btn_prev, .module_banner .txt_white .btn_next{background-image:url(/images/hanbando/admin/module/arrows2.png)}
+.module_banner .btn_prev{left:9px;background-position:0 0}
+.module_banner .btn_next{right:9px;background-position:-26px 0}
+.module_banner .prev_banner{position:absolute;top:0;left:50%;width:1200px;height:100%;margin-left:-1800px;background-size:100% 100%;background-position:center top;background-repeat:no-repeat}
+.module_banner .next_banner{position:absolute;top:0;left:50%;width:1200px;height:100%;margin-left:600px;background-size:100% 100%;background-position:center top;background-repeat:no-repeat}
+.module_banner .prev_banner .button, .module_banner .next_banner .button{display:inline-block;position:absolute;z-index:1;top:50%;margin-top:-50px;width:54px;height:106px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0;font-size:0;line-height:0}
+.module_banner .prev_banner .button{right:40px}
+.module_banner .next_banner .button{left:40px;background-position:-58px 0}
+.module_banner .prev_banner .button:hover, .module_banner .next_banner .button:hover{opacity:0.45;filter:alpha(opacity:'45')}
+.module_banner .prev_banner .dimmed, .module_banner .next_banner .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/dim_40.png) repeat 0 0}
+.module_banner .top_banner.prd{height:450px;padding:21px 0 40px;background-position:0 0;background-repeat:no-repeat;background-position:center top;background-size:auto 100%}
+.module_banner .top_banner.prd .btn_prev{margin-top:-75px;left:-30px}
+.module_banner .top_banner.prd .btn_next{margin-top:-75px;right:-30px}
+.module_banner .top_banner.prd .paginate{bottom:-20px}
+.module_banner .top_banner.prd .title{position:relative;top:auto;left:auto;right:auto;bottom:auto;padding:0 25px;box-sizing:border-box;-webkit-box-sizing:border-box}
+.module_banner .top_banner.prd .title .date{margin-top:7px;font-size:14px}
+.module_banner .top_banner.prd .sliderwrap{max-width:750px;margin-top:12px}
+.module_banner .top_banner.prd .sliderwrap li{width:180px;margin:0 23px}
+.module_banner .top_banner.prd .prdinfo{display:block}
+.module_banner .top_banner.prd .prdinfo img{overflow:hidden;position:relative;width:180px;height:180px;margin:0 auto}
+.module_banner .top_banner.prd .prdinfo .prdname{overflow:hidden;width:124%;margin-left:-12%;font-size:16px;white-space:nowrap;text-overflow:ellipsis}
+.module_banner .top_banner.prd .prdinfo .info{margin-top:20px;padding:0 6px}
+.module_banner .top_banner.prd .prdinfo .price{margin-top:2px}
+.module_banner .top_banner.prd .prdinfo .price em{margin-right:7px;font-size:24px;color:#e63740}
+.module_banner .top_banner.prd .prdinfo .price span{font-size:24px;font-weight:bold;color:#fff}
+.module_banner.autoimg .top_banner .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/dim_25.png) repeat 0 0}
+.module_banner.autoimg .top_banner{position:relative}
+.module_banner.autoimg .top_banner .title{top:111px;color:#fff}
+.module_banner.autoimg .top_banner .name span{background:rgba(0,0,0,0.05);border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.5);color:#fff}
+.module_banner.autoimg .top_banner .tit span{border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.9)}
+.device-pc .module_banner.autoimg .top_banner{overflow:hidden}
+.device-pc .module_banner.autoimg .top_banner .blurbx{position:relative;overflow:hidden;z-index:0;left:0;width:1260px;height:420px !important;margin:-10px 0 0 -30px}
+.device-pc .module_banner.autoimg .top_banner .blurbx img{position:absolute;top:50%;left:50%;width:1260px;height:1260px;margin:-630px 0 0 -630px !important;filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5', MakeShadow='false', ShadowOpacity='0.00');filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');}
+.device-pc .module_banner.autoimg .top_banner .blurbx .blurr-bg{top:0 !important;bottom:-15px !important;width:1260px !important;height:420px !important;background-size:100% !important;filter: blur(3px);-webkit-filter: blur(30);-moz-filter: blur(30);-o-filter: blur(30);-ms-filter: blur(30)}
+.device-pc .module_banner .top_banner.blur{overflow:hidden}
+.device-pc .module_banner .top_banner.blur .blurbx{position:relative;overflow:hidden;z-index:0;left:0;width:1260px;height:420px !important;margin:-10px 0 0 -30px}
+.device-pc .module_banner .top_banner.blur .blurbx img{position:absolute;top:50%;left:50%;width:1260px;height:420px;margin:-220px 0 0 -630px !important;filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5', MakeShadow='false', ShadowOpacity='0.00');filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='5');}
+.device-pc .module_banner .top_banner.blur .blurbx .blurr-bg{top:0 !important;bottom:-15px !important;width:1260px !important;height:420px !important;background-size:1260px 420px !important;filter: blur(3px);-webkit-filter: blur(30);-moz-filter: blur(30);-o-filter: blur(30);-ms-filter: blur(30)}
+
+.module_banner .top_banner.mimg img{display:none}
+.module_banner .top_banner.mimg.blur .blurbx .blurr-bg{display:none}
+
+/* 네비게이션 */
+.module_navi{position:relative;width:100%;zoom:1;-webkit-transform: translateZ(0)}
+.module_navi.fix_navi{position:fixed;top:0;left:0;z-index:100}
+.module_navi .owl-carousel .owl-item{ -webkit-backface-visibility: hidden;-webkit-transform: translateZ(0) scale(1.0, 1.0)}
+.module_navi .sliderwrap2{position:relative;z-index:1;max-width:1000px;margin:0 auto}
+.module_navi .sliderwrap2 ul{overflow:hidden;list-style:none}
+.module_navi .sliderwrap2 ul li{float:left;text-align:center;zoom:1}
+
+.module_navi .sliderwrap2 .owl-carousel{overflow:hidden;list-style:none;max-width:100% !important;overflow:hidden}
+.module_navi .sliderwrap2 .owl-carousel .item{float:left;text-align:center;zoom:1;display:inline;position:relative}
+.module_navi.type_image {background:#f2faff;border-bottom:1px solid rgba(0,0,0,0.05)}
+.ie_low .module_navi.type_image{border-bottom:0 none}
+/*.module_navi.type_image .item-active {background-color:rgb(217,239,255)}
+.module_navi.type_image .item:hover {background-color:rgb(217,239,255)}*/
+
+.device-pc .module_navi.type_image .sliderwrap2.item_2 .owl-carousel .item {width:500px !important}
+.device-pc .module_navi.type_image .sliderwrap2.item_3 .owl-carousel .item {width:333px !important}
+.device-pc .module_navi.type_image .sliderwrap2.item_4 .owl-carousel .item {width:250px !important}
+.device-pc .module_navi.type_image .sliderwrap2.item_5 .owl-carousel .item {width:200px !important}
+.device-pc .module_navi.type_image .sliderwrap2.item_6 .owl-carousel .item {width:166px !important}
+.device-pc .module_navi.type_image .sliderwrap2.item_7 .owl-carousel .item {width:142px !important}
+
+/*
+.module_navi.type_image.bg_yellow {background:rgb(255,230,194)}
+.module_navi.type_image.bg_yellow .item-active {background:rgb(255,219,168)}
+.module_navi.type_image.bg_yellow .item:hover {background:rgb(255,219,168)}
+.module_navi.type_image.bg_blue {background:rgb(70,106,255)}
+.module_navi.type_image.bg_blue .item-active {background:rgb(51,85,255)}
+.module_navi.type_image.bg_blue .item:hover {background:rgb(51,85,255)}
+.module_navi.type_image.bg_red{background:rgb(255,69,69)}
+.module_navi.type_image.bg_red .item-active {background:rgb(255,43,43)}
+.module_navi.type_image.bg_red .item:hover {background:rgb(255,43,43)}
+*/
+
+.module_navi .sliderwrap2 .navi_anchor{display:inline-block;text-decoration:none;vertical-align:middle;color:inherit}
+.module_navi.type_image .sliderwrap2 .navi_anchor{width:100%;height:121px}
+.module_navi .sliderwrap2 .imgwrap{overflow:hidden;display:inline-block;width:60px;height:78px;margin:0 auto 5px;vertical-align:bottom;*display:block;position:relative}
+.module_navi .sliderwrap2 .imgwrap img {width:60px;height:60px;position:absolute;bottom:0;left:0;*display:block}
+.module_navi .sliderwrap2 .tit{overflow:hidden;display:block;padding:5px 0 16px;font-size:15px;font-weight:400;line-height:17px;color:inherit;opacity:0.7;filter:alpha(opacity=70)}
+.module_navi .sliderwrap2 .item-active .tit{opacity:1;filter:alpha(opacity=100)}
+.module_navi .sliderwrap2 .navi_anchor:hover .tit{opacity:1;filter:alpha(opacity=100)}
+.module_navi.type_image .sliderwrap2 .navi_anchor:hover .tit{opacity:1;filter:alpha(opacity=100)}
+.module_navi.txt_white .sliderwrap2 .tit{color:#fff}
+.module_navi.type_text .sliderwrap2 .navi_anchor {padding:6px 14px 8px}
+.module_navi.type_text .sliderwrap2 .tit{padding:15px;font-size:19px;line-height:25px;*display:inline;font-weight:normal}
+.module_navi.type_text .sliderwrap2 .tit span {padding:0 2px;line-height:28px;height:28px}
+.module_navi.type_text .sliderwrap2 .item-active .tit {font-weight:normal}
+.module_navi.type_text .sliderwrap2 .item-active .tit span{border-bottom:2px solid;line-height:28px;height:28px}
+.module_navi.type_text .sliderwrap2 .navi_anchor:hover .tit {font-weight:normal}
+.module_navi.type_text .sliderwrap2 .navi_anchor:hover .tit span{border-bottom:2px solid;line-height:28px;height:28px}
+.module_navi.type_text .sliderwrap2 .navi_anchor .before{width:1px;height:22px;display:inline-block;background:#000;left:0;top:26px;position:absolute;opacity:0.15;filter:alpha(opacity=15)}
+.module_navi.type_text .sliderwrap2 .owl-carousel .owl-item:first-child .navi_anchor:before{content:none}
+.ie_low .module_navi.type_text .sliderwrap2 .navi_anchor .before{background:#666666}
+.ie_7 .module_navi.type_text .sliderwrap2 .navi_anchor .before{background:#666}
+.module_navi.type_text{background-color:#f7f8fa}
+.module_navi.type_text.bg_black{background-color:#424957}
+.module_navi.type_text.bg_black .sliderwrap2 .tit{color:#fff}
+.module_navi .btn_prev, .module_navi .btn_next{display:none;position:absolute;z-index:1;top:50%;width:50px;height:50px;margin-top:-25px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front@1x.png) no-repeat 0 0;font-size:0;line-height:0;cursor:pointer}
+.module_navi .btn_prev{left:50%;margin-left:-570px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front@1x.png) no-repeat;background-position:-77px -96px;border:0;}
+.module_navi .btn_next{left:50%;margin-left:520px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front@1x.png) no-repeat;background-position:-137px -96px;border:0;}
+
+.module_navi .imgbx{position:absolute;top:0;left:0;width:60px;height:60px;overflow:hidden}
+
+.module_navi.type_image .sliderwrap2 .owl-carousel {max-height:121px}
+.module_navi.type_text .sliderwrap2 .owl-carousel {max-height:72px}
+
+.device-pc .module_navi.type_image .sliderwrap2.item_2 .navi_anchor, .device-pc .module_navi.type_image .sliderwrap2.item_3 .navi_anchor {padding-bottom:0;*padding-bottom:0;margin:0 auto;position:relative;display:block}
+.device-pc .module_navi.type_image .sliderwrap2.item_2 .imgwrap, .device-pc .module_navi.type_image .sliderwrap2.item_3 .imgwrap {top:15px}
+.device-pc .module_navi.type_image .sliderwrap2.item_2 .tit, .device-pc .module_navi.type_image .sliderwrap2.item_3 .tit{display:inline-block;vertical-align:middle;margin:0 0 0 10px;font-size:22px;position:relative;top:4px}
+
+.module_navi.type_image .sliderwrap2 .owl-carousel .item  {width:125px}
+
+/*
+.device-pc .module_navi.type_image .sliderwrap2.item_2 .owl-stage,
+.device-pc .module_navi.type_image .sliderwrap2.item_3 .owl-stage,
+.device-pc .module_navi.type_image .sliderwrap2.item_4 .owl-stage,
+.device-pc .module_navi.type_image .sliderwrap2.item_5 .owl-stage,
+.device-pc .module_navi.type_image .sliderwrap2.item_6 .owl-stage,
+.device-pc .module_navi.type_image .sliderwrap2.item_7 .owl-stage {margin:0 auto;position:relative;display:block}*/
+
+@media screen and (max-width:1199px){
+    .module_navi .sliderwrap2{position:relative;z-index:1;width:100%;max-width:1000px;margin:0 auto}
+    .module_navi.type_text .sliderwrap2 .navi_anchor {padding:8px 12px 5px}
+    .module_navi.type_text .sliderwrap2 .tit span {padding:0 2px;line-height:25px;height:25px}
+    .module_navi.type_text .sliderwrap2 .item-active .tit span{line-height:25px;height:25px}
+    .module_navi.type_text .sliderwrap2 .navi_anchor:hover .tit span{line-height:25px;height:25px}
+    .module_navi.type_text .sliderwrap2 .navi_anchor .before{width:1px;height:22px;display:inline-block;background:#000;left:0;top:25px;position:absolute;opacity:0.15;filter:alpha(opacity=15)}
+    .module_navi .imgbx {bottom:0;top:initial !important;width:60px !important;height:60px !important}
+    .module_navi .imgbx img{max-width:100%;-webkit-transform: translate(0, -50%) !important;transform: translate(0, -50%) !important}
+
+    .module_navi.type_image .sliderwrap2 .owl-carousel {max-height:121px}
+    .module_navi.type_text .sliderwrap2 .owl-carousel {max-height:68px}
+}
+
+@media screen and (max-width:768px){
+    .module_navi.type_image .sliderwrap2 .owl-carousel .item  {width:120px}
+    .module_navi.type_image .sliderwrap2 .navi_anchor{height:100px}
+    .module_navi .sliderwrap2 .imgwrap{height:68px}
+    .module_navi .sliderwrap2 .tit{padding:5px 0 10px;font-size:14px}
+    .module_navi.type_text .sliderwrap2 .tit{font-size:17px;line-height:22px;padding:15px;*display:inline}
+    .module_navi.type_text .sliderwrap2 .tit span {padding:0 2px;line-height:22px;height:22px}
+    .module_navi.type_text .sliderwrap2 .item-active .tit span{line-height:22px;height:22px}
+    .module_navi.type_text .sliderwrap2 .navi_anchor:hover .tit span{line-height:22px;height:22px}
+    .module_navi.type_text .sliderwrap2 .navi_anchor .before{width:1px;height:22px;display:inline-block;background:#000;left:0;top:21px;position:absolute;opacity:0.15;filter:alpha(opacity=15)}
+    .module_navi.type_text .sliderwrap2 .navi_anchor {padding:5px 3px 5px}
+    .module_navi.type_image .sliderwrap2 .item-active .tit {font-weight:bold}
+    .module_navi.type_image .sliderwrap2 .item-active .tit span{line-height:22px;height:22px}
+    .module_navi.type_image .sliderwrap2 .navi_anchor:hover .tit {font-weight:bold}
+    .module_navi.type_text .sliderwrap2 .navi_anchor:hover .tit {font-weight:normal}
+    .module_navi.type_text .sliderwrap2 .navi_anchor:hover .tit span{line-height:22px;height:22px}
+    .module_navi.type_image .sliderwrap2 .owl-carousel {max-height:100px}
+    .module_navi.type_text .sliderwrap2 .owl-carousel {max-height:65px}
+}
+.module_navi .owl-dots{display:none}
+
+/* 스토리 */
+.module_story.story_type1, .module_story.story_type2, .module_story.story_type4, .module_story.story_type5{padding:67px 0 100px}
+.msie .module_story.story_type1, .msie .module_story.story_type2, .msie .module_story.story_type4, .msie .module_story.story_type5{padding-top:65px}
+.ie_low .module_story.story_type1, .ie_low .module_story.story_type2, .ie_low .module_story.story_type4, .ie_low .module_story.story_type5{padding-top:62px}
+.module_story .section{overflow:visible !important}
+.module_story .title{width:100%;margin:0 0 46px;text-align:center}
+.module_story .title span{white-space:nowrap;letter-spacing:-1px}
+.module_story .tit{font-size:39px;font-weight:bold;color:inherit;line-height:1.2}
+.module_story .tit span{display:inline-block;zoom:1;*display:inline;padding-bottom:1px;border-bottom:4px solid rgb(34, 34, 34);border-bottom:4px solid rgba(34, 34, 34, 0.9)}
+.ie_low .module_story .tit span{padding-bottom:4px}
+.module_story img{width:100%;height:100%}
+.module_story .stit{margin-top:8px;font-size:22px}
+.module_story .stit span{color:#666}
+.module_story.bg_black .tit span{border-color:#fff}
+.module_story.bg_black .stit span{color:#fff}
+.module_story .paginate{display:none}
+.module_story .sliderwrap{position:relative;z-index:1;margin:0 auto}
+.module_story .sliderwrap.only{overflow:hidden}
+.module_story .sliderwrap.only .btn_prev, .module_story .sliderwrap.only .btn_next{display:none}
+.module_story .sliderwrap .caroufredsel_wrapper, .module_story .sliderwrap .owl-carousel{overflow:visible}
+.module_story .sliderwrap .owl-carousel .item{overflow:hidden;float:left;margin:0;text-align:center}
+.module_story .btn_prev, .module_story .btn_next, .module_story .owl-prev, .module_story .owl-next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-50px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0;font-size:0;line-height:0;cursor:pointer}
+.module_story .btn_prev, .module_story .owl-prev{left:50%;margin-left:-600px;background-position:-234px 0}
+.module_story .btn_next, .module_story .owl-next{left:50%;margin-left:500px;background-position:-340px 0}
+.module_story .owl-stage{margin:0 auto}
+
+.module_story.story_type1 .section{width:1020px}
+.device-pc .module_story.story_type1 .sliderwrap.only{width:660px}
+.module_story.story_type1 .sliderwrap .item{margin:0 10px}
+.module_story.story_type1 .sliderwrap .imgwrap{display:block;width:320px;height:380px}
+.device-pc .module_story.story_type1 .sliderwrap.double .imgwrap{width:490px;height:582px}
+.device-pc .module_story.story_type1 .sliderwrap.only .imgwrap{width:640px;height:759px}
+.module_story.story_type1 .sliderwrap .btn_prev,.module_story.story_type1 .sliderwrap .btn_next{display:none}
+.module_story.story_type1 .sliderwrap.multiple .btn_prev,.module_story.story_type1 .sliderwrap.multiple .btn_next{display:inline-block}
+
+.module_story.story_type2 .element{overflow:hidden;width:1020px;margin:-10px auto}
+.module_story.story_type2 a{display:block;float:left;width:490px;height:170px;margin:10px;font-size:0}
+.module_story.story_type2 .only a{float:none;width:1000px;height:361px}
+
+.module_story.story_type3 .section{width:100%}
+.device-pc .module_story.story_type3 .sliderwrap.max, .device-pc .module_story.story_type3 .sliderwrap.only{padding:100px 0}
+.device-pc .module_story.story_type3 .sliderwrap.max, .device-pc .module_story.story_type3 .sliderwrap.only{width:1020px}
+.device-pc .module_story.story_type3 .sliderwrap.multiple .item{width:1000px}
+.device-pc .module_story.story_type3 .sliderwrap.max .item{width:490px;margin:0 10px}
+.device-pc .module_story.story_type3 .sliderwrap.only .item{width:1000px}
+.device-pc .module_story.story_type3 .sliderwrap.max .imgwrap{height:420px}
+.device-pc .module_story.story_type3 .sliderwrap.max .imgwrap img{width:1000px;margin-left:-255px}
+.device-pc .module_story.story_type3 .sliderwrap.multiple .imgwrap{position:relative;width:1000px;height:420px}
+.device-pc .module_story.story_type3 .sliderwrap.only .imgwrap{position:relative;width:1000px;height:420px}
+.module_story.story_type3 .sliderwrap .btn_prev,.module_story.story_type3 .sliderwrap .btn_next{display:none}
+.module_story.story_type3 .sliderwrap.multiple .btn_prev,.module_story.story_type3 .sliderwrap.multiple .btn_next{display:inline-block}
+.module_story.story_type3 .top_banner .title{top:173px}
+.module_story.story_type3 .top_banner .name{position:absolute;top:-65px;left:0;width:100%;text-align:center;margin-bottom:21px;font-size:23px}
+.module_story.story_type3 .top_banner .name span{height:34px;padding:0 7px 3px 2px;background:none;border:none;border-bottom:2px solid rgb(255,255,255);border-bottom:2px solid rgba(255,255,255,0.9);font-weight:bold;line-height:34px}
+.msie .module_story.story_type3 .top_banner .name span{padding-bottom:4px}
+.ie_low .module_story.story_type3 .top_banner .name span{padding-bottom:7px}
+.module_story.story_type3 .top_banner .title .tit, .module_story.story_type3 .top_banner .title.line2 .tit{font-size:40px;font-weight:400;line-height:48px}
+.ie_low .module_story.story_type3 .top_banner .title.line2 .tit + .tit{margin-top:-15px}
+.module_story.story_type3 .top_banner .tit span{border:none;padding:0}
+.module_story.story_type3 .top_banner .btn_landing{display:block;position:absolute;top:122px;left:50%;width:198px;height:43px;margin-left:-99px;background:rgba(0, 0, 0, 0.2);border:1px solid rgb(255, 255, 255);border:1px solid rgba(255, 255, 255, 0.6);font-size:20px;font-weight:normal;color:#fff;line-height:43px;text-align:center}
+.msie .module_story.story_type3 .top_banner .btn_landing{line-height:41px}
+
+.module_story.story_type4 .sliderwrap{width:1020px}
+.device-pc .module_story.story_type4 .sliderwrap.only{width:660px}
+.module_story.story_type4 .sliderwrap .item{margin:0 10px}
+.module_story.story_type4 .sliderwrap .imgwrap{display:block;width:320px;height:427px}
+.device-pc .module_story.story_type4 .sliderwrap.double .imgwrap{width:490px;height:651px}
+.device-pc .module_story.story_type4 .sliderwrap.only .imgwrap{width:640px;height:853px}
+.module_story.story_type4 .sliderwrap .btn_prev,.module_story.story_type4 .sliderwrap .btn_next{display:none}
+.module_story.story_type4 .sliderwrap.multiple .btn_prev,.module_story.story_type4 .sliderwrap.multiple .btn_next{display:inline-block}
+.module_story.story_type4 .sliderwrap.multiple .title{height:138px}
+.module_story.story_type4 .top_banner .title{top:auto;bottom:0;width:auto;left:30px;right:30px;height:132px;padding:0;margin:0;letter-spacing:0;text-align:left}
+.msie .module_story.story_type4 .top_banner .title{height:138px}
+.module_story.story_type4 .top_banner .tit{margin-bottom:0;font-size:19px;line-height:28px}
+.module_story.story_type4 .top_banner .tit span{border-width:2px}
+.module_story.story_type4 .top_banner .stit{margin-top:3px;font-size:13px;line-height:17px;font-weight:400;word-break:break-all}
+.module_story.story_type4 .top_banner .stit span{max-width:none;color:#fff;white-space:normal;letter-spacing:0}
+.module_story.story_type4 .top_banner.prdinfo .stit{overflow:hidden;height:17px}
+.module_story.story_type4 .top_banner .btn_landing{display:inline-block;zoom:1;*display:inline;width:110px;height:36px;margin-top:10px;background:rgba(34, 34, 34, 0.1);border:1px solid rgb(255, 255, 255);border:1px solid rgba(255, 255, 255, 0.7);font-size:16px;color:#fff;line-height:36px;text-align:center}
+.module_story.story_type4 .top_banner.dark .dimmed{background:url(http://pics.auction.co.kr/pc/hanbando/common/gradient_03.png) repeat-x 0 0}
+.ie_low .module_story.story_type4 .sliderwrap.multiple .top_banner .tit span{padding-bottom:2px}
+.device-pc .module_story.story_type4 .sliderwrap.double .top_banner .title{bottom:0;left:40px;right:40px;height:160px}
+.device-pc .module_story.story_type4 .sliderwrap.double .top_banner .tit{font-size:26px}
+.device-pc .module_story.story_type4 .sliderwrap.double .top_banner .tit span{padding-bottom:2px;border-width:3px}
+.ie_low .module_story.story_type4 .sliderwrap.double .top_banner .tit span{padding-bottom:6px}
+.device-pc .module_story.story_type4 .sliderwrap.double .top_banner .stit{margin-top:9px;height:22px;font-size:17px;line-height:22px}
+.device-pc .module_story.story_type4 .sliderwrap.double .top_banner .btn_landing{margin-top:13px}
+.device-pc .module_story.story_type4 .sliderwrap.double .top_banner.dark .dimmed{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/gradient_02.png)}
+.device-pc .module_story.story_type4 .sliderwrap.only .top_banner .title{bottom:0;left:40px;right:40px;height:216px}
+.device-pc .msie .module_story.story_type4 .sliderwrap.only .top_banner .title{height:219px}
+.device-pc .module_story.story_type4 .sliderwrap.only .top_banner .tit{font-size:30px}
+.device-pc .module_story.story_type4 .sliderwrap.only .top_banner .tit span{padding-bottom:7px;border-width:3px}
+.msie .module_story.story_type4 .sliderwrap.only .top_banner .tit span{padding-bottom:8px}
+.ie_low .module_story.story_type4 .sliderwrap.only .top_banner .tit span{padding-bottom:10px}
+.device-pc .module_story.story_type4 .sliderwrap.only .top_banner .stit{margin-top:14px;height:32px;font-size:23px;line-height:32px}
+.device-pc .module_story.story_type4 .sliderwrap.only .top_banner .btn_landing{margin-top:18px;width:158px;height:48px;font-size:18px;line-height:48px}
+.device-pc .module_story.story_type4 .sliderwrap.only .top_banner.dark .dimmed{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/gradient_01.png)}
+
+.module_story.story_type5 .sliderwrap .btn_prev, .module_story.story_type5 .sliderwrap .btn_next{top:151px;margin-top:0}
+.module_story.story_type5{padding:100px 0}
+.module_story.story_type5 .sliderwrap{position:relative;z-index:1;width:1000px;margin:30px auto 0}
+.module_story.story_type5 .title + .sliderwrap{margin-top:0}
+.module_story.story_type5 .title{display:none}
+.module_story.story_type5 .stit{overflow:hidden;margin-top:14px}
+.module_story.story_type5 .prdinfo{position:relative;min-height:361px;padding:0 5px 0 610px;text-align:left}
+.module_story.story_type5 .prdinfo .imgwrap{position:absolute;top:0;left:0;width:550px;height:361px}
+.module_story.story_type5 .prdinfo .title_b{margin-bottom:19px;padding-top:12px;text-align:left}
+.module_story.story_type5 .prdinfo .tit{margin-bottom:6px;font-size:22px;line-height:25px;font-weight:400}
+.ie_low .module_story.story_type5 .prdinfo .title .tit{line-height:30px}
+.module_story.story_type5 .prdinfo .stit{font-size:15px;line-height:20px;color:#666;word-break:break-all}
+.module_story.story_type5 .prdinfo .title{display:block;margin-bottom:24px;text-align:left}
+.ie_low .module_story.story_type5 .prdinfo .title{margin-bottom:16px}
+.module_story.story_type5 .prdinfo .title .tit{font-size:23px;font-weight:bold;line-height:25px;color:#000}
+.module_story.story_type5 .prdinfo .title .tit span{padding-bottom:2px;border-color:rgba(34, 34, 34, 1);border-width:3px}
+.module_story.story_type5 .prdinfo .title .stit{margin-top:29px;font-size:28px;line-height:34px}
+.ie_low .module_story.story_type5 .prdinfo .title .stit span{letter-spacing:-3px}
+.module_story.story_type5 .prdinfo .btn_landing{display:block;width:273px;height:58px;border:1px solid #222;background-color:#222;font-size:21px;font-weight:bold;line-height:58px;color:#fff;text-align:center}
+.module_story.story_type5.bg_black .prdinfo .btn_landing{border-color:#fff;background-color:#1c1f23;color:#fff}
+.module_story.story_type5.bg_black .prdinfo .stit, .module_story.story_type5.bg_black .prdinfo .title .tit{color:#fff}
+.module_story.story_type5.bg_black .prdinfo .title .tit span{border-color:#fff}
+
+.module_story.story_type5 .prdinfo.text_over .stit{max-height:100px}
+.module_story.story_type5 .prdinfo.text_over.active .stit{max-height:inherit}
+.module_story.story_type5 .prdinfo .btn_more_story{display:none;background:none;margin-top:8px}
+.module_story.story_type5 .prdinfo.text_over .btn_more_story{display:inline-block}
+.module_story.story_type5 .prdinfo .btn_more_story .txt{font-size:14px;line-height:18px;vertical-align:middle}
+.module_story.story_type5.bg_black .prdinfo .btn_more_story .txt{color:#fff}
+.module_story.story_type5 .prdinfo .btn_more_story .ico{width:10px;height:6px;margin-left:5px;background-position:-411px -110px;vertical-align:middle}
+.module_story.story_type5 .prdinfo.active .btn_more_story .ico{background-position:-411px -118px}
+.module_story.story_type5.bg_black .prdinfo .btn_more_story .ico{background-position:-400px -110px}
+.module_story.story_type5.bg_black .prdinfo.active .btn_more_story .ico{background-position:-400px -118px}
+
+.module_story.story_type6{padding:100px 0}
+.module_story.story_type6 .title + .prdinfo{margin-top:0}
+.module_story.story_type6 .title{display:none}
+.module_story.story_type6 .stit{overflow:hidden;margin-top:14px}
+.module_story.story_type6 .sliderwrap{position:absolute;top:0;left:0;width:550px;height:361px}
+.module_story.story_type6 .sliderwrap .btn_prev, .module_story.story_type6 .sliderwrap .btn_next{position:absolute;z-index:1;top:50%;width:53px;height:53px;margin-top:-27px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat;font-size:0;line-height:0;cursor:pointer}
+.module_story.story_type6 .sliderwrap .btn_prev{left:0;margin-left:0;background-position:-281px -110px}
+.module_story.story_type6 .sliderwrap .btn_next{left:auto;right:0;margin-left:0;background-position:-338px -110px}
+.module_story.story_type6 .prdinfo{position:relative;z-index:1;width:402px;min-height:361px;padding-left:598px;margin:30px auto 0;text-align:left}
+.module_story.story_type6 .prdinfo .imgwrap{width:550px;height:361px}
+.module_story.story_type6 .prdinfo .title_b{margin-bottom:19px;padding-top:12px;text-align:left}
+.module_story.story_type6 .prdinfo .tit{margin-bottom:6px;font-size:22px;line-height:25px;font-weight:400}
+.ie_low .module_story.story_type6 .prdinfo .title .tit{line-height:30px}
+.module_story.story_type6 .prdinfo .stit{font-size:15px;line-height:20px;color:#666;word-break:break-all}
+.module_story.story_type6 .prdinfo .title{display:block;margin-bottom:24px;text-align:left}
+.ie_low .module_story.story_type6 .prdinfo .title{margin-bottom:16px}
+.module_story.story_type6 .prdinfo .title .tit{font-size:23px;font-weight:bold;line-height:25px;color:#000}
+.module_story.story_type6 .prdinfo .title .tit span{padding-bottom:2px;border-color:rgba(34, 34, 34, 1);border-width:3px}
+.module_story.story_type6 .prdinfo .title .stit{margin-top:29px;font-size:28px;line-height:34px}
+.ie_low .module_story.story_type6 .prdinfo .title .stit span{letter-spacing:-3px}
+.module_story.story_type6 .prdinfo .btn_landing{display:block;width:273px;height:58px;border:1px solid #222;background-color:#222;font-size:21px;font-weight:bold;line-height:58px;color:#fff;text-align:center}
+.module_story.story_type6.bg_black .prdinfo .btn_landing{border-color:#fff;background-color:#1c1f23;color:#fff}
+.module_story.story_type6.bg_black .prdinfo .stit, .module_story.story_type6.bg_black .prdinfo .title .tit{color:#fff}
+.module_story.story_type6.bg_black .prdinfo .title .tit span{border-color:#fff}
+.module_story.story_type6 .prdinfo.text_over .stit{max-height:100px}
+.module_story.story_type6 .prdinfo.text_over.active .stit{max-height:inherit}
+.module_story.story_type6 .prdinfo .btn_more_story{display:none;background:none;margin-top:8px}
+.module_story.story_type6 .prdinfo.text_over .btn_more_story{display:inline-block}
+.module_story.story_type6 .prdinfo .btn_more_story .txt{font-size:14px;line-height:18px;vertical-align:middle}
+.module_story.story_type6.bg_black .prdinfo .btn_more_story .txt{color:#fff}
+.module_story.story_type6 .prdinfo .btn_more_story .ico{width:10px;height:6px;margin-left:5px;background-position:-411px -110px;vertical-align:middle}
+.module_story.story_type6 .prdinfo.active .btn_more_story .ico{background-position:-411px -118px}
+.module_story.story_type6.bg_black .prdinfo .btn_more_story .ico{background-position:-400px -110px}
+.module_story.story_type6.bg_black .prdinfo.active .btn_more_story .ico{background-position:-400px -118px}
+
+/* 특가 */ 
+.module_bigsale .element{width:1000px;margin:0 auto;padding:62px 0 98px 0}
+.module_bigsale .element .title{margin-bottom:42px}
+.module_bigsale .element .stit{margin-top:1px}
+.module_bigsale .element.type2{padding-top:75px}
+.module_bigsale .element.type2 .title{margin-bottom:38px}
+.module_bigsale .element.type2 .tit{height:68px}
+.module_bigsale .time{overflow:hidden;width:824px;margin:42px auto 40px}
+.module_bigsale .time > span{font-size:25px;line-height:54px;text-align:center}
+.module_bigsale .time .date{float:left;width:497px;border:1px solid #222;font-weight:bold;color:#222}
+.module_bigsale .time .minute{float:left;position:relative;width:264px;padding-left:60px;color:#4a4a4a;text-align:left;letter-spacing:0;white-space:nowrap}
+.module_bigsale .time .minute em{color:#2e8de5}
+.module_bigsale .time .minute .ico{display:inline-block;position:absolute;top:50%;left:30px;width:22px;height:22px;margin-top:-11px;background-position:-170px -154px}
+.module_bigsale .prd_info .amount{width:100%;margin:0 auto;padding:41px 0 35px;border-bottom:1px solid #f5f5f5;text-align:center}
+.module_bigsale .prd_info .amount span{display:inline-block;height:20px;font-size:20px;line-height:20px;color:#878787}
+.module_bigsale .prd_info .amount span em{display:inline-block;margin:-1px 0 0 5px;font-size:29px;color:#222;vertical-align:top}
+.module_bigsale .prd_info .amount .limit{padding-right:48px;text-align:right}
+.module_bigsale .prd_info .amount .remain{padding-left:48px;text-align:left}
+.module_bigsale .prd_info .amount .remain em{color:#4a90e2}
+.module_bigsale .prd_info .amount span+span{border-left:1px solid #f2f2f2}
+.module_bigsale .prd_detail{overflow:hidden;position:relative}
+.module_bigsale .prd_detail .prdimg{display:block;overflow:hidden;position:relative;float:left;width:640px;height:337px}
+.module_bigsale .prd_detail .prdimg img{position:absolute;top:0;left:0;width:100%;height:100%}
+.module_bigsale .prd_detail .info{float:left;width:320px;margin-left:40px;padding-top:1px}
+.module_bigsale .prd_detail .prdname{overflow:hidden;width:100%;height:64px;font-size:23px;color:#222;line-height:32px;letter-spacing:-1.5px}
+.module_bigsale .prd_detail .prdname a{color: #676767;}
+.module_bigsale .prd_detail .price{margin-top:11px}
+.module_bigsale .prd_detail .price .percent{margin-right:5px;font-size:37px;font-weight:bold;color:#d32b2b}
+.module_bigsale .prd_detail .price .current{font-size:27px;font-weight:400;color:#222;vertical-align:2px}
+.module_bigsale .prd_detail .price .current em{font-size:37px;font-weight:bold;color:#222;vertical-align:-2px;letter-spacing:0}
+.module_bigsale .prd_detail .price .origin{display:block;margin-top:2px;font-size:22px;color:#999;line-height:28px;text-decoration:line-through}
+.module_bigsale .prd_detail .addinfo{overflow:hidden;margin-top:15px}
+.module_bigsale .prd_detail .addinfo li{float:left;width:auto;height:18px;padding:0 11px 0 9px;font-size:17px;line-height:18px;color:#666}
+.module_bigsale .prd_detail .addinfo li:first-child{padding-left:0}
+.module_bigsale .prd_detail .addinfo li + li{border-left:1px solid #f5f5f5}
+.module_bigsale .prd_detail .addinfo li em{color:#3b7adb}
+.module_bigsale .prd_detail .btnbx{overflow:hidden;position:absolute;bottom:0}
+.module_bigsale .prd_detail .btnbx .btn_buy{float:left;width:216px;height:60px;background-color:#222;font-size:20px;line-height:60px;color:#fff;text-align:center}
+.module_bigsale .prd_detail .btnbx .btn_wish{float:left;width:96px;height:60px;margin-left:8px;background:none;border:2px solid #222;font-size:20px;line-height:56px;color:#222;text-align:center}
+.module_bigsale .prd_detail .btnbx .btn_wish .ico{display:inline-block;width:23px;height:22px;margin-right:5px;background-position:-154px -110px;vertical-align:middle}
+.module_bigsale .prd_detail .btnbx .btn_wish.active .ico{background-position:-180px -110px}
+.module_bigsale .joinprd .prd_detail .price{margin-top:5px}
+.module_bigsale .joinprd .prd_detail .price .current span{font-size:37px}
+.module_bigsale .joinprd .prd_detail .price .current em{vertical-align:0}
+.module_bigsale .joinprd .prd_detail .addinfo{margin-top:41px}
+.module_bigsale .disabled .prd_detail .price .current em{font-weight:normal;color:#2e8de5;opacity:0.7;filter:alpha(opacity:'70')}
+.module_bigsale .disabled .prd_detail .price .txt{font-size:18px;line-height:30px;color:#999}
+.module_bigsale .disabled .prd_detail .btnbx span, .module_bigsale .disabled .prd_detail .btnbx button{position:relative;z-index:2}
+.module_bigsale .disabled .prd_detail .btnbx span:after{display:block;z-index:1;position:absolute;top:0;left:0;bottom:0;right:0;background:url(http://pics.auction.co.kr/pc/hanbando/common/bright_95.png) repeat;content:''}
+.module_bigsale .disabled .prd_detail .btnbx button:after{display:block;z-index:1;position:absolute;top:-2px;left:-2px;bottom:-2px;right:-2px;background:url(http://pics.auction.co.kr/pc/hanbando/common/bright_95.png) repeat;content:''}
+.module_bigsale .disabled .prd_detail .btnbx button{border-color:#222;cursor:default}
+.ie_low .module_bigsale .disabled .prd_detail .btnbx{opacity:0.05;filter:alpha(opacity:'5')}
+.msie .module_bigsale .disabled .prd_detail .btnbx button{border-color:#f3f3f3}
+.ie_7 .module_bigsale .disabled .prd_detail .btnbx button{border-color:#222}
+.module_bigsale .label_soldout{display:block;position:absolute;top:50%;left:50%;width:204px;height:206px;margin:-104px 0 0 -102px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) 0 -608px}
+.module_bigsale .label_adult{display:block;position:absolute;top:50%;left:50%;width:204px;height:206px;margin:-103px 0 0 -102px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) -250px -608px}
+.module_bigsale .adult .prdimg{width:637px;height:335px;background:#f5f5f5;border:1px solid #eee}
+.module_bigsale .group_daily{position:relative;height:204px;margin:47px -10px 0}
+.module_bigsale .group_daily:after{clear:both;content:'';display:block}
+.module_bigsale .group_daily li{overflow:hidden;float:left;width:184px;height:200px;margin:0 10px}
+.module_bigsale .group_daily .daily{text-align:center}
+.module_bigsale .group_daily .date{margin-bottom:5px;font-size:22px;line-height:40px;color:#1a1a1a}
+.module_bigsale .group_daily li.active .date{font-weight:bold}
+.module_bigsale .group_daily .prdimg{overflow:hidden;position:relative;height:98px;line-height:0}
+.module_bigsale .group_daily .prdimg img{position:absolute;top:0;left:0;width:100%;height:100%}
+.module_bigsale .group_daily .prdname{overflow:hidden;width:100%;margin:10px auto 0;font-size:17px;color:#1a1a1a;line-height:1.4;text-align:center}
+.module_bigsale .group_daily .soldout_box{position:absolute;top:0;left:0;z-index:20;width:100%;height:100%;text-align:center}
+.module_bigsale .group_daily .soldout_box strong{position:relative;display:block;top:50%;z-index:5;height:30px;margin-top:-15px;font-size:20px;line-height:30px;color:#fff;letter-spacing:0}
+.module_bigsale .group_daily .soldout_box span.bg{position:absolute;top:0;left:0;z-index:1;width:100%;height:100%;background:#000;opacity:0.4;filter:alpha(opacity:'40')}
+.module_bigsale .group_daily .adult_box{position:absolute;top:0;left:0;z-index:20;width:100%;height:100%;background:#f5f5f5}
+.module_bigsale .group_daily .adult_box .label_adult{display:block;position:absolute;top:50%;left:50%;width:74px;height:75px;margin:-37px 0 0 -37px;background-position:-250px -1120px}
+.module_bigsale .btn_prev, .module_bigsale .btn_next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-56px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat;font-size:0;line-height:0;cursor:pointer}
+.module_bigsale .btn_prev{left:-100px;background-position:-234px 0}
+.module_bigsale .btn_next{right:-100px;background-position:-340px 0}
+.module_bigsale .sliderwrap li{float:left}
+.module_bigsale .sliderwrap li:only-child{float:none}
+.module_bigsale .sliderwrap .btn_prev, .module_bigsale .sliderwrap .btn_next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-10px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat;font-size:0;line-height:0;cursor:pointer}
+.module_bigsale .sliderwrap .btn_prev{left:50%;margin-left:-600px;background-position:-234px 0}
+.module_bigsale .sliderwrap .btn_next{left:50%;margin-left:500px;background-position:-340px 0}
+.module_bigsale .sliderwrap .paginate, .module_bigsale .sliderwrap .owl-dots{bottom:-28px}
+
+.ie_low .module_bigsale .prd_detail .addinfo li{height:auto;line-height:1.25}
+.ie_low .module_bigsale .element .tit span{padding-bottom:6px}
+.ie_low .module_bigsale .element .stit{margin-top:4px}
+.ie_low .module_bigsale .joinprd .prd_detail .price .current em{vertical-align:-3px}
+
+/* 동영상 */
+.module_video .element{padding:75px 170px 96px;text-align:center}
+.module_video .movie_wrap{margin-top:2px}
+.module_video .view{width:860px;height:480px}
+.module_video .infotxt{padding:37px 0 0;text-align:center}
+.module_video .infotxt .tit{height:auto;font-size:23px;font-weight:400;color:inherit}
+.module_video .infotxt .story{margin-top:13px;font-size:16px;line-height:24px;color:#666}
+.module_video .infotxt .story .txt{width:760px;margin:0 auto;color:#666}
+.module_video.bg_black .infotxt .story{color:#fff}
+.module_video.bg_black .infotxt .story .txt{color:#fff}
+.module_video .notice_data{display:none}
+.ie_low .module_video .element .tit span{padding-bottom:4px}
+
+/* 연관기획전 */
+.module_prom{background-color:#fff}
+.module_prom .sliderwrap2{position:relative;z-index:1;margin:0 -10px;padding-bottom:50px}
+.module_prom .sliderwrap2 .head_tit{margin:0 10px;padding:37px 0 12px;font-size:28px;font-weight:bold;color:#222;text-align:left}
+.msie .module_prom .sliderwrap2 .head_tit{height:38px;padding-top:40px}
+.module_prom .sliderwrap2 .owl-carousel{overflow:hidden}
+.module_prom .sliderwrap2 .owl-carousel .item{float:left;width:590px;margin:0 10px}
+.module_prom .sliderwrap2 .owl-carousel .item .link_prom{overflow:hidden;display:block;position:relative;width:100%;height:285px;background-color:#f8f8f8}
+.module_prom .sliderwrap2 .owl-carousel .item .link_prom img{position:absolute;top:0;left:0;width:100%;height:100%}
+.module_prom .sliderwrap2 .owl-carousel .item .link_prom .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/dim_35.png) repeat 0 0}
+.module_prom .sliderwrap2 .title{position:absolute;z-index:1;bottom:30px;left:34px;right:34px;text-align:left}
+.module_prom .sliderwrap2 .title a{display:block}
+.ie_7 .module_prom .sliderwrap2 .title{bottom:34px}
+.module_prom .sliderwrap2 .tit{margin-bottom:4px;font-size:30px;font-weight:bold;line-height:1.2;color:#fff}
+.msie .module_prom .sliderwrap2 .tit{margin-bottom:3px}
+.ie_low .module_prom .sliderwrap2 .tit{margin-bottom:1px}
+.module_prom .sliderwrap2 .tit span{display:inline-block;padding-bottom:1px;border-bottom:3px solid #fff}
+.ie_low .module_prom .sliderwrap2 .tit span{padding-bottom:4px}
+.module_prom .sliderwrap2 .stit{font-size:30px;font-weight:bold;color:#fff;line-height:1.2}
+.module_prom .sliderwrap2 .stit span{display:inline-block;padding-bottom:1px;border-bottom:3px solid #fff}
+.ie_low .module_prom .sliderwrap2 .stit span{padding-bottom:4px;letter-spacing:-3px}
+.ie_7 .module_prom .sliderwrap2 .stit{margin-top:7px}
+.module_prom .sliderwrap2 .btn_prev,.module_prom .sliderwrap2 .btn_next{display:none;position:absolute;top:24px;width:53px;height:53px;left:inherit;margin-top:0;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0 #fff;font-size:0;line-height:0}
+.module_prom .sliderwrap2 .btn_prev{right:67px;background-position:-120px 0}
+.module_prom .sliderwrap2 .btn_next{right:10px;background-position:-176px 0}
+.module_prom .sliderwrap2 .disabled{opacity:0.6;filter:alpha(opacity:'60')}
+.module_prom .page_num{display:none;position:absolute;top:38px;right:131px;font-size:20px;color:#999}
+.module_prom .owl-dots{display:none}
+
+/* 상품 리스트 */
+.module_item{/*padding:53px 0 40px;*/ background:transparent !important;}
+.module_item.bg_gray, .module_item.bg_dgray{background:#e6e6e6}
+.ie_low .module_item{padding:51px 0 38px}
+.ie_7 .module_item{padding:51px 0 38px}
+.module_item .head_tit{padding:0 0 30px;font-size:30px;font-weight:bold;line-height:40px;color:#222;text-align:center}
+.ie_low .module_item .head_tit{letter-spacing:-2px}
+.module_item .head_tit span{display:inline-block;border-bottom:3px solid #222;line-height:38px}
+.msie .module_item .head_tit span{padding-bottom:1px}
+.ie_low .module_item .head_tit span{padding-bottom:3px}
+.module_item .products-list{overflow:hidden;width:1216px;margin:0 auto -16px}
+.module_item .elements_item {float:left;width:50%;min-height:200px;margin-bottom:16px}
+.module_item .elements_item .inner{overflow:hidden;position:relative;width:592px;background:#fff}
+.module_item .elements_item .inner .blank_border{display:none}
+.module_item .elements_item:after{display:block;content:"";clear: both}
+.module_item .elements_item .label_soldout{position:absolute;top:50%;left:50%;z-index:1;width:112px;height:112px;margin:-56px 0 0 -56px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 -1000px;font-size:0;line-height:0}
+.module_item .elements_item .label_adult{position:absolute;top:50%;left:50%;z-index:1;width:112px;height:112px;margin:-56px 0 0 -56px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -250px -1000px;font-size:0;line-height:0}
+.module_item .elements_item .adult_box{display:block;width:100%;height:100%;background:#f5f5f5}
+.module_item .elements_item .adult_box .mask{opacity:0;filter:alpha(opacity:'0')}
+.module_item .elements_img{float:left;position:relative;width:200px;height:200px}
+.module_item .elements_img a .mask{display:block;position:absolute;top:0;left:0;z-index:1;content:'';width:100%;height:100%;background-color:#000;opacity:0.02;filter:alpha(opacity:'2')}
+.module_item .elements_img a{display:block;/*height:100%*/ width:100%;}
+.module_item .elements_img a img{width:100%;height:100%}
+.module_item .elements_img .noimg{display:block;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/200_noimg.gif) no-repeat center center}
+.module_item .elements_info{overflow:hidden;position:relative;height:173px;background-color:#fff;padding:27px 20px 0 23px}
+.ie_low .module_item .elements_info{height:177px;padding-top:23px}
+.module_item .elements_item .title{display:block;overflow:hidden;position:relative;z-index:1;height:48px;margin-right:80px;margin-bottom:10px;font-size:18px;color:#222;line-height:23px;text-decoration:none;word-break:break-all}
+.module_item .elements_item .price{overflow:hidden;margin-bottom:11px;line-height:30px;color:#222}
+.module_item .elements_item .price li{float:left;margin-right:4px}
+.module_item .elements_item .price .discount{margin-top:-1px;font-size:26px;font-weight:bold;color:#e63740}
+.module_item .elements_item .price .selling{font-size:20px;vertical-align:top}
+.module_item .elements_item .price .selling strong{margin-right:1px;font-size:26px;line-height:18px;vertical-align:-1px}
+.ie_low .module_item .elements_item .price .selling strong{vertical-align:-2px}
+.module_item .elements_item .price .origin{font-size:18px;color:#999;line-height:30px}
+.module_item .elements_item .price .origin del{display:block}
+.ie_low .module_item .elements_item .price .origin del{display:block;margin-top:3px}
+.module_item .elements_item.joinprd .price .selling span{font-size:24px}
+.module_item .elements_item .delivery{overflow:hidden;position:absolute;left:0;right:0;bottom:0;height:18px;margin:0;border-top:1px solid #f5f5f5;padding:11px 0 11px 23px}
+.module_item .elements_item .delivery span{font-size:14px;color:#666;line-height:18px;vertical-align:top;white-space:nowrap}
+.module_item .elements_item .shop_info{position:absolute;right:21px;bottom:0;z-index:50;height:18px;padding:12px 0 10px}
+.module_item .elements_item .shop_info a{margin-right:14px;font-size:14px;color:#666;line-height:18px;vertical-align:top;text-decoration:none}
+.module_item .elements_item .shop_info .ico_logo{display:none}
+.module_item .elements_item .shop_info .ico_arr{position:absolute;top:11px;right:0;width:7px;height:18px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 -58px}
+.module_item .elements_item .add-info{font-size:15px;color:#666;line-height:18px}
+.module_item .elements_item .add-info .num{color:#2e8de5;letter-spacing:0}
+.ie_low .module_item .elements_item .add-info .num{vertical-align:-1px}
+.module_item .elements_item .btn_wish{position:absolute;z-index:1;top:20px;right:25px;width:40px;height:40px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 -110px;text-indent:-9999px}
+.module_item .elements_item .btn_wish.active{background-position:-41px -110px}
+.module_item .button_wrap{margin-top:20px;text-align:center}
+.module_item .btn_more{position:relative;width:344px;height:40px;padding:11px 0 9px;background:none;font-size:17px;line-height:20px;letter-spacing:-1px}
+.module_item .btn_more .ico_arr_down{display:inline-block;width:13px;height:9px;margin-left:7px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -154px -134px}
+.ie_7 .module_item .btn_more .ico_arr_down{margin-top:9px;vertical-align:middle}
+
+/* 상품 리스트 : gallery */
+.filter_view-change_gallery .products-list{width:1212px;margin-bottom:-13px}
+.filter_view-change_gallery .elements_item {width:25%;margin-bottom:13px}
+.filter_view-change_gallery .elements_item .inner{width:290px}
+.filter_view-change_gallery .elements_item .label_soldout{width:176px;height:178px;margin:-89px 0 0 -88px;background-position:0 -818px}
+.filter_view-change_gallery .elements_item .label_adult{width:176px;height:178px;margin:-89px 0 0 -88px;background-position:-250px -818px}
+.filter_view-change_gallery .elements_img{float:none;width:290px;height:290px}
+.filter_view-change_gallery .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/290_noimg.gif)}
+.filter_view-change_gallery .elements_info{position:relative;height:186px;padding:14px 20px 0 12px}
+.ie_low .filter_view-change_gallery .elements_info{height:187px}
+.filter_view-change_gallery .elements_item .title{margin-right:0px;margin-bottom:11px;line-height:24px}
+.ie_low .filter_view-change_gallery .elements_item .title{height:48px;margin-bottom:11px}
+.filter_view-change_gallery .elements_item .price{margin:0 0 9px}
+.ie_low .filter_view-change_gallery .elements_item .price{margin-bottom:7px}
+.filter_view-change_gallery .elements_item .price li{float:left;margin-right:3px}
+.filter_view-change_gallery .elements_item .price .discount{margin-top:-2px;font-size:22px;line-height:24px}
+.ie_low .filter_view-change_gallery .elements_item .price .discount{margin-top:0}
+.filter_view-change_gallery .elements_item .price .selling{font-size:17px;line-height:24px}
+.ie_7 .filter_view-change_gallery .elements_item .price .selling{line-height:26px}
+.filter_view-change_gallery .elements_item .price .selling strong{font-size:22px}
+.filter_view-change_gallery .elements_item .price .origin{clear:both;float:none;font-size:17px;line-height:20px}
+.ie_low .filter_view-change_gallery .elements_item .price .origin{line-height:26px}
+.ie_7 .filter_view-change_gallery .elements_item .price .origin{margin-top:-8px}
+.filter_view-change_gallery .elements_item.joinprd .price .selling span{font-size:22px}
+.filter_view-change_gallery .elements_item .add-info{margin-bottom:10px;font-size:16px;line-height:18px}
+.filter_view-change_gallery .elements_item .delivery{padding:10px 0 10px 12px}
+.filter_view-change_gallery .elements_item .btn_wish{top:10px;right:9px}
+
+/* 상품 리스트 : deal */
+.filter_view-change_deal .products-list{width:1208px;margin-bottom:-14px}
+.filter_view-change_deal .elements_item{margin-bottom:14px}
+.filter_view-change_deal .elements_item .inner{width:590px;margin-left:3px;/*box-shadow:0 1px 3px rgba(0,0,0,0.08)*/ border:1px solid #f5f5f5}
+.filter_view-change_deal .elements_item .label_soldout{width:204px;height:206px;margin:-103px 0 0 -102px;background-position:0 -608px}
+.filter_view-change_deal .elements_item .label_adult{width:204px;height:206px;margin:-103px 0 0 -102px;background-position:-250px -608px}
+.filter_view-change_deal .elements_img{float:none;width:590px;height:310px}
+.filter_view-change_deal .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/590_noimg.gif)}
+.filter_view-change_deal .elements_info{position:relative;height:127px;padding:17px 20px 0 19px}
+.ie_low .filter_view-change_deal .elements_info{height:127px}
+.filter_view-change_deal .elements_item .title{height:25px;margin-right:0px;margin-bottom:8px;font-size:22px;line-height:25px}
+.filter_view-change_deal .elements_item .price{height:30px}
+.filter_view-change_deal .elements_item .price .discount{margin-right:5px;font-size:30px;line-height:30px}
+.ie_7 .filter_view-change_deal .elements_item .price .discount{line-height:35px}
+.filter_view-change_deal .elements_item .price .selling{margin-right:7px;font-size:22px;line-height:1}
+.ie_7 .filter_view-change_deal .elements_item .price .selling{line-height:26px}
+.filter_view-change_deal .elements_item .price .selling strong{font-size:30px;line-height:29px}
+.ie_7 .filter_view-change_deal .elements_item .price .selling strong{vertical-align:-3px}
+.filter_view-change_deal .elements_item .price .origin{margin-top:3px;font-size:21px;line-height:30px}
+.filter_view-change_deal .elements_item.joinprd .price .selling span{font-size:26px}
+.filter_view-change_deal .elements_item .delivery{height:20px;padding:14px 0 12px 19px}
+.filter_view-change_deal .elements_item .delivery span{font-size:16px}
+.filter_view-change_deal .elements_item .add-info{position:absolute;bottom:0;right:0;left:0;height:20px;margin-left:11px;padding:0 0 12px;font-size:16px}
+.ie_7 .filter_view-change_deal .elements_item .add-info span:first-child{line-height:22px;vertical-align:0}
+.filter_view-change_deal .elements_item .add-info span:first-child{display:inline-block;padding-left:11px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -274px -152px;font-size:16px;vertical-align:top}
+.filter_view-change_deal .elements_item .btn_wish{top:11px;right:13px}
+.filter_view-change_deal .elements_img > a:hover + .option_wrap{display:block}
+.filter_view-change_deal .elements_img .option_wrap{display:none;position:absolute;right:0;bottom:0;left:0;height:36px}
+.filter_view-change_deal .elements_img .option_wrap:hover{display:block}
+.filter_view-change_deal .elements_img .option_wrap a{position:absolute;bottom:0;z-index:20;height:18px;padding:8px 0 10px;font-size:15px;color:#fff;text-align:center;text-decoration:none}
+.filter_view-change_deal .elements_img .option_wrap a.opt1{left:0;width:294px}
+.filter_view-change_deal .elements_img .option_wrap a.opt2{right:0;width:293px}
+.filter_view-change_deal .elements_img .option_wrap a span{position:relative;z-index:5}
+.filter_view-change_deal .elements_img .option_wrap a span.bg{position:absolute;top:0;left:0;z-index:1;width:100%;height:36px;background:#222;opacity:.7;filter:alpha(opacity:'70')}
+
+
+
+
+
+/** Tablet**/
+@media screen and (min-width:1px){
+    .ico{background-size:250px auto}
+    .module .paginate a{background:url(http://pics.auction.co.kr/pc/hanbando/common/paging_rtn.png) no-repeat 0 0;background-size:16px auto}
+    .module .owl-dots .owl-dot{background:url(http://pics.auction.co.kr/pc/hanbando/common/paging_rtn.png) no-repeat 0 0;background-size:16px auto}
+    .module_wrap{min-width:768px;font-family:AppleSDGothicNeo, Helvetica, sans-serif !important}
+    .module .section{width:100%}
+    .module .prev_banner, .module .next_banner{display:none}
+    .module .top_banner .title{top:55px;left:5px;right:0;width:auto}
+    .module .top_banner .name{height:25px;margin-bottom:12px}
+    .module .top_banner .name span{height:20px;padding:2px 10px 1px;font-size:14px;line-height:20px;}
+    .module .top_banner .tit{margin-bottom:16px;font-size:33px}
+    .module .top_banner .tit span{height:36px;line-height:36px;padding:0 2px 0 1px;vertical-align:top; border-width:3px;}
+    .module .top_banner .title.line2 .name{margin-bottom:13px}
+    .module .top_banner .title.line2 .tit{font-size:27px}
+    .module .top_banner .title.line2 .tit span{height:29px;line-height:29px;border-width:2px}
+    .module .top_banner .title.line2 .tit + .tit{margin-top:-11px}
+    .module .top_banner .stit{height:20px;line-height:20px;font-size:16px;opacity:0.9}
+    .module .top_banner.align_left .title{padding-left:25px}
+    .module .top_banner.align_left.mimg .title{padding-left:25px}
+    .module .top_banner.align_bottom .title{top:auto;bottom:68px}
+    .module .top_banner .title.big .name{height:35px;margin-bottom:18px}
+    .module .top_banner .title.big .name span{height:24px;line-height:26px;padding:4px 15px 5px;font-size:17px}
+    .module .top_banner .title.big .tit{margin:-3px 0 29px;font-size:60px}
+    .module .top_banner .title.big .tit span{height:61px;line-height:61px;padding:0;border-width:5px}
+    .module .top_banner.align_left .title.big .tit{margin-left:-4px}
+    .module .top_banner .title.big .stit{font-size:19px}
+    .module .top_banner .title.big .stit span{height:20px;line-height:20px;}
+    .module .top_banner.prd{height:auto}
+    .module .top_banner.prd .sliderwrap{max-width:100%;margin-top:22px}
+    .module_banner .top_banner.prd .prdinfo img{left:0}
+    .module_banner .top_banner{width:100%;max-width:900px;height:300px;margin:0 auto}
+    .module_banner .top_banner img{left:50%;width:900px;margin-left:-450px}
+    .module_banner.autoimg .top_banner .title{top:50%;left:50%;right:auto;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%)}
+    .module_banner.autoimg .top_banner .name{height:25px;margin-bottom:14px}
+    .module_banner.autoimg .top_banner .tit{height:29px;margin-bottom:15px;font-size:25px}
+    .module_banner.autoimg .top_banner .tit span{height:27px;line-height:27px;vertical-align:top;border-width:2px;padding:0 2px 0 1px;}
+    .module_banner.autoimg .top_banner .stit{font-size:14px}
+    .module_banner.autoimg .top_banner .stit span{display: inline-block;vertical-align: top;height: 17px;line-height: 17px;}
+    .module_banner.autoimg .top_banner .blurbx{position:absolute;top:50%;left:50%;background:none !important;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%)}
+    .module_banner.autoimg .top_banner .blurbx img{display:none}
+    .module_banner.autoimg .top_banner .blurbx .blurr-bg{top:50% !important;left:50% !important;width:104% !important;height:320px !important;background-size:cover !important;filter: blur(3px);-webkit-filter: blur(30);-moz-filter: blur(30);-o-filter: blur(30);-ms-filter: blur(30);-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%)}
+    .module_banner .top_banner.blur .blurbx{position:absolute;top:50%;left:50%;background:none !important;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%)}
+    .module_banner .top_banner.blur .blurbx img{display:none}
+    .module_banner .top_banner.blur .blurbx .blurr-bg{top:50% !important;left:50% !important;width:104% !important;height:320px !important;background-size:cover !important;filter: blur(3px);-webkit-filter: blur(30);-moz-filter: blur(30);-o-filter: blur(30);-ms-filter: blur(30);-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%)}
+    .module_banner .top_banner.mimg{width:450px}
+    .module_banner .top_banner.mimg img{display:block;left:0;width:450px;height:300px;margin:0}
+    .module_banner .top_banner.mimg.blur .blurbx{width:450px}
+    .module_banner .top_banner.mimg.blur .blurbx .blurr-bg{display:block;width:470px !important}
+    .module .element .title{margin-bottom:24px}
+    .module .element .tit{height:auto;font-size:24px}
+    .module .element .tit span{padding:0 2px 1px 1px;border-width:2px}
+    .module .element .stit{margin:3px 0 4px;font-size:16px}
+
+    .module_story .title{width:100%;margin:0 0 28px}
+    .module_story .tit{height:27px;font-size:24px;line-height:25px}
+    .module_story .tit span{padding-bottom:0;border-bottom:2px solid rgb(34, 34, 34);border-bottom:2px solid rgba(34, 34, 34, 0.9)}
+    .module_story .stit{margin-top:11px;font-size:16px;line-height:19px}
+    .module_story .imgwrap img{position:absolute;top:0;left:0}
+    .module_story .sliderwrap .caroufredsel_wrapper{margin-left:0 !important}
+    .module_story .sliderwrap .owl-carousel .item{width:100%;margin:0}
+    .module_story .btn_prev, .module_story .btn_next{display:none !important}
+    .module_story .paginate{display:block;bottom:25px}
+    .module_story .owl-dots{display:block;bottom:25px}
+    .module_story .only .paginate{display:none !important}
+
+    .module_story.story_type1 .section{width:100%}
+    .module_story.story_type1, .module_story.story_type2, .module_story.story_type4, .module_story.story_type5, .module_story.story_type6{padding:50px 0 50px}
+    .module_story.story_type1 .sliderwrap{width:auto;margin:0 auto;padding:0 100px}
+    .module_story.story_type1 .sliderwrap .imgwrap{position:relative;width:100%;margin:0 auto;height:0;padding-bottom:118.1338028169014%}
+
+    .module_story.story_type2 .element{overflow:hidden;width:100%;padding:0 20px;-webkit-box-sizing:border-box;box-sizing:border-box}
+    .module_story.story_type2 .imgwrap{float:left;width:50%;height:0;margin:0;margin-bottom:8px;padding-bottom:17.3469387755102%;-webkit-box-sizing:border-box;box-sizing:border-box}
+    .module_story.story_type2 .imgwrap:nth-child(odd) img{margin-right:8px}
+    .module_story.story_type2 .imgwrap:nth-child(even) img{margin-left:8px}
+
+    .module_story.story_type3 .sliderwrap, .module_story.story_type3 .sliderwrap .item{width:100%}
+    .module_story.story_type3 .sliderwrap .imgwrap{width:100%;height:300px}
+    .module_story.story_type3 .sliderwrap .imgwrap img{left:50%;width:714px;height:300px;margin-left:-357px}
+    .module_story.story_type3 .top_banner{max-width:714px;margin:0 auto}
+    .module_story.story_type3 .top_banner .title{top:104px}
+    .module_story.story_type3 .top_banner .name{top:-38px;margin-bottom:12px;font-size:20px}
+    .module_story.story_type3 .top_banner .name span{height:22px;padding:0 1px 3px 0;line-height:24px}
+    .module_story.story_type3 .top_banner .title .tit, .module_story.story_type3 .top_banner .title.line2 .tit{font-size:28px;line-height:27px}
+    .module_story.story_type3 .top_banner .btn_landing{top:100px;width:142px;height:32px;margin-left:-72px;font-size:14px;line-height:32px}
+
+    .module_story.story_type4 .sliderwrap{width:auto;margin:0 auto;padding:0 100px}
+    .module_story.story_type4 .sliderwrap .imgwrap{position:relative;width:100%;margin:0 auto;height:0;padding-bottom:133.2746478873239%}
+    .module_story.story_type4 .top_banner.dark .dimmed{background-size:auto 100%}
+    .module_story.story_type4 .top_banner .title{bottom:100px}
+    .module_story.story_type4 .top_banner .tit{height:38px;font-size:23px;line-height:24px}
+    .module_story.story_type4 .top_banner .tit span{border-width:2px}
+    .module_story.story_type4 .top_banner .stit{margin-top:5px;font-size:18px;line-height:24px}
+    .module_story.story_type4 .top_banner.prdinfo .stit{height:24px !important}
+    .module_story.story_type4 .top_banner .btn_landing{width:142px;margin-top:12px;font-size:16px}
+
+    .module_story.story_type5 .title{display:block}
+    .module_story.story_type5 .sliderwrap{width:auto;margin:0 auto;padding:0 100px}
+    .module_story.story_type5 .prdinfo{width:568px;min-height:auto;margin:0 auto;padding:0}
+    .module_story.story_type5 .prdinfo .imgwrap{position:relative;width:568px;height:373px}
+    .module_story.story_type5 .prdinfo .title_b{margin:16px 0 2px;padding-top:0}
+    .module_story.story_type5 .prdinfo .title{display:none}
+    .module_story.story_type5 .prdinfo .tit{margin-bottom:9px;font-size:15px;font-weight:bold}
+    .module_story.story_type5 .prdinfo .stit{overflow:hidden;max-height:inherit;margin-top:0;font-size:14px;line-height:20px}
+    .module_story.story_type5 .prdinfo.text_over .stit{max-height:60px}
+    .module_story.story_type5 .prdinfo.text_over.active .stit{max-height:inherit}
+    .module_story.story_type5 .prdinfo .btn_more_story{display:none;width:178px;height:40px;margin:3px auto -8px;background:none}
+    .module_story.story_type5 .prdinfo.text_over .btn_more_story{display:block}
+    .module_story.story_type5 .prdinfo .btn_more_story .txt{font-size:13px;line-height:40px;vertical-align:middle}
+    .module_story.story_type5.bg_black .prdinfo .btn_more_story .txt{color:#fff}
+    .module_story.story_type5 .prdinfo .btn_more_story .ico{width:10px;height:6px;margin-left:7px;background-position:-126px -77px;vertical-align:middle}
+    .module_story.story_type5 .prdinfo.active .btn_more_story .ico{background-position:-126px -85px}
+    .module_story.story_type5.bg_black .prdinfo .btn_more_story .ico{background-position:-115px -77px}
+    .module_story.story_type5.bg_black .prdinfo.active .btn_more_story .ico{background-position:-115px -85px}
+    .module_story.story_type5 .prdinfo .btn_landing{width:258px;height:43px;margin:15px auto 0;font-size:16px;line-height:43px;font-weight:400}
+    .module_story.story_type5 .owl-dots{bottom:-30px}
+
+    .module_story.story_type6 .title{display:block}
+    .module_story.story_type6 .prdinfo{width:568px;min-height:0;margin:0 auto;padding:0 100px}
+    .module_story.story_type6 .sliderwrap{position:relative;top:auto;left:auto;width:auto;height:auto}
+    .module_story.story_type6 .prdinfo .imgwrap{position:relative;width:568px;height:373px}
+    .module_story.story_type6 .prdinfo .title_b{margin:16px 0 2px;padding-top:0}
+    .module_story.story_type6 .prdinfo .title{display:none}
+    .module_story.story_type6 .prdinfo .tit{margin-bottom:9px;font-size:15px;font-weight:bold}
+    .module_story.story_type6 .prdinfo .stit{overflow:hidden;max-height:inherit;margin-top:0;font-size:14px;line-height:20px}
+    .module_story.story_type6 .prdinfo.text_over .stit{max-height:60px}
+    .module_story.story_type6 .prdinfo.text_over.active .stit{max-height:inherit}
+    .module_story.story_type6 .prdinfo .btn_more_story{display:none;width:178px;height:40px;margin:3px auto -8px;background:none}
+    .module_story.story_type6 .prdinfo.text_over .btn_more_story{display:block}
+    .module_story.story_type6 .prdinfo .btn_more_story .txt{font-size:13px;line-height:40px;vertical-align:middle}
+    .module_story.story_type6.bg_black .prdinfo .btn_more_story .txt{color:#fff}
+    .module_story.story_type6 .prdinfo .btn_more_story .ico{width:10px;height:6px;margin-left:7px;background-position:-126px -77px;vertical-align:middle}
+    .module_story.story_type6 .prdinfo.active .btn_more_story .ico{background-position:-126px -85px}
+    .module_story.story_type6.bg_black .prdinfo .btn_more_story .ico{background-position:-115px -77px}
+    .module_story.story_type6.bg_black .prdinfo.active .btn_more_story .ico{background-position:-115px -85px}
+    .module_story.story_type6 .prdinfo .btn_landing{width:258px;height:43px;margin:15px auto 0;font-size:16px;line-height:43px;font-weight:400}
+    .module_story.story_type6 .paginate{bottom:20px}
+
+    .module_bigsale .element{width:auto;padding:47px 100px 48px}
+    .module_bigsale .element.type2{padding-top:47px}
+    .module_bigsale .element.type2 .title{margin-bottom:20px}
+    .module_bigsale .element.type2 .tit{height:auto}
+    .module_bigsale .time{width:100%;margin:26px 0 40px}
+    .module_bigsale .time > span{-webkit-box-sizing:border-box;box-sizing:border-box;line-height:35px}
+    .module_bigsale .time .date{float:none;display:block;width:100%;font-size:17px;color:#1a1a1a}
+    .module_bigsale .time .minute{float:none;display:block;width:100%;margin:9px 0 -9px;padding:0;font-size:18px;text-align:center}
+    .module_bigsale .time .minute .ico{position:static;left:auto;top:auto;width:16px;height:16px;margin-right:4px;background-position:-98px -77px;vertical-align:-2px}
+    .module_bigsale .prd_info .amount{padding:8px 0 13px}
+    .module_bigsale .prd_info .amount span{height:15px;font-size:11px;line-height:15px;color:#878787}
+    .module_bigsale .prd_info .amount span em{margin-left:7px;font-size:18px}
+    .module_bigsale .prd_info .amount .limit{padding-right:41px}
+    .module_bigsale .prd_info .amount .remain{padding-left:44px}
+    .module_bigsale .prd_detail{position:relative;margin-top:0}
+    .module_bigsale .prd_detail .prdimg{float:none;width:100%;height:0;padding-top:52.8169014084507%}
+    .module_bigsale .prd_detail .info{float:none;width:100%;margin:0;padding:0}
+    .module_bigsale .prd_detail .prdname{height:auto;max-height:42px;margin-top:19px;font-size:17px;line-height:21px}
+    .module_bigsale .prd_detail .price{margin-top:7px;letter-spacing:0}
+    .module_bigsale .prd_detail .price .percent{margin-right:1px;font-size:26px;font-weight:normal;color:#d32b2b}
+    .module_bigsale .prd_detail .price .current{font-size:17px;vertical-align:2px}
+    .module_bigsale .prd_detail .price .current em{font-size:26px;vertical-align:-2px}
+    .module_bigsale .prd_detail .price .origin{display:inline;margin-left:1px;font-size:15px;line-height:auto}
+    .module_bigsale .prd_detail .addinfo{margin-top:0}
+    .module_bigsale .prd_detail .addinfo li{height:20px;padding-left:11px;font-size:12px;line-height:20px}
+    .module_bigsale .prd_detail .addinfo li + li{position:relative;border:none}
+    .module_bigsale .prd_detail .addinfo li + li:before{content:'';display:inline-block;position:absolute;top:6px;left:0;width:1px;height:10px;background-color:#f5f5f5}
+    .module_bigsale .prd_detail .btnbx{position:static;bottom:auto;width:320px;margin:16px auto 0}
+    .module_bigsale .prd_detail .btnbx .btn_buy{width:224px;height:45px;font-size:16px;line-height:45px}
+    .module_bigsale .prd_detail .btnbx .btn_wish{width:91px;height:44px;margin-left:5px;border-width:1px;font-size:16px;line-height:44px}
+    .module_bigsale .prd_detail .btnbx .btn_wish .ico{width:16px;height:14px;margin-right:4px;background-position:-103px -55px;vertical-align:-2px}
+    .module_bigsale .prd_detail .btnbx .btn_wish.active .ico{background-position:-121px -55px}
+    .module_bigsale .joinprd .prd_detail .price .current span{font-size:24px}
+    .module_bigsale .joinprd .prd_detail .addinfo{margin-top:3px}
+    .module_bigsale .disabled .prd_detail .price{text-align:center}
+    .module_bigsale .disabled .prd_detail .price .current em{font-size:29px}
+    .module_bigsale .disabled .prd_detail .price .txt{font-size:15px}
+    .module_bigsale .disabled .prd_detail .btnbx button:after{top:-1px;left:-1px;bottom:-1px;right:-1px}
+    .module_bigsale .label_soldout{width:120px;height:121px;margin:-60px 0 0 -60px;background-size:243.9024390243902px auto;background-position:0 -172.6829268292683px}
+    .module_bigsale .label_adult{width:120px;height:121px;margin:-60px 0 0 -60px;background-size:243.9024390243902px auto;background-position:-121.9512195121951px -172.6829268292683px}
+    .module_bigsale .group_daily{height:auto;margin:17px -105px 0 -3px}
+    .module_bigsale .group_daily .caroufredsel_wrapper{margin-left:-23.55% !important}
+    .module_bigsale .group_daily li{width:150px;height:auto;margin:0 3px 0 4px}
+    .module_bigsale .group_daily .date{margin-bottom:5px;font-size:15px;line-height:26px;letter-spacing:0}
+    .module_bigsale .group_daily .prdimg{height:0;padding-bottom:53.33333333333333%}
+    .module_bigsale .group_daily .prdname{margin:7px auto 0;font-size:13px}
+    .module_bigsale .group_daily .soldout_box strong{height:20px;margin-top:-10px;font-size:17px;line-height:20px;font-family:AppleSDGothicNeo}
+    .module_bigsale .group_daily .adult_box .label_adult{width:60px;height:60px;margin:-30px 0 0 -30px;background-size:121.9512195121951px auto;background-position:-60.97560975609755px -86.34146341463415px}
+    .module_bigsale .group_daily .owl-stage-outer{overflow:visible !important}
+    .module_bigsale .sliderwrap li{width:100%}
+    .module_bigsale .btn_prev, .module_bigsale .btn_next{display:none}
+
+    .module_video .element{padding:37px 64px 48px}
+    .module_video .head_tit{padding:0 0 25px;font-size:24px;font-weight:bold}
+    .module_video .head_tit span{padding-bottom:1px;border-width:2px}
+    .module_video .view{width:640px;height:360px;margin:0 auto}
+    .module_video .infotxt{position:relative;width:640px;margin:0 auto;padding-top:17px}
+    .module_video .infotxt .tit{font-size:15px;font-weight:bold;line-height:19px}
+    .module_video .infotxt .story{margin-top:7px;font-size:14px;line-height:20px}
+    .module_video .infotxt .story .txt{width:100%}
+    .module_video .notice_data{display:block;position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.4);text-align:center}
+    .module_video .notice_data_inner{position:absolute;top:50%;left:0;right:0;height:78px;margin-top:-39px}
+    .module_video .notice_data p{margin-bottom:14px;font-size:13px;line-height:17px;color:#fff}
+    .module_video .notice_data .confirm{width:106px;height:30px;background:none;border:1px solid #fff;font-size:14px;line-height:28px;color:#fff;text-align:center}
+
+    .module_prom .sliderwrap2{margin:0 0 0 7px;padding-bottom:46px}
+    .module_prom .sliderwrap2 .head_tit{padding:17px 0 13px 13px;margin:0;font-size:15px;line-height:17px}
+    .module_prom .sliderwrap2 .owl-carousel .item{width:299px;margin:0 7px 0 0}
+    .module_prom .sliderwrap2 .owl-carousel.double .item{width:372px;margin:0 5px}
+    .module_prom .sliderwrap2 .title{bottom:15px;left:17px;right:10px}
+    .module_prom .sliderwrap2 .tit{height:19px;margin-bottom:4px;font-size:16px;line-height:19px}
+    .module_prom .sliderwrap2 .tit span{padding-bottom:0;padding-right:1px;border-width:2px}
+    .module_prom .sliderwrap2 .stit{height:19px;font-size:16px;line-height:19px;border-width:2px}
+    .module_prom .sliderwrap2 .stit span{padding-right:1px;border-width:2px}
+    .module_prom .sliderwrap2 .btn_prev,.module_prom .sliderwrap2 .btn_next,.module_prom .page_num{display:none !important}
+    .module_prom .sliderwrap2 .owl-carousel .item .link_prom{height:0;padding-bottom:48.31%}
+
+    /* 상품 리스트 */
+    .module_item{}
+    .module_item .head_tit{height:21px;padding-bottom:22px;font-size:18px;line-height:19px}
+    .module_item .head_tit span{border-bottom:2px solid #222;line-height:19px}
+    .module_item .products-list{max-width:774px;margin-bottom:-6px}
+    .module_item .elements_item {min-height:150px;margin-bottom:6px}
+    .module_item .elements_item .inner{width:98.45%}
+    .module_item .elements_img{width:150px;height:150px}
+    .module_item .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/300_noimg.gif);background-size:cover}
+    .module_item .elements_item .label_soldout{width:94px;height:94px;margin:-47px 0 0 -47px;background-size:230.3921568627452px auto;background-position:0 -280.1568627450981px}
+    .module_item .elements_item .label_adult{width:94px;height:94px;margin:-47px 0 0 -47px;background-size:230.3921568627452px auto;background-position:-115.1960784313726px -280.1568627450981px}
+    .module_item .elements_info{position:relative;height:125px;padding:10px 10px 0 12px}
+    .module_item .elements_item .title{height:38px;margin:-3px 60px 8px 0;font-size:15px;line-height:19px}
+    .module_item .elements_item .price{margin-bottom:2px;line-height:1}
+    .module_item .elements_item .price .discount{float:none;height:18px;margin-bottom:3px;font-size:18px}
+    .module_item .elements_item .price .selling{font-size:14px;margin:0 5px 0 0;line-height:15px;vertical-align:text-bottom}
+    .module_item .elements_item .price .selling strong{font-size:18px}
+    .module_item .elements_item .price .origin{float:left;font-size:13px;line-height:20px}
+    .module_item .elements_item.joinprd .price .selling span{display:block;margin-bottom:7px;padding-right:4px;font-size:15px}
+    .module_item .elements_item.joinprd .price .selling strong{}
+    .module_item .elements_item .delivery{position:absolute;left:0;right:0;bottom:0;height:18px;padding:5px 0 5px 12px}
+    .module_item .elements_item .delivery span{display:inline-block;height:18px;font-size:12px;line-height:18px}
+    .module_item .elements_item .shop_info{position:static;height:24px;padding:6px 0 6px 6px;border-bottom:1px solid #eee}
+    .module_item .elements_item .shop_info a{margin-right:0;font-size:13px;font-weight:bold;color:#222;line-height:24px}
+    .module_item .elements_item .shop_info .ico_logo{margin-right:6px;vertical-align:top}
+    .module_item .elements_item .shop_info .ico_arr{display:none}
+    .module_item .elements_item .add-info{margin-bottom:6px;font-size:12px;white-space:nowrap}
+    .module_item .elements_item .btn_wish{top:6px;right:20px;width:30px;height:30px;background-size:250px auto;background-position:0 -118px}
+    .module_item .elements_item .btn_wish.active{background-position:-34px -118px}
+    .module_item .button_wrap{margin-top:6px}
+    .module_item .btn_more{padding:14px 0 10px;font-size:13px}
+    .module_item .btn_more .ico_arr_down{display:inline-block;width:10px;height:6px;margin-left:5px;background-size:250px auto;background-position:-126px -77px}
+
+    /* 상품 리스트 : gallery */
+    .filter_view-change_gallery .products-list{width:760px}
+    .filter_view-change_gallery .elements_item{width:25%}
+    .filter_view-change_gallery .elements_item .inner{width:184px;margin:0 auto}
+    .filter_view-change_gallery .products-list:before{position:absolute;top:0;left:0;bottom:0;width:7px}
+    .filter_view-change_gallery .elements_item .label_soldout{width:100px;height:100px;margin:-50px 0 0 -50px;background-size:245.0980392156863px auto;background-position:0 -298.0392156862745px}
+    .filter_view-change_gallery .elements_item .label_adult{width:100px;height:100px;margin:-50px 0 0 -50px;background-size:245.0980392156863px auto;background-position:-122.5490196078431px -298.0392156862745px}
+    .filter_view-change_gallery .elements_img{width:184px;height:184px}
+    .filter_view-change_gallery .elements_item .title{margin:-1px 0px 9px 0;font-size:14px;line-height:18px}
+    .filter_view-change_gallery .elements_item .price{line-height:16px}
+    .filter_view-change_gallery .elements_item .price li{float:left;margin-right:3px}
+    .filter_view-change_gallery .elements_item .price .discount{float:left;margin-top:0;margin-bottom:0;letter-spacing:-0.5px;line-height:18px}
+    .filter_view-change_gallery .elements_item .price .selling{margin:0 -2px 0 0}
+    .filter_view-change_gallery .elements_item.joinprd .price .selling span{display:inline-block}
+    .filter_view-change_gallery .elements_item .price .selling strong{height:18px;margin-bottom:4px;line-height:1;letter-spacing:-0.5px}
+    .filter_view-change_gallery .elements_item .price .origin{letter-spacing:-0.5px}
+    .filter_view-change_gallery .elements_item .delivery{padding-top:4px}
+    .filter_view-change_gallery .elements_item .btn_wish{background-position:0 -150px;top:7px;right:3px}
+    .filter_view-change_gallery .elements_item .btn_wish.active{background-position:-31px -150px}
+
+    /* 상품 리스트 : deal */
+    .filter_view-change_deal .products-list{width:760px;margin-bottom:-8px}
+    .filter_view-change_deal .elements_item{margin-bottom:8px}
+    .filter_view-change_deal .elements_item .inner{width:372px;margin-left:3px}
+    .filter_view-change_deal .elements_item .label_soldout{width:123px;height:124px;margin:-62px 0 0 -62px;background-size:250px auto;background-position:0 -177px}
+    .filter_view-change_deal .elements_item .label_adult{width:123px;height:124px;margin:-62px 0 0 -62px;background-size:250px auto;background-position:-125px -177px}
+    .filter_view-change_deal .elements_img{width:372px;height:193px}
+    .filter_view-change_deal .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/688_noimg.gif);background-size:cover}
+    .filter_view-change_deal .elements_info{height:95px;padding-top:13px}
+    .filter_view-change_deal .elements_item .title{height:19px;margin:0 0px 6px 0;text-overflow:ellipsis}
+    .filter_view-change_deal .elements_item .price .discount{float:left;font-size:22px;line-height:22px}
+    .filter_view-change_deal .elements_item.joinprd .price .selling span{display:inline-block;font-size:19px}
+    .filter_view-change_deal .elements_item .price .selling strong{font-size:22px;line-height:22px;letter-spacing:-0.5px}
+    .filter_view-change_deal .elements_item .price .origin{margin-top:5px;font-size:14px;line-height:16px}
+    .filter_view-change_deal .elements_item .delivery{height:15px;margin:0;padding:10px 0 11px 9px}
+    .filter_view-change_deal .elements_item .delivery span{height:15px;line-height:15px}
+    .filter_view-change_deal .elements_item .add-info{height:15px;line-height:15px;margin-bottom:0;padding:0 0 11px}
+    .filter_view-change_deal .elements_item .add-info span:first-child{font-size:12px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -274px -153px;}
+    .filter_view-change_deal .elements_item .btn_wish{top:8px;right:9px;width:30px;height:30px;background-position:0 -77px}
+    .filter_view-change_deal .elements_item .btn_wish.active{background-position:-31px -77px}
+    .filter_view-change_deal .elements_img > a:hover + .option_wrap{display:none}
+
+    /* 쿠폰 */
+    .ico_cp{background-size:508px auto}
+    /*
+    쿠폰 타입별 노출 쿠폰텍스트
+
+    일반쿠폰 -> 할인쿠폰으로 표기 : .discount_coupon
+    중복쿠폰 -> 중복쿠폰으로 표기 : .duplication_coupon
+    10만원 이상일 경우 -> 쿠폰으로 표기 .high_price_coupon
+    */
+    .module_coupon .title .tit .text{max-width:580px;}
+    /* 가로 쿠폰용 */
+    .module_coupon.coupon_type1 .coupon_information_contents{margin-top:12px;height:37px;overflow:visible;}
+    .module_coupon.coupon_type1 .coupon_information_contents .system{vertical-align:bottom;font-size:32px;margin-top:-2px;}
+    .module_coupon.coupon_type1 .coupon_information_contents .system.percent{padding-right:35px;}
+    .module_coupon.coupon_type1 .coupon_information_contents .system.percent .unit{width:35px;height:31px;background-position:-284px 1px;background-size:530px auto;}
+    .module_coupon.coupon_type1 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;margin-top:0;}
+    .module_coupon.coupon_type1 .item.discount_coupon .coupon_image_text{width:116px;height:30px;background-position: 0 -452px;}
+    .module_coupon.coupon_type1 .item.duplication_coupon .coupon_image_text{width:116px;height:30px;background-position: 0 -488px;}
+    .module_coupon.coupon_type1 .item.high_price_coupon .coupon_image_text{width:58px;height:30px;background-position: 0 -523px;}
+    /* 세로 쿠폰용 */
+    .module_coupon.coupon_type2 .coupon_information_contents{margin-top:13px;}
+    .module_coupon.coupon_type2 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;background-size:568px auto;margin-bottom:1px;}
+    .module_coupon.coupon_type2 .item.discount_coupon .coupon_image_text{width:94px;height:24px;background-position: -371px 0px;}
+    .module_coupon.coupon_type2 .item.duplication_coupon .coupon_image_text{width:94px;height:24px;background-position:-371px -31px;}
+    .module_coupon.coupon_type2 .item.high_price_coupon .coupon_image_text{width:47px;height:24px;background-position:-418px -62px;}
+    .module_coupon.coupon_type2 .item .system{line-height:1;padding-bottom:0;}
+    .module_coupon.coupon_type2 .item .coupon_image_text{padding-bottom:2px;}
+    .module_coupon.coupon_type2 .item .system.percent{padding-right:27px;}
+    .module_coupon.coupon_type2 .item .system.percent .unit{top:2px;width:26px;height:24px;background-position:-362px -58px;background-size:530px auto;}
+
+    /* coupon_type1 - 가로쿠폰 */
+    .module_coupon.coupon_type1{padding:50px 0 38px}
+    .module_coupon.coupon_type1 .title{margin:0 0 28px}
+    .module_coupon.coupon_type1 .tit{font-size:24px;line-height:24px;letter-spacing:-1px;height:24px;}
+    .module_coupon.coupon_type1 .tit .line{height:2px;bottom:-3px;}
+    .msie .module_coupon.coupon_type1 .tit .line{bottom:-6px;}
+    .module_coupon.coupon_type1 .coupon_box .logo{width:38px;height:27px;background: url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0 -41px;background-size:490px auto;}
+    .module_coupon.coupon_type1 .coupon_box .info{display:inline-block;margin:0 auto;height:36px;padding:0 18px;border:1px solid #d4d4d4;font-size:17px;line-height:36px;max-width:100%;text-overflow:ellipsis;white-space:nowrap;box-sizing:border-box;overflow:hidden;}
+    .module_coupon.coupon_type1 .coupon_box .addtxt{font-size:11px;font-family:'NS Korean';margin-top:9px}
+    .module_coupon.coupon_type1 .coupon_box .condition{font-size:17px;margin-top:15px;line-height:19px;height:19px;}
+    .module_coupon.coupon_type1 .coupon_box .noti_box{margin-top:5px;font-size:13px;line-height:14px}
+    .module_coupon.coupon_type1 .owl-stage-outer{width:100%}
+    .module_coupon.coupon_type1 .sliderwrap{width:647px;padding:0}
+    .module_coupon.coupon_type1 .sliderwrap.only{width:300px}
+    .module_coupon.coupon_type1 .sliderwrap.item2{width:650px}
+    .module_coupon.coupon_type1 .sliderwrap .owl-carousel .item{width:300px;margin:0 12px}
+    .module_coupon.coupon_type1 .owl-dots{bottom:2px}
+    .module_coupon.coupon_type1 .sliderwrap.only .item{margin:0 auto 30px;}
+    .module_coupon.coupon_type1 .coupon_box .cp_down{width:40px;height:40px;right:18px;bottom:-6px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -290px -64px;background-size:400px auto;}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply{bottom:-6px;right:57px;height:40px;}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_mobile{width:80px;background-position:-4px -531px;background-size:480px auto}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_smiledelivery{width:90px;background:#5b5b5d url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -147px -70px;}
+    .module_coupon.coupon_type1 .coupon_box .inbox{width:273px;height:134px;margin:11px 0 0 0;padding-left:28px;padding-top:24px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0 -393px}
+    .module_coupon.coupon_type1 .coupon_box .apply{margin-top:0;border-bottom:4px solid #000;padding-bottom:2px;}
+    .module_coupon.coupon_type1 .coupon_box .apply .system{font-size:32px;}
+    .msie .module_coupon.coupon_type1 .coupon_box .apply{padding-bottom:0px;}
+    .msie .module_coupon.coupon_type1 .coupon_box .apply .system{line-height:1.1;}
+    .module_coupon.coupon_type1 .coupon_box .btn_cp{width:270px;height:51px;margin-top:20px}
+    .module_coupon.coupon_type1 .coupon_box .btn_cp span{font-size:17px;line-height:46px}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp{margin:7px auto 0;}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span{font-size:15px}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico_cp{width:16px;height:16px;margin:1px 0 0 5px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -367px -67px;}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico{background-position:-70px -40px;background-size:400px auto}
+    .module_coupon.coupon_type1 .item .inbox + .btn_noti_cp{margin-top:41px;}
+    .module_coupon.coupon_type1 .layer_noti_cp{top:140px;left:50%;width:296px;margin-left:-164px;padding:19px 16px 20px;border:none}
+    .module_coupon.coupon_type1 .layer_noti_cp .btn_close{width:44px;height:44px}
+    .module_coupon.coupon_type1 .layer_noti_cp .btn_close .ico_cp{top:15px;right:15px;width:14px;height:14px;background-position:-57px -390px}
+    .module_coupon.coupon_type1 .layer_noti_cp .layer_tit{margin-bottom:15px}
+    .module_coupon.coupon_type1 .layer_noti_cp .layer_tit span{font-size:14px;font-weight:normal}
+    .module_coupon.coupon_type1 .layer_noti_cp li{margin-bottom:4px;padding-left:65px;font-size:12px;line-height:18px}
+    .module_coupon.coupon_type1 .layer_noti_cp li .info_tit{left:6px}
+    .module_coupon.coupon_type1 .layer_noti_cp li.detail .info_tit{margin-bottom:2px}
+    .module_coupon.coupon_type1 .layer_noti_cp li.detail, .module_coupon.coupon_type1 .layer_noti_cp li.warning{padding-left:6px}
+    .module_coupon.coupon_type1 .layer_noti_cp li span, .module_coupon.coupon_type1 .layer_noti_cp li p{font-size:12px;line-height:18px}
+    .module_coupon.coupon_type1 .layer_noti_cp .layer_tit{margin-bottom:16px}
+    .module_coupon.coupon_type1 .layer_noti_cp .layer_tit span{font-size:14px;font-weight:normal}
+    /* coupon_type2 - 세로쿠폰 */
+    .module_coupon.coupon_type2{overflow:visible;position:static;padding:50px 0}
+    .module_coupon.coupon_type2 .section{overflow:visible;position:static}
+    .module_coupon.coupon_type2 .title{width:100%;margin:0 0 18px;text-align:center;  letter-spacing:-2.7px;}
+    .module_coupon.coupon_type2 .tit{font-size:24px;font-weight:bold;color:inherit;line-height:1;height:24px;}
+    .module_coupon.coupon_type2 .tit .line{position:absolute;height:2px;bottom:-2px;background-color:#000;}
+    .msie .module_coupon.coupon_type2 .tit .line{bottom:-6px;}
+    .module_coupon.coupon_type2 .coupon_container{*zoom:1;position:static;margin:0 auto;}
+    .module_coupon.coupon_type2 .coupon_container:after{clear:both;content:'';display:block;}
+    .module_coupon.coupon_type2.coupon_length2 .coupon_container,
+    .module_coupon.coupon_type2.coupon_length3 .coupon_container,
+    .module_coupon.coupon_type2.coupon_length4 .coupon_container{width:376px;}
+    .module_coupon.coupon_type2 .coupon_container .item{float:left;width:166px;margin:0 0 25px 0;padding-bottom:30px;}
+    .module_coupon.coupon_type2 .coupon_container .item:nth-child(odd){margin-right:44px;}
+    .module_coupon.coupon_type2 .coupon_container .item:nth-child(odd):after{position:absolute;content:'';display:block;width:368px;height:1px;background:#c8c8c8;top:-25px;left:4px;}
+    .module_coupon.coupon_type2 .coupon_container .item:nth-child(odd):first-child:after{display:none;}
+    .module_coupon.coupon_type2 .coupon_container .item .inbox + .btn_noti_cp{margin-top:35px;}
+    .module_coupon.coupon_type2 .coupon_container .item:nth-last-child(1),
+    .module_coupon.coupon_type2 .coupon_container .item:nth-last-child(2){margin-bottom:0;padding-bottom:0;}
+    .module_coupon.coupon_type2 .coupon_box{text-align:center}
+    .module_coupon.coupon_type2 .coupon_box .info{margin-bottom:12px;font-size:17px;font-family:'NS Korean';color:#222;height:25px;overflow:hidden;}
+    .module_coupon.coupon_type2 .coupon_box .inbox{display:block;position:relative;width:147px;height:207px;padding-left:19px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 100% -278px;text-align:left}
+    .module_coupon.coupon_type2 .coupon_box .logo{display:inline-block;width:35px;height:25px;margin-top:29px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0px -268px;font-size:0;line-height:0;background-size:225px auto;}
+    .module_coupon.coupon_type2 .coupon_box .cp_down{position:absolute;bottom:-4px;right:15px;width:45px;height:45px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -865px -83px;font-size:0;line-height:0;background-size:500px auto}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply{position:absolute;bottom:-4px;right:60px;height:45px;font-size:0}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:93px;height:100%;background:#302f33 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0 -574px;font-size:0;line-height:0;background-size:520px auto;}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:93px;height:100%; background:#271f61 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -146px -67px;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .apply{margin-top:-2px;color:#1e1e1e}
+    .module_coupon.coupon_type2 .coupon_box .apply span{height:26px;font-size:25px;}
+    .module_coupon.coupon_type2 .coupon_box .apply .coupon_image_text, .module_coupon.coupon_type2 .coupon_box .apply .system{border-bottom:4px solid #000;}
+    .module_coupon.coupon_type2 .coupon_box .addtxt{margin-top:15px;font-size:10px;font-family:'NS Korean';color:#666}
+    .module_coupon.coupon_type2 .coupon_box .btn_cp{display:block;width:158px;height:44px;margin:19px auto 0;background-color:#222}
+    .module_coupon.coupon_type2 .coupon_box .btn_cp span{display:inline-block;font-size:16px;line-height:44px;letter-spacing:-0.5px;color:#fff;vertical-align:middle}
+    .module_coupon.coupon_type2 .coupon_box .btn_cp span.ico_cp{width:24px;height:24px;margin-left:8px;background:none}
+    .module_coupon.coupon_type2 .btn_noti_cp{display:block;background:none;white-space:nowrap;text-align:center;margin:2px auto 0}
+    .module_coupon.coupon_type2 .btn_noti_cp span{margin-top:2px;display:inline-block;font-size:14px;letter-spacing:-0.5px;color:#222;vertical-align:middle}
+    .module_coupon.coupon_type2 .btn_noti_cp span.ico_cp{margin:7px 0 0 3px;width:14px;height:14px;background:none;font-size:0;line-height:0;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -706px -47px;vertical-align:middle}
+    .module_coupon.coupon_type2 .condition{margin-top:13px;font-family:'NS Korean';font-size:14px;letter-spacing:-0.5px;color:#666;height:20px;overflow:hidden;}
+    .module_coupon.coupon_type2 .layer_noti_cp{top:140px;left:50%;width:296px;margin-left:-164px;padding:19px 16px 20px;border:none}
+    .module_coupon.coupon_type2 .layer_noti_cp .btn_close{width:44px;height:44px}
+    .module_coupon.coupon_type2 .layer_noti_cp .btn_close .ico_cp{top:15px;right:15px;width:14px;height:14px;background-position:-57px -390px}
+    .module_coupon.coupon_type2 .layer_noti_cp .layer_tit{margin-bottom:15px}
+    .module_coupon.coupon_type2 .layer_noti_cp .layer_tit span{font-size:14px;font-weight:normal}
+    .module_coupon.coupon_type2 .layer_noti_cp li{margin-bottom:4px;padding-left:65px;font-size:12px;line-height:18px}
+    .module_coupon.coupon_type2 .layer_noti_cp li .info_tit{left:6px}
+    .module_coupon.coupon_type2 .layer_noti_cp li.detail .info_tit{margin-bottom:2px}
+    .module_coupon.coupon_type2 .layer_noti_cp li.detail, .module_coupon.coupon_type2 .layer_noti_cp li.warning{padding-left:6px}
+    .module_coupon.coupon_type2 .layer_noti_cp li span, .module_coupon.coupon_type2 .layer_noti_cp li p{font-size:12px;line-height:18px}
+    .module_coupon.coupon_type2 .layer_noti_cp .layer_tit{margin-bottom:16px}
+    .module_coupon.coupon_type2 .layer_noti_cp .layer_tit span{font-size:14px;font-weight:normal}
+
+    .layer_restriction{width:280px;height:168px;margin:-84px 0 0 -140px;border:none}
+    .layer_restriction .txt_restriction{padding:40px 0 24px;font-size:14px;line-height:20px;letter-spacing:-1px}
+    .layer_restriction .btn_close{width:140px;height:40px;border-radius:20px;font-size:13px;line-height:38px}
+
+    /* 종료된 기획전 알림 */
+    .promotion_close .close_wrap{width:100%;height:auto;margin:0;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%)}
+    .promotion_close .promotion_title{margin-top:60px}
+    .promotion_close .promotion_title span{border-color:rgba(255,255,255,0.8);font-size:17px;line-height:21px;letter-spacing:-0.5px}
+    .promotion_close .promotion_date{margin-top:14px;font-size:15px;line-height:20px}
+    .promotion_close .sorry_txt{margin-top:16px;font-size:24px;line-height:32px;letter-spacing:-0.5px;white-space:nowrap}
+    .promotion_close .link_home{width:196px;height:38px;margin-top:32px;border-color:rgba(255,255,255,0.5)}
+    .promotion_close .link_home .txt{font-size:16px;line-height:38px;letter-spacing:-0.5px}
+    .promotion_close .link_home .ico{margin-top:15px;margin-left:9px;background-position:-92px -67px}
+
+    /* 레이어 - 쿠폰발급 성공 */
+    .layer_type_1{width:300px;height:170px;margin:-85px 0 0 -150px;text-align:center}
+    .layer_type_1 .info_msg{height:65px;text-align:center;overflow:hidden;padding:30px 10px 16px;}
+    .layer_type_1 .info_msg .desc{font-size:16px;line-height:21px;letter-spacing:-1px;}
+    .layer_type_1 .btn_ok{width:130px;height:34px;line-height:34px;font-size:16px;letter-spacing: -0.5px;}
+    .layer_type_1 .btn_close{right:15px; top:15px;width:17px;height:17px;background:#47321f url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -67px -41px}
+    /* 레이어 - 쿠폰에 대한 안내 */
+    .layer_type_2{width:320px;}
+    .layer_type_2 .btn_close{right:15px; top:15px;width:17px;height:17px;background:#47321f url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -67px -41px}
+}
+
+/** Mobile **/
+@media screen and (min-width: 1px) {
+    .module_wrap{min-width:320px}
+    .module .section{width:100%; padding-bottom: 5% !important}
+    .module .top_banner.mimg_left img.spot{left:0;top:0;margin-left:-2%}
+    .module .top_banner.mimg_right img.spot{left:auto;right:0;top:0;margin-right:-2%}
+    @media screen and (max-width: 359px) {
+        .module .top_banner.align_left .title{padding-left:15px}
+        .module .top_banner.align_left.mimg .title{padding-left:15px}
+    }
+    @media screen and (max-width: 639px) {
+        .module .top_banner.prd .sliderwrap{margin-top:33px;width:100%;padding:0}
+        .module .top_banner.prd .sliderwrap li{margin:0 25px}
+        .module .top_banner.prd .sliderwrap .caroufredsel_wrapper{margin-left:-46% !important}
+        .module .top_banner.prd .prdinfo .info{margin-top:22px}
+    }
+    @media screen and (min-width: 640px) {
+        .module .top_banner.prd .sliderwrap li{width:29%;margin:0;padding:0 2%}
+    }
+    .module .element .title{margin-bottom:20px}
+    .module .element .tit{font-size:21px;line-height:23px}
+    .module .element .tit span{padding:0 2px 2px 1px;border-width:2px}
+    .module .element .stit{margin:4px 0 8px;font-size:14px}
+    .module_banner .top_banner{width:100%;height:400px}
+    .module_banner .top_banner img{left:50%;width:1200px;margin-left:-600px}
+    .module_banner .top_banner.blur .blurbx .blurr-bg{height:420px !important}
+    .module_banner .top_banner.blur.mimg_left .blurbx .blurr-bg{background-position:2% center !important}
+    .module_banner .top_banner.blur.mimg_right .blurbx .blurr-bg{background-position:98% center !important}
+    .module_banner.autoimg .top_banner{height:200px}
+    .module_banner.autoimg .top_banner .blurbx{height:220px !important}
+    .module_banner .top_banner.mimg{width:100%;max-width:600px}
+    .module_banner .top_banner.mimg img{left:50%;width:600px;height:400px;margin-left:-300px}
+    .module_banner .top_banner.mimg.blur .blurbx{width:600px}
+    .module_banner .top_banner.mimg.blur .blurbx .blurr-bg{left:50% !important;width:620px !important;margin-left:0 !important;height:420px !important}
+
+    .module_story.story_type1, .module_story.story_type2, .module_story.story_type4, .module_story.story_type5, .module_story.story_type6{padding:38px 0 50px}
+    .module_story .title{margin-bottom:28px}
+    .module_story .tit{height:25px;font-size:21px;line-height:25px}
+    .module_story .tit span{line-height:23px;vertical-align:top}
+    .module_story .stit{margin-top:9px;font-size:15px;color:#666;line-height:18px}
+    .module_story.story_type1 .sliderwrap, .module_story.story_type5 .sliderwrap{padding:0 20px}
+    .module_story.story_type1 .owl-dots{bottom:-23px}
+    .module_story.story_type1 .sliderwrap .imgwrap{width:100%;padding-bottom:118.75%}
+    .module_story.story_type2 .element{margin-top:0}
+    .module_story.story_type2 .imgwrap{width:100%;padding-bottom:34.6875%;margin-bottom:1px}
+    .module_story.story_type2 .imgwrap img:nth-child(even), .module_story.story_type2 .imgwrap img:nth-child(odd){margin:0}
+    .module_story.story_type3 .sliderwrap .imgwrap{height:300px}
+    .module_story.story_type3 .top_banner .title{top:111px}
+    .module_story.story_type3 .top_banner .name{top:-41px}
+    .module_story.story_type3 .top_banner .name span{padding:0}
+    .module_story.story_type3 .top_banner .title.line2 .name{margin-bottom:16px;font-size:16px;line-height:22px}
+    .module_story.story_type3 .top_banner .title .tit, .module_story.story_type3 .top_banner .title.line2 .tit{margin-bottom:0;font-size:24px;line-height:29px}
+    .module_story.story_type3 .top_banner .title.line2 .tit + .tit{margin-top:0}
+    .module_story.story_type3 .top_banner .btn_landing{top:84px;background:rgba(0, 0, 0, 0.3);border:1px solid rgba(255, 255, 255, 0.5)}
+    .module_story.story_type3 .owl-dots{bottom:28px}
+    .module_story.story_type4{padding-bottom:0}
+    .module_story.story_type4 .top_banner .tit{height:28px}
+    .module_story.story_type4 .top_banner .tit span{height:auto;padding-bottom:2px;line-height:24px}
+    .module_story.story_type4 .owl-dots{bottom:26px}
+    .module_story.story_type4 .sliderwrap{padding:0}
+    .module_story.story_type4 .sliderwrap .imgwrap{padding-bottom:133.3333333333333%}
+    .module_story.story_type4 .top_banner .title{left:20px;right:20px;bottom:21px}
+    .module_story.story_type4 .top_banner .tit{font-size:20px;line-height:24px}
+    .module_story.story_type4 .top_banner .stit{margin-top:10px;font-size:15px;line-height:20px}
+    .module_story.story_type4 .top_banner.prdinfo .stit{height:20px !important}
+    .module_story.story_type4 .top_banner .btn_landing{margin-top:9px}
+    .module_story.story_type5 .sliderwrap .imgwrap{width:100%;height:0;padding-bottom:65.625%}
+    .module_story.story_type5 .prdinfo{width:100%}
+    .module_story.story_type5 .prdinfo .title_b{padding-top:0}
+    .module_story.story_type5 .prdinfo .btn_landing{margin-top:17px}
+    .module_story.story_type6 .owl-dots{bottom:21px}
+    .module_story.story_type6 .prdinfo{width:auto;padding:0 20px}
+    .module_story.story_type6 .sliderwrap .imgwrap{width:100%;height:0;padding-bottom:65.625%}
+    .module_story.story_type6 .prdinfo .title_b{margin-top:15px}
+    .module_story.story_type6 .prdinfo .btn_landing{margin-top:17px}
+
+    .module_bigsale .element{width:auto;padding:35px 20px 50px}
+    .module_bigsale .element.type2{padding-top:35px}
+    .module_bigsale .element.type2 .title{margin-bottom:20px}
+    .module_bigsale .element.type2 .tit{height:auto}
+    .module_bigsale .time{margin:20px 0 20px}
+    .module_bigsale .time > span{letter-spacing:-0.25px}
+    .module_bigsale .time .date{font-size:15px}
+    .module_bigsale .time .minute{margin-top:10px;font-size:16px}
+    .module_bigsale .time .minute em{font-size:17px}
+    .module_bigsale .prd_info .amount .limit{padding-right:31px}
+    .module_bigsale .prd_info .amount .remain{padding-left:34px}
+    .module_bigsale .group_daily{margin:17px -25px 0 -3px}
+    .module_bigsale .group_daily .caroufredsel_wrapper{margin-left:-45.58% !important}
+    .module_bigsale .prd_detail .prdname{height:20px;margin-top:16px;font-size:16px;line-height:1.31}
+    .module_bigsale .prd_detail .addinfo{margin-top:1px}
+    .module_bigsale .prd_detail .addinfo li{padding:0 8px 0 8px}
+    .module_bigsale .prd_detail .btnbx{width:100%;max-width:320px;margin: 16px auto 0;}
+    .module_bigsale .prd_detail .btnbx .btn_buy{width:70%;max-width:224px}
+    .module_bigsale .prd_detail .btnbx .btn_wish{width:28.44%;max-width:91px;margin-left:1.56%}
+
+    .module_video .element{padding:39px 20px 48px}
+    .module_video .element .title{margin-bottom:31px}
+    .module_video .element .tit{line-height:23px}
+    .module_video .element .tit span{padding:0 2px 0 1px;vertical-align:top}
+    .module_video .movie_wrap{margin-top:0}
+    .module_video .view{position:relative;width:100%;height:0;padding-bottom:56.25%}
+    .module_video .view iframe{position:absolute;top:0;left:0}
+    .module_video .infotxt{width:100%;padding:20px 0 0;text-align:left}
+    .module_video .infotxt .tit{font-size:15px;font-weight:bold;line-height:19px}
+
+    /* 상품 리스트 */
+    .module_item .products-list{width:100%}
+    .module_item .elements_img .noimg{height:0;padding-bottom:100%}
+    .module_item .elements_item{float:none;width:100%}
+    .module_item .elements_item .inner{width:100%}
+    .module_item .elements_item .title{margin-right:0px;}
+    .module_item .elements_item .price .discount{line-height:18px}
+    .module_item .elements_item .btn_wish{right:10px}
+
+    /* 상품 리스트 : gallery */
+    .filter_view-change_gallery .products-list{width:98%}
+    .filter_view-change_gallery .elements_img{width:100%;height:0;padding-bottom:100%}
+    .filter_view-change_gallery .elements_img a{position:absolute;top:0;left:0}
+    .filter_view-change_gallery .elements_item{float:left;width:50%;min-height:188px}
+    .filter_view-change_gallery .elements_item .inner{width:96%;border: 1px solid #f5f5f5;}
+    .filter_view-change_gallery .elements_item .title{margin-right:0px}
+    .filter_view-change_gallery .elements_item .price{margin-right:-10px}
+    .filter_view-change_gallery .elements_item .delivery{position:absolute}
+    .filter_view-change_gallery .elements_item .btn_wish{right:1px}    
+
+    /* 상품 리스트 : deal */
+    .filter_view-change_deal .elements_item .inner{width:96%;margin:0 auto}
+    .filter_view-change_deal .elements_img{width:100%;height:0;padding-bottom:52.61627906976744%}
+    .filter_view-change_deal .elements_img a{height:0;padding-bottom:52.61627906976744%}
+    .filter_view-change_deal .elements_img a img{position:absolute;top:0;left:0}
+    .filter_view-change_deal .elements_img .noimg{width:100%;height:0;padding-bottom:52.61627906976744%}
+    .filter_view-change_deal .elements_item .price .discount{float:left;height:26px;font-size:22px;line-height:23px}
+
+    /* 쿠폰 */
+    .ico_cp{background-size:450px auto}
+    /*
+    쿠폰 타입별 노출 쿠폰텍스트
+
+    일반쿠폰 -> 할인쿠폰으로 표기 : .discount_coupon
+    중복쿠폰 -> 중복쿠폰으로 표기 : .duplication_coupon
+    10만원 이상일 경우 -> 쿠폰으로 표기 .high_price_coupon
+    */
+    .module_coupon .title .tit .text{max-width:280px;}
+    /* 가로 쿠폰용 */
+    .module_coupon.coupon_type1 .coupon_information_contents{margin-top:9px;height:35px;}
+    .module_coupon.coupon_type1 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;}
+    .module_coupon.coupon_type1 .item.discount_coupon .coupon_image_text{width:104px;height:26px;background-position: 0px -400px;}
+    .module_coupon.coupon_type1 .item.duplication_coupon .coupon_image_text{width:104px;height:26px;background-position: 0 -432px;}
+    .module_coupon.coupon_type1 .item.high_price_coupon .coupon_image_text{width:52px;height:26px;background-position: 0 -463px;}
+    /* 세로 쿠폰용 */
+    .module_coupon.coupon_type2 .coupon_information_contents{margin-top:9px;}
+    .module_coupon.coupon_type2 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;background-size:450px auto;}
+    .module_coupon.coupon_type2 .item.discount_coupon .coupon_image_text{width:74px;height:19px;background-position: -294px 0px;}
+    .module_coupon.coupon_type2 .item.duplication_coupon .coupon_image_text{width:74px;height:19px;background-position:-294px -25px;}
+    .module_coupon.coupon_type2 .item.high_price_coupon .coupon_image_text{width:38px;height:19px;background-position:-331px -49px;}
+    .module_coupon.coupon_type2 .item .system{line-height:1;padding-bottom:0;}
+    .module_coupon.coupon_type2 .item .coupon_image_text{padding-bottom:2px;}
+    .module_coupon.coupon_type2 .item .system.percent{padding-right:23px;margin-left:-1px;}
+    .module_coupon.coupon_type2 .item .system.percent .unit{top:1px;width:22px;height:20px;background-position:-307px -49px;background-size:450px auto;}
+
+    /* coupon_type1 - 가로쿠폰 */
+    .module_coupon.coupon_type1 .sliderwrap{width:100%}
+    .module_coupon.coupon_type1 .sliderwrap.item2{width:100%}
+    /* coupon_type1 - 가로쿠폰 */
+    .module_coupon.coupon_type1{padding:38px 0 20px;}
+    .module_coupon.coupon_type1 .title{margin:0 0 22px}
+    .module_coupon.coupon_type1 .tit{font-size:21px;line-height:24px;letter-spacing:-1px;height:24px;}
+    .module_coupon.coupon_type1 .tit .line{height:2px;bottom:-1px;}
+    .module_coupon.coupon_type1 .coupon_box .logo{width:34px;height:25px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0px -268px;background-size:225px auto;}
+    .module_coupon.coupon_type1 .coupon_box .info{display:inline-block;margin:0 auto;height:33px;padding:0 18px;border:1px solid #d4d4d4;font-size:15px;line-height:33px;max-width:100%;text-overflow:ellipsis;white-space:nowrap;box-sizing:border-box;overflow:hidden;}
+    .module_coupon.coupon_type1 .coupon_box .addtxt{font-size:11px;font-family:'NS Korean';margin-top:4px}
+    .module_coupon.coupon_type1 .coupon_box .condition{font-size:15px;margin-top:10px;line-height:19px;letter-spacing:-0.5px;}
+    .module_coupon.coupon_type1 .coupon_box .noti_box{margin-top:5px;font-size:13px;line-height:14px}
+    .module_coupon.coupon_type1 .owl-stage-outer{width:100%}
+    .module_coupon.coupon_type1 .sliderwrap .owl-carousel .item{width:272px;margin:0 12px}
+    .module_coupon.coupon_type1 .owl-dots{bottom:2px}
+    .module_coupon.coupon_type1 .sliderwrap.only .item{margin:0 auto 30px;}
+    .module_coupon.coupon_type1 .coupon_box .cp_down{width:37px;height:37px;right:18px;bottom:-2px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -291px -65px;background-size:400px auto;}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply{bottom:-2px;right:54px;height:37px;}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_mobile{width:76px;background-position:-4px -521px;background-size:470px auto}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_smiledelivery{width:79px;background:#5b5b5d url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -239px -67px}
+    .module_coupon.coupon_type1 .coupon_box .inbox{width:251px;height:123px;margin:7px 0 0 0;padding-top:26px;padding-left:24px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0 -564px}
+    .module_coupon.coupon_type1 .coupon_box .apply{margin-top:0;border-bottom:4px solid #000;padding-bottom:3px;height:34px;box-sizing:border-box;}
+    .module_coupon.coupon_type1 .coupon_box .apply .system{font-size:28px;margin-left:-2px;margin-top:0;}
+    .module_coupon.coupon_type1 .coupon_information_contents .system.percent{padding-right:30px;margin-top:0;}
+    .module_coupon.coupon_type1 .coupon_information_contents .system.percent .unit{width:30px;height:28px;background-position:-239px 1px;background-size: 445px auto;}
+    .module_coupon.coupon_type1 .coupon_box .btn_cp{width:244px;height:46px;margin-top:18px}
+    .module_coupon.coupon_type1 .coupon_box .btn_cp span{font-size:17px;line-height:46px}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp{margin:4px auto 0;}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico_cp{width:16px;height:16px;margin:1px 0 0 5px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -367px -67px;}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span{font-size:13px}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico{background-position:-70px -40px;background-size:400px auto}
+    .module_coupon.coupon_type1 .item .inbox + .btn_noti_cp{margin-top:33px;}
+    .module_coupon.coupon_type1 .layer_noti_cp{top:140px;left:50%;width:296px;margin-left:-164px;padding:19px 16px 20px;border:none}
+    .module_coupon.coupon_type1 .layer_noti_cp .btn_close{width:44px;height:44px}
+    .module_coupon.coupon_type1 .layer_noti_cp .btn_close .ico_cp{top:15px;right:15px;width:14px;height:14px;background-position:-57px -390px}
+    .module_coupon.coupon_type1 .layer_noti_cp .layer_tit{margin-bottom:15px}
+    .module_coupon.coupon_type1 .layer_noti_cp .layer_tit span{font-size:14px;font-weight:normal}
+    .module_coupon.coupon_type1 .layer_noti_cp li{margin-bottom:4px;padding-left:65px;font-size:12px;line-height:18px}
+    .module_coupon.coupon_type1 .layer_noti_cp li .info_tit{left:6px}
+    .module_coupon.coupon_type1 .layer_noti_cp li.detail .info_tit{margin-bottom:2px}
+    .module_coupon.coupon_type1 .layer_noti_cp li.detail, .module_coupon.coupon_type1 .layer_noti_cp li.warning{padding-left:6px}
+    .module_coupon.coupon_type1 .layer_noti_cp li span, .module_coupon.coupon_type1 .layer_noti_cp li p{font-size:12px;line-height:18px}
+    .module_coupon.coupon_type1 .layer_noti_cp .layer_tit{margin-bottom:16px}
+    .module_coupon.coupon_type1 .layer_noti_cp .layer_tit span{font-size:14px;font-weight:normal}
+
+    /* coupon_type2 - 세로쿠폰 */
+    .module_coupon.coupon_type2{overflow:visible;position:static;padding:40px 0 50px}
+    .module_coupon.coupon_type2 .section{overflow:visible;position:static}
+    .module_coupon.coupon_type2 .title{width:100%;margin:0 0 26px;text-align:center}
+    .module_coupon.coupon_type2 .tit{font-size:20px;font-weight:bold;color:inherit;line-height:1;letter-spacing:-1px;height:20px;}
+    .module_coupon.coupon_type2 .tit .line{position:absolute;height:2px;bottom:-2px;background-color:#000;}
+    .module_coupon.coupon_type2 .coupon_container{*zoom:1;position:static;margin:0 auto;display:block;}
+    .module_coupon.coupon_type2 .coupon_container:after{clear:both;content:'';display:block;}
+    .module_coupon.coupon_type2.coupon_length2 .coupon_container,
+    .module_coupon.coupon_type2.coupon_length3 .coupon_container,
+    .module_coupon.coupon_type2.coupon_length4 .coupon_container{width:300px;}
+    .module_coupon.coupon_type2 .coupon_container .item{float:left;width:137px;margin:0 0 23px 0;padding-bottom:30px;}
+    .module_coupon.coupon_type2 .coupon_container .item:nth-child(odd){margin-right:26px;}
+    .module_coupon.coupon_type2 .coupon_container .item:nth-child(odd):after{width:294px;top:-27px;}
+    .module_coupon.coupon_type2 .coupon_container .item .inbox + .btn_noti_cp{margin-top:29px;}
+    .module_coupon.coupon_type2 .coupon_container .item:nth-last-child(1),
+    .module_coupon.coupon_type2 .coupon_container .item:nth-last-child(2){margin-bottom:0;padding-bottom:0;}
+    .module_coupon.coupon_type2 .coupon_box{text-align:center}
+    .module_coupon.coupon_type2 .coupon_box .info{margin-bottom:10px;font-size:13px;font-family:'NS Korean';color:#222;line-height:14px;height:14px;}
+    .module_coupon.coupon_type2 .coupon_box .inbox{display:block;position:relative;width:120px;height:170px;padding-left:17px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) right -105px;text-align:left}
+    .module_coupon.coupon_type2 .coupon_box .logo{display:inline-block;width:29px;height:21px;margin-top:24px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0px -582px;font-size:0;line-height:0;background-size:190px auto;}
+    .module_coupon.coupon_type2 .coupon_box .cp_down{position:absolute;bottom:-3px;right:14px;width:36px;height:36px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -292px -66px;background-size:400px auto;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply{position:absolute;bottom:-3px;right:49px;height:36px;font-size:0}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:76px;height:100%;background:#302f33 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -4px -504px;font-size:0;line-height:0;background-size:455px auto;}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:76px;height:100%; background:#271f61 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png)  -239px -69px;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .apply{margin-top:9px;color:#1e1e1e}
+    .module_coupon.coupon_type2 .coupon_box .apply span{height:23px;font-size:22px;}
+    .module_coupon.coupon_type2 .coupon_box .apply .system{margin-top:1px;}
+    .module_coupon.coupon_type2 .coupon_box .apply .coupon_image_text, .module_coupon.coupon_type2 .coupon_box .apply .system{border-bottom:3px solid #000;}
+    .module_coupon.coupon_type2 .coupon_box .addtxt{margin-top:9px;font-size:9px;letter-spacing:-1.5px;font-family:'NS Korean';color:#666}
+    .module_coupon.coupon_type2 .coupon_box .btn_cp{display:block;width:130px;height:36px;margin:14px auto 0;background-color:#222}
+    .module_coupon.coupon_type2 .coupon_box .btn_cp span{display:inline-block;font-size:14px;line-height:36px;letter-spacing:-0.5px;color:#fff;vertical-align:middle}
+    .module_coupon.coupon_type2 .coupon_box .btn_cp span.ico_cp{width:24px;height:24px;margin-left:8px;background:none}
+    .module_coupon.coupon_type2 .btn_noti_cp{display:block;background:none;white-space:nowrap;text-align:center;margin:2px auto 0}
+    .module_coupon.coupon_type2 .btn_noti_cp span{display:inline-block;font-size:12px;letter-spacing:-0.5px;color:#222;vertical-align:middle;margin-top:2px;}
+    .module_coupon.coupon_type2 .btn_noti_cp span.ico_cp{margin:5px 0 0 3px;width:14px;height:14px;background:none;font-size:0;line-height:0;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -706px -47px;vertical-align:middle}
+    .module_coupon.coupon_type2 .condition{margin-top:9px;font-family:'NS Korean';font-size:12px;letter-spacing:-0.5px;color:#666;height:18px;overflow:hidden;}
+    .module_coupon.coupon_type2 .layer_noti_cp{top:140px;left:50%;width:296px;margin-left:-164px;padding:19px 16px 20px;border:none}
+    .module_coupon.coupon_type2 .layer_noti_cp .btn_close{width:44px;height:44px}
+    .module_coupon.coupon_type2 .layer_noti_cp .btn_close .ico_cp{top:15px;right:15px;width:14px;height:14px;background-position:-57px -390px}
+    .module_coupon.coupon_type2 .layer_noti_cp .layer_tit{margin-bottom:15px}
+    .module_coupon.coupon_type2 .layer_noti_cp .layer_tit span{font-size:14px;font-weight:normal}
+    .module_coupon.coupon_type2 .layer_noti_cp li{margin-bottom:4px;padding-left:65px;font-size:12px;line-height:18px}
+    .module_coupon.coupon_type2 .layer_noti_cp li .info_tit{left:6px}
+    .module_coupon.coupon_type2 .layer_noti_cp li.detail .info_tit{margin-bottom:2px}
+    .module_coupon.coupon_type2 .layer_noti_cp li.detail, .module_coupon.coupon_type2 .layer_noti_cp li.warning{padding-left:6px}
+    .module_coupon.coupon_type2 .layer_noti_cp li span, .module_coupon.coupon_type2 .layer_noti_cp li p{font-size:12px;line-height:18px}
+    .module_coupon.coupon_type2 .layer_noti_cp .layer_tit{margin-bottom:16px}
+    .module_coupon.coupon_type2 .layer_noti_cp .layer_tit span{font-size:14px;font-weight:normal}
+
+    /* 레이어 - 쿠폰발급 성공 */
+    .layer_type_1{width:300px;height:170px;margin:-85px 0 0 -150px;text-align:center}
+    .layer_type_1 .info_msg{height:65px;text-align:center;overflow:hidden;padding:30px 10px 16px;}
+    .layer_type_1 .info_msg .desc{font-size:16px;line-height:21px;letter-spacing:-1px;}
+    .layer_type_1 .btn_ok{width:130px;height:34px;line-height:34px;font-size:16px;letter-spacing: -0.5px;}
+    .layer_type_1 .btn_close{right:15px; top:15px;width:17px;height:17px;background:#47321f url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -67px -41px}
+    /* 레이어 - 쿠폰에 대한 안내 */
+    .layer_type_2{width:300px;margin-left:-150px;}
+    .layer_type_2 .btn_close{right:15px; top:15px;width:17px;height:17px;background:#47321f url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -67px -41px}
+}
+
+/** Mobile landscape **/
+@media screen and (max-width: 767px) and (orientation: landscape) {
+
+}
+
+
+.finish{position: absolute; top:0; width: 100%; z-index: 10;}
+.finish img{vertical-align: top; line-height: 0; width:100%}
+
+.soldout{position: absolute; top:0; width: 100%; z-index: 10;}
+.soldout img{vertical-align: top; line-height: 0; width:100%}
+
+
