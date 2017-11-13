@@ -12,7 +12,7 @@
 
 - [px to em](http://pxtoem.com/)
 
-- [반응형상품 2단,4단 to 고정사이즈로 변환](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/goods_before) ![screen](goods/img/n_icon.gif)
+- [하단상품 올킬형 고정사이즈로 변환](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/goods_before) ![screen](goods/img/n_icon.gif)
 
 
 
