@@ -38,7 +38,7 @@ div, p, strong, a, ul, li, button,em, img, label, input{margin:0;padding:0}
 
 
 
-.module_wrap{position:relative;min-width:980px;font-family:font-family:"¸¼Àº °íµñ", Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD »êµ¹°íµñ Neo', Apple-Gothic, '¾ÖÇÃ°íµñ', 'Tahoma', 'dotum', 'µ¸¿ò', 'gulim', '±¼¸²', sans-serif; !important;font-size:initial;line-height:initial;letter-spacing:-1px}
+.module_wrap{position:relative;min-width:980px;font-family:"¸¼Àº °íµñ", Roboto, Droid Sans, Helvetica, AppleSDGothicNeo, 'Apple SD »êµ¹°íµñ Neo', Apple-Gothic, '¾ÖÇÃ°íµñ', 'Tahoma', 'dotum', 'µ¸¿ò', 'gulim', '±¼¸²', sans-serif; !important;font-size:initial;line-height:initial;letter-spacing:-1px}
 .module_wrap img{max-width:none;border:0;vertical-align:top}
 .module_wrap .caroufredsel_wrapper{cursor:auto !important}
 .module_wrap .owl-carousel{display:block}
