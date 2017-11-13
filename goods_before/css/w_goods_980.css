@@ -112,7 +112,7 @@ div, p, strong, a, ul, li, button,em, img, label, input{margin:0;padding:0}
 .filter_view-change_gallery .elements_item .label_adult{width:176px;height:178px;margin:-89px 0 0 -88px;background-position:-250px -818px}
 .filter_view-change_gallery .elements_img{float:none;width:222px;height:222px}
 .filter_view-change_gallery .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/290_noimg.gif)}
-.filter_view-change_gallery .elements_info{position:relative;height:186px;padding:14px 20px 0 12px}
+.filter_view-change_gallery .elements_info{position:relative;height:150px;padding:14px 20px 0 12px}
 .ie_low .filter_view-change_gallery .elements_info{height:187px}
 .filter_view-change_gallery .elements_item .title{margin-right:0px;margin-bottom:11px;line-height:24px}
 .ie_low .filter_view-change_gallery .elements_item .title{height:48px;margin-bottom:11px}
@@ -135,8 +135,8 @@ div, p, strong, a, ul, li, button,em, img, label, input{margin:0;padding:0}
 
 
 /* 상품 리스트 : deal */
-.filter_view-change_deal .products-list{width:1008px;}
-.filter_view-change_deal .elements_item{margin-bottom:14px; margin-left:14px;}
+.filter_view-change_deal .products-list{width:1008px; margin-left:-14px !important}
+.filter_view-change_deal .elements_item{/*margin-bottom:14px; margin-left:14px;*/ margin:14px !important}
 .filter_view-change_deal .elements_item .inner{width:474px;/*box-shadow:0 1px 3px rgba(0,0,0,0.08)*/ border:1px solid #f5f5f5}
 .filter_view-change_deal .elements_item .label_soldout{width:204px;height:206px;margin:-103px 0 0 -102px;background-position:0 -608px}
 .filter_view-change_deal .elements_item .label_adult{width:204px;height:206px;margin:-103px 0 0 -102px;background-position:-250px -608px}
@@ -169,4 +169,9 @@ div, p, strong, a, ul, li, button,em, img, label, input{margin:0;padding:0}
 .filter_view-change_deal .elements_img .option_wrap a span{position:relative;z-index:5}
 .filter_view-change_deal .elements_img .option_wrap a span.bg{position:absolute;top:0;left:0;z-index:1;width:100%;height:36px;background:#222;opacity:.7;filter:alpha(opacity:'70')}
 
-.finish, .soldout{position: absolute; top:0; width:100%; z-index: 10}
+
+.finish{position: absolute; top:0; width: 100%; z-index: 10;}
+.finish img{vertical-align: top; line-height: 0; width:100%}
+
+.soldout{position: absolute; top:0; width: 100%; z-index: 10;}
+.soldout img{vertical-align: top; line-height: 0; width:100%}
