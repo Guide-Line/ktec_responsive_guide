@@ -70,7 +70,7 @@
 <br>
 
 <a name="goods_type2_640"></a>
-- 웹-올킬형2단 ( [goods_type2_640(mobile).zip](https://app.box.com/s/l437l39h4kgvw84h2ipguyjnhb88jbrh), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type2_640(mobile).html))
+- 모-올킬형2단 ( [goods_type2_640(mobile).zip](https://app.box.com/s/l437l39h4kgvw84h2ipguyjnhb88jbrh), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type2_640(mobile).html))
 
 | 320px ~ 640px(responsive)  |
 | :---: |
