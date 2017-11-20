@@ -21,6 +21,8 @@
 <a name="top"></a>
 ### Table of Contents
 
+
+
   1. [HTML 폼](#html_form) : ( [웹](#web) , [모바일](#mobile)  )
   
   1. [TODAY'S PICK 상품](#todaypick)
@@ -28,6 +30,8 @@
   1. [반응형 상품 2단](#goods_type1)
   
   1. [반응형 상품 4단](#goods_type2)
+  
+  1. [반응형 상품 2단 WIDE](#goods_type3) ![screen](goods/img/n_icon.gif)
   
   1. [쿠폰 type1](#coupon_type1)
   
@@ -88,6 +92,18 @@
 | 320px | 768px | 1200px |
 | :---: | :---: | :---: |
 | ![screen](goods/img/goods_type2_320.jpg) | ![screen](goods/img/goods_type2_768.jpg) | ![screen](goods/img/goods_type2_1200.jpg) |
+
+<a href="#top">▲ back to top</a>
+
+<br>
+<br>
+
+<a name="goods_type3"></a>
+- 반응형 상품 2단 WIDE( [goods_type3.zip](https://app.box.com/s/2v5n9pmtau14b4bx1k0f8dpfjljdhtht), [미리보기](http://eventimg.auction.co.kr/md/auction/09D730FD87/goods_type3.html))
+
+| 320px | 768px | 1200px |
+| :---: | :---: | :---: |
+| ![screen](goods/img/goods_type3_320.jpg) | ![screen](goods/img/goods_type3_768.jpg) | ![screen](goods/img/goods_type3_1200.jpg) |
 
 <a href="#top">▲ back to top</a>
 
