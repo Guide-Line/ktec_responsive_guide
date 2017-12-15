@@ -18,7 +18,7 @@
 
 - [svg Animation](https://github.com/Guide-Line/ktec_svg_animte) ![screen](goods/img/n_icon.gif)
 
-- [swiper helper](http://ktecguide.herokuapp.com/public/swiper.html)
+- [swipe helper](http://ktecguide.herokuapp.com/public/swiper.html)
 
 
 
