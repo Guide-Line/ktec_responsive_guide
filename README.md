@@ -16,7 +16,9 @@
 
 - [하단상품 올킬형 고정사이즈로 변환](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/goods_before) ![screen](goods/img/n_icon.gif)
 
-- [svg Animation](https://github.com/Guide-Line/ktec_svg_animte) ![screen](goods/img/n_icon.gif) ![screen](goods/img/n_icon.gif)
+- [svg Animation](https://github.com/Guide-Line/ktec_svg_animte) ![screen](goods/img/n_icon.gif)
+
+- [swiper helper](http://ktecguide.herokuapp.com/public/swiper.html)
 
 
 
