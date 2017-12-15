@@ -1,52 +1,47 @@
-@charset "euc-kr";
+@charset "utf-8";
 /* typography */
 @font-face{
     font-family:'NS Korean';font-style:normal;font-weight:400;
-    src:url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot),
-        url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype');
+    src:url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot),
+        url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype');
     src:local('Noto Sans DemiLight'),local('NotoSans-DemiLight'), 
-        url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
-        url(http://script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+        url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+        url(//script.ebay.co.kr/fonts/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
 } 
 @font-face{
     font-family:'NS Korean';font-style:normal;font-weight:bold;
-    src:url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.eot),
-        url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype');
+    src:url(//script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.eot),
+        url(//script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype');
     src:local('Noto Sans Bold'),local('NotoSans-Bold'),	
-        url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.woff) format('woff'),
-        url(http://script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.otf) format('opentype');
+        url(//script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.woff) format('woff'),
+        url(//script.ebay.co.kr/fonts/NotoSansKR-Bold-Hestia.otf) format('opentype');
 }
 /* ¿Á¼Ç ÄíÆù UI¿ë Ä¿½ºÅÒ »êµ¹°íµñ ½Ã³×¸¶ */
 @font-face{
     font-family:'SDCinemaTheater';font-style:normal;font-weight:bold;
-    src:url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.eot),
-        url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.eot?#iefix) format('embedded-opentype');
+    src:url(//script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.eot),
+        url(//script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.eot?#iefix) format('embedded-opentype');
     src:local('SDCinemaTheater'),
-        url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.woff) format('woff'),
-        url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.otf) format('opentype'),
-        url(http://script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.ttf);
+        url(//script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.woff) format('woff'),
+        url(//script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.otf) format('opentype'),
+        url(//script.ebay.co.kr/fonts/[lite]SDCinemaTheater-subset.ttf);
 }
 img{color:transparent}
 body, html{margin:0;padding:0;-webkit-text-size-adjust:none;}
 ul,ol,li{list-style:none}
 div, p, strong, a, ul, li, button,em, img, label, input{margin:0;padding:0}
 .module_wrap a{cursor:default}
-.module_wrap a:link,.module_wrap a:visited,.module_wrap a:active,.module_wrap a:hover{color:#676767; text-decoration:none}
+.module_wrap a:link,.module_wrap a:visited,.module_wrap a:active,.module_wrap a:hover{color:#676767;text-decoration:none}
 .module_wrap a[href]:link,.module_wrap a[href]:visited,.module_wrap a[href]:active,.module_wrap a[href]:hover{cursor:pointer}
 .module_wrap a:hover span, .module_wrap a:hover, .module_wrap a:hover strong{text-decoration:none}
 .module_wrap a:focus{outline:none}
-
-
-
 button{font-family:Tahoma,'NS Korean', 'Malgun Gothic', '¸¼Àº °íµñ', AppleSDGothicNeo, Helvetica, dotum, µ¸¿ò, sans-serif !important;border:0;cursor:pointer}
 button.button{-webkit-appearance:initial}
 label{cursor:pointer}
 em{font-style:normal}
 a{text-decoration:none}
-.ico{content:"";display:inline-block;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat}
+.ico{content:"";display:inline-block;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat}
 .blind{display:block;overflow:hidden;position:absolute;top:-999em;left:0;font-size:0;line-height:0;text-indent:-999em}
-
-
 
 .module_wrap{position:relative;min-width:1200px;font-family:Tahoma,'NS Korean', 'Malgun Gothic', '¸¼Àº °íµñ', AppleSDGothicNeo, Helvetica, dotum, µ¸¿ò, sans-serif !important;font-size:initial;line-height:initial;letter-spacing:-1px}
 .module_wrap img{max-width:none;border:0;vertical-align:top}
@@ -57,7 +52,7 @@ a{text-decoration:none}
 .module.bg_black{background-color:#1c1f23;color:#fff}
 .module.bg_gray{background-color:#f7f8fa;color:#222}
 .module.bg_dgray{background-color:#e9e9eb;color:#222}
-.module .section{overflow:hidden;position:relative;width:1200px;margin:0 auto; padding-bottom: 10px;}
+.module .section{overflow:hidden;position:relative;width:1200px;margin:0 auto}
 
 .module .imgwrap{overflow:hidden;display:block;position:relative}
 .module .title span{overflow:hidden;max-width:100%;white-space:nowrap}
@@ -77,7 +72,7 @@ a{text-decoration:none}
 .module .top_banner.align_center .title{text-align:center}
 .module .top_banner.align_top .title{top:40px}
 .module .top_banner.align_bottom .title{top:auto;bottom:25px}
-.module .top_banner.dark .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/dim_25.png) repeat 0 0}
+.module .top_banner.dark .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(//pics.auction.co.kr/pc/hanbando/common/dim_25.png) repeat 0 0}
 .module .top_banner.dark .title, .module .top_banner.dark .title .name, .module .top_banner.dark .title .head_tit, .module .top_banner.dark .title .date,
 .module .top_banner.dark .prdinfo .price, .module .top_banner.dark .prdinfo .prdname, .module .top_banner.dark .title p, .module .top_banner.dark .title span{color:#fff}
 .module .top_banner.dark .name span{background:rgba(0,0,0,0.05);border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.5)}
@@ -89,10 +84,10 @@ a{text-decoration:none}
 .module .top_banner .title.big .tit{margin:23px 0 12px;font-size:110px;line-height:1}
 .module .top_banner .title.big .tit span{border-width:10px}
 .module .paginate{position:absolute;z-index:1;bottom:25px;left:0;width:100%;height:8px;font-size:0;text-align:center}
-.module .paginate a{display:inline-block;width:8px;height:8px;margin:0 4px;background:url(http://pics.auction.co.kr/pc/hanbando/common/paging.png) no-repeat 0 0;opacity:1;filter:alpha(opacity:'100');vertical-align:middle}
+.module .paginate a{display:inline-block;width:8px;height:8px;margin:0 4px;background:url(//pics.auction.co.kr/pc/hanbando/common/paging.png) no-repeat 0 0;opacity:1;filter:alpha(opacity:'100');vertical-align:middle}
 .module .paginate a.selected{background-position:-8px 0}
 .module .owl-dots{position:absolute;z-index:1;bottom:25px;left:0;width:100%;height:8px;font-size:0;text-align:center}
-.module .owl-dots .owl-dot{display:inline-block;zoom:1;*display:inline;width:8px;height:8px;margin:0 4px;background:url(http://pics.auction.co.kr/pc/hanbando/common/paging.png) no-repeat 0 0;opacity:1;filter:alpha(opacity:'100');vertical-align:middle}
+.module .owl-dots .owl-dot{display:inline-block;zoom:1;*display:inline;width:8px;height:8px;margin:0 4px;background:url(//pics.auction.co.kr/pc/hanbando/common/paging.png) no-repeat 0 0;opacity:1;filter:alpha(opacity:'100');vertical-align:middle}
 .module .owl-dots .owl-dot.active{background-position:-8px 0}
 .module .element .title{overflow:hidden;margin-bottom:40px;text-align:center}
 .module .element .tit{height:60px;font-size:39px;font-weight:bold;color:inherit;line-height:1.2}
@@ -119,11 +114,11 @@ a{text-decoration:none}
 .module_banner .btn_next{right:9px;background-position:-26px 0}
 .module_banner .prev_banner{position:absolute;top:0;left:50%;width:1200px;height:100%;margin-left:-1800px;background-size:100% 100%;background-position:center top;background-repeat:no-repeat}
 .module_banner .next_banner{position:absolute;top:0;left:50%;width:1200px;height:100%;margin-left:600px;background-size:100% 100%;background-position:center top;background-repeat:no-repeat}
-.module_banner .prev_banner .button, .module_banner .next_banner .button{display:inline-block;position:absolute;z-index:1;top:50%;margin-top:-50px;width:54px;height:106px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0;font-size:0;line-height:0}
+.module_banner .prev_banner .button, .module_banner .next_banner .button{display:inline-block;position:absolute;z-index:1;top:50%;margin-top:-50px;width:54px;height:106px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0;font-size:0;line-height:0}
 .module_banner .prev_banner .button{right:40px}
 .module_banner .next_banner .button{left:40px;background-position:-58px 0}
 .module_banner .prev_banner .button:hover, .module_banner .next_banner .button:hover{opacity:0.45;filter:alpha(opacity:'45')}
-.module_banner .prev_banner .dimmed, .module_banner .next_banner .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/dim_40.png) repeat 0 0}
+.module_banner .prev_banner .dimmed, .module_banner .next_banner .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(//pics.auction.co.kr/pc/hanbando/common/dim_40.png) repeat 0 0}
 .module_banner .top_banner.prd{height:450px;padding:21px 0 40px;background-position:0 0;background-repeat:no-repeat;background-position:center top;background-size:auto 100%}
 .module_banner .top_banner.prd .btn_prev{margin-top:-75px;left:-30px}
 .module_banner .top_banner.prd .btn_next{margin-top:-75px;right:-30px}
@@ -139,7 +134,7 @@ a{text-decoration:none}
 .module_banner .top_banner.prd .prdinfo .price{margin-top:2px}
 .module_banner .top_banner.prd .prdinfo .price em{margin-right:7px;font-size:24px;color:#e63740}
 .module_banner .top_banner.prd .prdinfo .price span{font-size:24px;font-weight:bold;color:#fff}
-.module_banner.autoimg .top_banner .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/dim_25.png) repeat 0 0}
+.module_banner.autoimg .top_banner .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(//pics.auction.co.kr/pc/hanbando/common/dim_25.png) repeat 0 0}
 .module_banner.autoimg .top_banner{position:relative}
 .module_banner.autoimg .top_banner .title{top:111px;color:#fff}
 .module_banner.autoimg .top_banner .name span{background:rgba(0,0,0,0.05);border-color:rgb(255,255,255);border-color:rgba(255,255,255,0.5);color:#fff}
@@ -213,9 +208,9 @@ a{text-decoration:none}
 .module_navi.type_text{background-color:#f7f8fa}
 .module_navi.type_text.bg_black{background-color:#424957}
 .module_navi.type_text.bg_black .sliderwrap2 .tit{color:#fff}
-.module_navi .btn_prev, .module_navi .btn_next{display:none;position:absolute;z-index:1;top:50%;width:50px;height:50px;margin-top:-25px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front@1x.png) no-repeat 0 0;font-size:0;line-height:0;cursor:pointer}
-.module_navi .btn_prev{left:50%;margin-left:-570px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front@1x.png) no-repeat;background-position:-77px -96px;border:0;}
-.module_navi .btn_next{left:50%;margin-left:520px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front@1x.png) no-repeat;background-position:-137px -96px;border:0;}
+.module_navi .btn_prev, .module_navi .btn_next{display:none;position:absolute;z-index:1;top:50%;width:50px;height:50px;margin-top:-25px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front@1x.png) no-repeat 0 0;font-size:0;line-height:0;cursor:pointer}
+.module_navi .btn_prev{left:50%;margin-left:-570px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front@1x.png) no-repeat;background-position:-77px -96px;border:0;}
+.module_navi .btn_next{left:50%;margin-left:520px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front@1x.png) no-repeat;background-position:-137px -96px;border:0;}
 
 .module_navi .imgbx{position:absolute;top:0;left:0;width:60px;height:60px;overflow:hidden}
 
@@ -292,7 +287,7 @@ a{text-decoration:none}
 .module_story .sliderwrap.only .btn_prev, .module_story .sliderwrap.only .btn_next{display:none}
 .module_story .sliderwrap .caroufredsel_wrapper, .module_story .sliderwrap .owl-carousel{overflow:visible}
 .module_story .sliderwrap .owl-carousel .item{overflow:hidden;float:left;margin:0;text-align:center}
-.module_story .btn_prev, .module_story .btn_next, .module_story .owl-prev, .module_story .owl-next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-50px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0;font-size:0;line-height:0;cursor:pointer}
+.module_story .btn_prev, .module_story .btn_next, .module_story .owl-prev, .module_story .owl-next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-50px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0;font-size:0;line-height:0;cursor:pointer}
 .module_story .btn_prev, .module_story .owl-prev{left:50%;margin-left:-600px;background-position:-234px 0}
 .module_story .btn_next, .module_story .owl-next{left:50%;margin-left:500px;background-position:-340px 0}
 .module_story .owl-stage{margin:0 auto}
@@ -350,7 +345,7 @@ a{text-decoration:none}
 .module_story.story_type4 .top_banner .stit span{max-width:none;color:#fff;white-space:normal;letter-spacing:0}
 .module_story.story_type4 .top_banner.prdinfo .stit{overflow:hidden;height:17px}
 .module_story.story_type4 .top_banner .btn_landing{display:inline-block;zoom:1;*display:inline;width:110px;height:36px;margin-top:10px;background:rgba(34, 34, 34, 0.1);border:1px solid rgb(255, 255, 255);border:1px solid rgba(255, 255, 255, 0.7);font-size:16px;color:#fff;line-height:36px;text-align:center}
-.module_story.story_type4 .top_banner.dark .dimmed{background:url(http://pics.auction.co.kr/pc/hanbando/common/gradient_03.png) repeat-x 0 0}
+.module_story.story_type4 .top_banner.dark .dimmed{background:url(//pics.auction.co.kr/pc/hanbando/common/gradient_03.png) repeat-x 0 0}
 .ie_low .module_story.story_type4 .sliderwrap.multiple .top_banner .tit span{padding-bottom:2px}
 .device-pc .module_story.story_type4 .sliderwrap.double .top_banner .title{bottom:0;left:40px;right:40px;height:160px}
 .device-pc .module_story.story_type4 .sliderwrap.double .top_banner .tit{font-size:26px}
@@ -358,7 +353,7 @@ a{text-decoration:none}
 .ie_low .module_story.story_type4 .sliderwrap.double .top_banner .tit span{padding-bottom:6px}
 .device-pc .module_story.story_type4 .sliderwrap.double .top_banner .stit{margin-top:9px;height:22px;font-size:17px;line-height:22px}
 .device-pc .module_story.story_type4 .sliderwrap.double .top_banner .btn_landing{margin-top:13px}
-.device-pc .module_story.story_type4 .sliderwrap.double .top_banner.dark .dimmed{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/gradient_02.png)}
+.device-pc .module_story.story_type4 .sliderwrap.double .top_banner.dark .dimmed{background-image:url(//pics.auction.co.kr/pc/hanbando/common/gradient_02.png)}
 .device-pc .module_story.story_type4 .sliderwrap.only .top_banner .title{bottom:0;left:40px;right:40px;height:216px}
 .device-pc .msie .module_story.story_type4 .sliderwrap.only .top_banner .title{height:219px}
 .device-pc .module_story.story_type4 .sliderwrap.only .top_banner .tit{font-size:30px}
@@ -367,7 +362,7 @@ a{text-decoration:none}
 .ie_low .module_story.story_type4 .sliderwrap.only .top_banner .tit span{padding-bottom:10px}
 .device-pc .module_story.story_type4 .sliderwrap.only .top_banner .stit{margin-top:14px;height:32px;font-size:23px;line-height:32px}
 .device-pc .module_story.story_type4 .sliderwrap.only .top_banner .btn_landing{margin-top:18px;width:158px;height:48px;font-size:18px;line-height:48px}
-.device-pc .module_story.story_type4 .sliderwrap.only .top_banner.dark .dimmed{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/gradient_01.png)}
+.device-pc .module_story.story_type4 .sliderwrap.only .top_banner.dark .dimmed{background-image:url(//pics.auction.co.kr/pc/hanbando/common/gradient_01.png)}
 
 .module_story.story_type5 .sliderwrap .btn_prev, .module_story.story_type5 .sliderwrap .btn_next{top:151px;margin-top:0}
 .module_story.story_type5{padding:100px 0}
@@ -408,7 +403,7 @@ a{text-decoration:none}
 .module_story.story_type6 .title{display:none}
 .module_story.story_type6 .stit{overflow:hidden;margin-top:14px}
 .module_story.story_type6 .sliderwrap{position:absolute;top:0;left:0;width:550px;height:361px}
-.module_story.story_type6 .sliderwrap .btn_prev, .module_story.story_type6 .sliderwrap .btn_next{position:absolute;z-index:1;top:50%;width:53px;height:53px;margin-top:-27px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat;font-size:0;line-height:0;cursor:pointer}
+.module_story.story_type6 .sliderwrap .btn_prev, .module_story.story_type6 .sliderwrap .btn_next{position:absolute;z-index:1;top:50%;width:53px;height:53px;margin-top:-27px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat;font-size:0;line-height:0;cursor:pointer}
 .module_story.story_type6 .sliderwrap .btn_prev{left:0;margin-left:0;background-position:-281px -110px}
 .module_story.story_type6 .sliderwrap .btn_next{left:auto;right:0;margin-left:0;background-position:-338px -110px}
 .module_story.story_type6 .prdinfo{position:relative;z-index:1;width:402px;min-height:361px;padding-left:598px;margin:30px auto 0;text-align:left}
@@ -463,7 +458,6 @@ a{text-decoration:none}
 .module_bigsale .prd_detail .prdimg img{position:absolute;top:0;left:0;width:100%;height:100%}
 .module_bigsale .prd_detail .info{float:left;width:320px;margin-left:40px;padding-top:1px}
 .module_bigsale .prd_detail .prdname{overflow:hidden;width:100%;height:64px;font-size:23px;color:#222;line-height:32px;letter-spacing:-1.5px}
-.module_bigsale .prd_detail .prdname a{color: #676767;}
 .module_bigsale .prd_detail .price{margin-top:11px}
 .module_bigsale .prd_detail .price .percent{margin-right:5px;font-size:37px;font-weight:bold;color:#d32b2b}
 .module_bigsale .prd_detail .price .current{font-size:27px;font-weight:400;color:#222;vertical-align:2px}
@@ -486,14 +480,14 @@ a{text-decoration:none}
 .module_bigsale .disabled .prd_detail .price .current em{font-weight:normal;color:#2e8de5;opacity:0.7;filter:alpha(opacity:'70')}
 .module_bigsale .disabled .prd_detail .price .txt{font-size:18px;line-height:30px;color:#999}
 .module_bigsale .disabled .prd_detail .btnbx span, .module_bigsale .disabled .prd_detail .btnbx button{position:relative;z-index:2}
-.module_bigsale .disabled .prd_detail .btnbx span:after{display:block;z-index:1;position:absolute;top:0;left:0;bottom:0;right:0;background:url(http://pics.auction.co.kr/pc/hanbando/common/bright_95.png) repeat;content:''}
-.module_bigsale .disabled .prd_detail .btnbx button:after{display:block;z-index:1;position:absolute;top:-2px;left:-2px;bottom:-2px;right:-2px;background:url(http://pics.auction.co.kr/pc/hanbando/common/bright_95.png) repeat;content:''}
+.module_bigsale .disabled .prd_detail .btnbx span:after{display:block;z-index:1;position:absolute;top:0;left:0;bottom:0;right:0;background:url(//pics.auction.co.kr/pc/hanbando/common/bright_95.png) repeat;content:''}
+.module_bigsale .disabled .prd_detail .btnbx button:after{display:block;z-index:1;position:absolute;top:-2px;left:-2px;bottom:-2px;right:-2px;background:url(//pics.auction.co.kr/pc/hanbando/common/bright_95.png) repeat;content:''}
 .module_bigsale .disabled .prd_detail .btnbx button{border-color:#222;cursor:default}
 .ie_low .module_bigsale .disabled .prd_detail .btnbx{opacity:0.05;filter:alpha(opacity:'5')}
 .msie .module_bigsale .disabled .prd_detail .btnbx button{border-color:#f3f3f3}
 .ie_7 .module_bigsale .disabled .prd_detail .btnbx button{border-color:#222}
-.module_bigsale .label_soldout{display:block;position:absolute;top:50%;left:50%;width:204px;height:206px;margin:-104px 0 0 -102px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) 0 -608px}
-.module_bigsale .label_adult{display:block;position:absolute;top:50%;left:50%;width:204px;height:206px;margin:-103px 0 0 -102px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) -250px -608px}
+.module_bigsale .label_soldout{display:block;position:absolute;top:50%;left:50%;width:204px;height:206px;margin:-104px 0 0 -102px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) 0 -608px}
+.module_bigsale .label_adult{display:block;position:absolute;top:50%;left:50%;width:204px;height:206px;margin:-103px 0 0 -102px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) -250px -608px}
 .module_bigsale .adult .prdimg{width:637px;height:335px;background:#f5f5f5;border:1px solid #eee}
 .module_bigsale .group_daily{position:relative;height:204px;margin:47px -10px 0}
 .module_bigsale .group_daily:after{clear:both;content:'';display:block}
@@ -509,12 +503,12 @@ a{text-decoration:none}
 .module_bigsale .group_daily .soldout_box span.bg{position:absolute;top:0;left:0;z-index:1;width:100%;height:100%;background:#000;opacity:0.4;filter:alpha(opacity:'40')}
 .module_bigsale .group_daily .adult_box{position:absolute;top:0;left:0;z-index:20;width:100%;height:100%;background:#f5f5f5}
 .module_bigsale .group_daily .adult_box .label_adult{display:block;position:absolute;top:50%;left:50%;width:74px;height:75px;margin:-37px 0 0 -37px;background-position:-250px -1120px}
-.module_bigsale .btn_prev, .module_bigsale .btn_next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-56px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat;font-size:0;line-height:0;cursor:pointer}
+.module_bigsale .btn_prev, .module_bigsale .btn_next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-56px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat;font-size:0;line-height:0;cursor:pointer}
 .module_bigsale .btn_prev{left:-100px;background-position:-234px 0}
 .module_bigsale .btn_next{right:-100px;background-position:-340px 0}
 .module_bigsale .sliderwrap li{float:left}
 .module_bigsale .sliderwrap li:only-child{float:none}
-.module_bigsale .sliderwrap .btn_prev, .module_bigsale .sliderwrap .btn_next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-10px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat;font-size:0;line-height:0;cursor:pointer}
+.module_bigsale .sliderwrap .btn_prev, .module_bigsale .sliderwrap .btn_next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-10px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat;font-size:0;line-height:0;cursor:pointer}
 .module_bigsale .sliderwrap .btn_prev{left:50%;margin-left:-600px;background-position:-234px 0}
 .module_bigsale .sliderwrap .btn_next{left:50%;margin-left:500px;background-position:-340px 0}
 .module_bigsale .sliderwrap .paginate, .module_bigsale .sliderwrap .owl-dots{bottom:-28px}
@@ -546,7 +540,7 @@ a{text-decoration:none}
 .module_prom .sliderwrap2 .owl-carousel .item{float:left;width:590px;margin:0 10px}
 .module_prom .sliderwrap2 .owl-carousel .item .link_prom{overflow:hidden;display:block;position:relative;width:100%;height:285px;background-color:#f8f8f8}
 .module_prom .sliderwrap2 .owl-carousel .item .link_prom img{position:absolute;top:0;left:0;width:100%;height:100%}
-.module_prom .sliderwrap2 .owl-carousel .item .link_prom .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/dim_35.png) repeat 0 0}
+.module_prom .sliderwrap2 .owl-carousel .item .link_prom .dimmed{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;background:url(//pics.auction.co.kr/pc/hanbando/common/dim_35.png) repeat 0 0}
 .module_prom .sliderwrap2 .title{position:absolute;z-index:1;bottom:30px;left:34px;right:34px;text-align:left}
 .module_prom .sliderwrap2 .title a{display:block}
 .ie_7 .module_prom .sliderwrap2 .title{bottom:34px}
@@ -559,7 +553,7 @@ a{text-decoration:none}
 .module_prom .sliderwrap2 .stit span{display:inline-block;padding-bottom:1px;border-bottom:3px solid #fff}
 .ie_low .module_prom .sliderwrap2 .stit span{padding-bottom:4px;letter-spacing:-3px}
 .ie_7 .module_prom .sliderwrap2 .stit{margin-top:7px}
-.module_prom .sliderwrap2 .btn_prev,.module_prom .sliderwrap2 .btn_next{display:none;position:absolute;top:24px;width:53px;height:53px;left:inherit;margin-top:0;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0 #fff;font-size:0;line-height:0}
+.module_prom .sliderwrap2 .btn_prev,.module_prom .sliderwrap2 .btn_next{display:none;position:absolute;top:24px;width:53px;height:53px;left:inherit;margin-top:0;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0 #fff;font-size:0;line-height:0}
 .module_prom .sliderwrap2 .btn_prev{right:67px;background-position:-120px 0}
 .module_prom .sliderwrap2 .btn_next{right:10px;background-position:-176px 0}
 .module_prom .sliderwrap2 .disabled{opacity:0.6;filter:alpha(opacity:'60')}
@@ -567,7 +561,7 @@ a{text-decoration:none}
 .module_prom .owl-dots{display:none}
 
 /* »óÇ° ¸®½ºÆ® */
-.module_item{/*padding:53px 0 40px;*/ background:transparent !important;}
+.module_item{padding:53px 0 40px;background:#e6e6e6}
 .module_item.bg_gray, .module_item.bg_dgray{background:#e6e6e6}
 .ie_low .module_item{padding:51px 0 38px}
 .ie_7 .module_item{padding:51px 0 38px}
@@ -581,15 +575,15 @@ a{text-decoration:none}
 .module_item .elements_item .inner{overflow:hidden;position:relative;width:592px;background:#fff}
 .module_item .elements_item .inner .blank_border{display:none}
 .module_item .elements_item:after{display:block;content:"";clear: both}
-.module_item .elements_item .label_soldout{position:absolute;top:50%;left:50%;z-index:1;width:112px;height:112px;margin:-56px 0 0 -56px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 -1000px;font-size:0;line-height:0}
-.module_item .elements_item .label_adult{position:absolute;top:50%;left:50%;z-index:1;width:112px;height:112px;margin:-56px 0 0 -56px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -250px -1000px;font-size:0;line-height:0}
+.module_item .elements_item .label_soldout{position:absolute;top:50%;left:50%;z-index:1;width:112px;height:112px;margin:-56px 0 0 -56px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 -1000px;font-size:0;line-height:0}
+.module_item .elements_item .label_adult{position:absolute;top:50%;left:50%;z-index:1;width:112px;height:112px;margin:-56px 0 0 -56px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -250px -1000px;font-size:0;line-height:0}
 .module_item .elements_item .adult_box{display:block;width:100%;height:100%;background:#f5f5f5}
 .module_item .elements_item .adult_box .mask{opacity:0;filter:alpha(opacity:'0')}
 .module_item .elements_img{float:left;position:relative;width:200px;height:200px}
 .module_item .elements_img a .mask{display:block;position:absolute;top:0;left:0;z-index:1;content:'';width:100%;height:100%;background-color:#000;opacity:0.02;filter:alpha(opacity:'2')}
-.module_item .elements_img a{display:block;/*height:100%*/ width:100%;}
+.module_item .elements_img a{display:block;height:100%}
 .module_item .elements_img a img{width:100%;height:100%}
-.module_item .elements_img .noimg{display:block;width:100%;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/common/200_noimg.gif) no-repeat center center}
+.module_item .elements_img .noimg{display:block;width:100%;height:100%;background:url(//pics.auction.co.kr/pc/hanbando/common/200_noimg.gif) no-repeat center center}
 .module_item .elements_info{overflow:hidden;position:relative;height:173px;background-color:#fff;padding:27px 20px 0 23px}
 .ie_low .module_item .elements_info{height:177px;padding-top:23px}
 .module_item .elements_item .title{display:block;overflow:hidden;position:relative;z-index:1;height:48px;margin-right:80px;margin-bottom:10px;font-size:18px;color:#222;line-height:23px;text-decoration:none;word-break:break-all}
@@ -608,15 +602,15 @@ a{text-decoration:none}
 .module_item .elements_item .shop_info{position:absolute;right:21px;bottom:0;z-index:50;height:18px;padding:12px 0 10px}
 .module_item .elements_item .shop_info a{margin-right:14px;font-size:14px;color:#666;line-height:18px;vertical-align:top;text-decoration:none}
 .module_item .elements_item .shop_info .ico_logo{display:none}
-.module_item .elements_item .shop_info .ico_arr{position:absolute;top:11px;right:0;width:7px;height:18px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 -58px}
+.module_item .elements_item .shop_info .ico_arr{position:absolute;top:11px;right:0;width:7px;height:18px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 -58px}
 .module_item .elements_item .add-info{font-size:15px;color:#666;line-height:18px}
 .module_item .elements_item .add-info .num{color:#2e8de5;letter-spacing:0}
 .ie_low .module_item .elements_item .add-info .num{vertical-align:-1px}
-.module_item .elements_item .btn_wish{position:absolute;z-index:1;top:20px;right:25px;width:40px;height:40px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 -110px;text-indent:-9999px}
+.module_item .elements_item .btn_wish{position:absolute;z-index:1;top:20px;right:25px;width:40px;height:40px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 -110px;text-indent:-9999px}
 .module_item .elements_item .btn_wish.active{background-position:-41px -110px}
 .module_item .button_wrap{margin-top:20px;text-align:center}
 .module_item .btn_more{position:relative;width:344px;height:40px;padding:11px 0 9px;background:none;font-size:17px;line-height:20px;letter-spacing:-1px}
-.module_item .btn_more .ico_arr_down{display:inline-block;width:13px;height:9px;margin-left:7px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -154px -134px}
+.module_item .btn_more .ico_arr_down{display:inline-block;width:13px;height:9px;margin-left:7px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -154px -134px}
 .ie_7 .module_item .btn_more .ico_arr_down{margin-top:9px;vertical-align:middle}
 
 /* »óÇ° ¸®½ºÆ® : gallery */
@@ -626,10 +620,10 @@ a{text-decoration:none}
 .filter_view-change_gallery .elements_item .label_soldout{width:176px;height:178px;margin:-89px 0 0 -88px;background-position:0 -818px}
 .filter_view-change_gallery .elements_item .label_adult{width:176px;height:178px;margin:-89px 0 0 -88px;background-position:-250px -818px}
 .filter_view-change_gallery .elements_img{float:none;width:290px;height:290px}
-.filter_view-change_gallery .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/290_noimg.gif)}
+.filter_view-change_gallery .elements_img .noimg{background-image:url(//pics.auction.co.kr/pc/hanbando/common/290_noimg.gif)}
 .filter_view-change_gallery .elements_info{position:relative;height:186px;padding:14px 20px 0 12px}
 .ie_low .filter_view-change_gallery .elements_info{height:187px}
-.filter_view-change_gallery .elements_item .title{margin-right:0px;margin-bottom:11px;line-height:24px}
+.filter_view-change_gallery .elements_item .title{margin-right:60px;margin-bottom:11px;line-height:24px}
 .ie_low .filter_view-change_gallery .elements_item .title{height:48px;margin-bottom:11px}
 .filter_view-change_gallery .elements_item .price{margin:0 0 9px}
 .ie_low .filter_view-change_gallery .elements_item .price{margin-bottom:7px}
@@ -650,14 +644,14 @@ a{text-decoration:none}
 /* »óÇ° ¸®½ºÆ® : deal */
 .filter_view-change_deal .products-list{width:1208px;margin-bottom:-14px}
 .filter_view-change_deal .elements_item{margin-bottom:14px}
-.filter_view-change_deal .elements_item .inner{width:590px;margin-left:3px;/*box-shadow:0 1px 3px rgba(0,0,0,0.08)*/ border:1px solid #f5f5f5}
+.filter_view-change_deal .elements_item .inner{width:590px;margin-left:3px;box-shadow:0 1px 3px rgba(0,0,0,0.08)}
 .filter_view-change_deal .elements_item .label_soldout{width:204px;height:206px;margin:-103px 0 0 -102px;background-position:0 -608px}
 .filter_view-change_deal .elements_item .label_adult{width:204px;height:206px;margin:-103px 0 0 -102px;background-position:-250px -608px}
 .filter_view-change_deal .elements_img{float:none;width:590px;height:310px}
-.filter_view-change_deal .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/590_noimg.gif)}
+.filter_view-change_deal .elements_img .noimg{background-image:url(//pics.auction.co.kr/pc/hanbando/common/590_noimg.gif)}
 .filter_view-change_deal .elements_info{position:relative;height:127px;padding:17px 20px 0 19px}
 .ie_low .filter_view-change_deal .elements_info{height:127px}
-.filter_view-change_deal .elements_item .title{height:25px;margin-right:0px;margin-bottom:8px;font-size:22px;line-height:25px}
+.filter_view-change_deal .elements_item .title{height:25px;margin-right:70px;margin-bottom:8px;font-size:22px;line-height:25px}
 .filter_view-change_deal .elements_item .price{height:30px}
 .filter_view-change_deal .elements_item .price .discount{margin-right:5px;font-size:30px;line-height:30px}
 .ie_7 .filter_view-change_deal .elements_item .price .discount{line-height:35px}
@@ -671,7 +665,7 @@ a{text-decoration:none}
 .filter_view-change_deal .elements_item .delivery span{font-size:16px}
 .filter_view-change_deal .elements_item .add-info{position:absolute;bottom:0;right:0;left:0;height:20px;margin-left:11px;padding:0 0 12px;font-size:16px}
 .ie_7 .filter_view-change_deal .elements_item .add-info span:first-child{line-height:22px;vertical-align:0}
-.filter_view-change_deal .elements_item .add-info span:first-child{display:inline-block;padding-left:11px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -274px -152px;font-size:16px;vertical-align:top}
+.filter_view-change_deal .elements_item .add-info span:first-child{display:inline-block;padding-left:11px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -274px -152px;font-size:16px;vertical-align:top}
 .filter_view-change_deal .elements_item .btn_wish{top:11px;right:13px}
 .filter_view-change_deal .elements_img > a:hover + .option_wrap{display:block}
 .filter_view-change_deal .elements_img .option_wrap{display:none;position:absolute;right:0;bottom:0;left:0;height:36px}
@@ -683,7 +677,7 @@ a{text-decoration:none}
 .filter_view-change_deal .elements_img .option_wrap a span.bg{position:absolute;top:0;left:0;z-index:1;width:100%;height:36px;background:#222;opacity:.7;filter:alpha(opacity:'70')}
 
 /* ÄíÆù */
-.ico_cp{content:"";display:inline-block;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat;font-size:0;line-height:0}
+.ico_cp{content:"";display:inline-block;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat;font-size:0;line-height:0}
 .module_coupon{background-color:#f3f3f3}
 .module_coupon .title .tit{display:inline-block; position:relative}
 .ie_7 .module_coupon .title .tit{display:inline;}
@@ -704,23 +698,23 @@ a{text-decoration:none}
 .msie .module_coupon.coupon_type1 .coupon_information_contents .coupon_image_text{margin-top:0;}
 .module_coupon.coupon_type1 .coupon_information_contents .system{font-family:'SDCinemaTheater';display:inline-block;}
 .module_coupon.coupon_type1 .coupon_information_contents .system.percent{position:relative;padding-right:53px;}
-.module_coupon.coupon_type1 .coupon_information_contents .system.percent .unit{position:absolute;right:0;top:0;font-size:0;width:48px;height:48px;display:block;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat -650px -932px;}
+.module_coupon.coupon_type1 .coupon_information_contents .system.percent .unit{position:absolute;right:0;top:4px;font-size:0;width:49px;height:48px;display:block;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat;background-position:-650px -936px}
 /*.msie .module_coupon.coupon_type1 .coupon_information_contents .system.percent .unit{background-position:-432px 0px;}*/
 .ie_low .module_coupon.coupon_type1 .coupon_information_contents .system{font-family:Tahoma, sans-serif; font-weight:bold;margin-top:-3px;}
-.module_coupon.coupon_type1 .item.discount_coupon .coupon_image_text{width:184px;height:46px;background-position: 0 -780px;}
-.module_coupon.coupon_type1 .item.duplication_coupon .coupon_image_text{width:184px;height:46px;background-position: 0 -768px;}
-.module_coupon.coupon_type1 .item.high_price_coupon .coupon_image_text{width:92px;height:46px;background-position: 0 -824px;}
+.module_coupon.coupon_type1 .item.discount_coupon .coupon_image_text{width:184px;height:46px;background-position:0 -780px}
+.module_coupon.coupon_type1 .item.duplication_coupon .coupon_image_text{width:184px;height:46px;background-position:0 -650px}
+.module_coupon.coupon_type1 .item.high_price_coupon .coupon_image_text{width:92px;height:46px;background-position: -460px -650px}
 /* ¼¼·Î ÄíÆù¿ë */
 .module_coupon.coupon_type2 .coupon_information_contents{position:relative;margin-top:18px;}
 .module_coupon.coupon_type2 .coupon_information_contents .system{font-family:'SDCinemaTheater';}
 .ie_low .module_coupon.coupon_type2 .coupon_information_contents .system{font-family:Tahoma, sans-serif; font-weight:bold;}
 .module_coupon.coupon_type2 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;vertical-align:top;margin-bottom:5px;padding-bottom:3px;}
-.module_coupon.coupon_type2 .item.discount_coupon .coupon_image_text{width:131px;height:33px;background-position: -524px -1px;}
-.module_coupon.coupon_type2 .item.duplication_coupon .coupon_image_text{width:131px;height:33px;background-position:-524px -45px;}
-.module_coupon.coupon_type2 .item.high_price_coupon .coupon_image_text{width:65px;height:33px;background-position:-589px -89px;}
+.module_coupon.coupon_type2 .item.discount_coupon .coupon_image_text{width:131px;height:33px;background-position: -260px -750px}
+.module_coupon.coupon_type2 .item.duplication_coupon .coupon_image_text{width:131px;height:33px;background-position:-260px -650px}
+.module_coupon.coupon_type2 .item.high_price_coupon .coupon_image_text{width:67px;height:33px;background-position:-460px -772px}
 .module_coupon.coupon_type2 .item .system{}
 .module_coupon.coupon_type2 .item .system.percent{position:relative;padding-right:36px;}
-.module_coupon.coupon_type2 .item .system.percent .unit{position:absolute;right:0;top:3px;font-size:0;width:35px;height:32px;display:block;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat -548px -90px;}
+.module_coupon.coupon_type2 .item .system.percent .unit{position:absolute;right:0;top:3px;font-size:0;width:35px;height:32px;display:block;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat -780px -936px}
 /* coupon_type1 - °¡·ÎÄíÆù */
 .module_coupon.coupon_type1{overflow:visible;position:static;padding:67px 0 100px}
 .module_coupon.coupon_type1 .section{overflow:visible;position:static}
@@ -733,19 +727,19 @@ a{text-decoration:none}
 .module_coupon.coupon_type1 .owl-carousel .item{width:499px;margin-left:8px}
 .module_coupon.coupon_type1 .owl-loaded{position:relative;padding-bottom:30px}
 .module_coupon.coupon_type1 .owl-stage-outer{z-index:2;width:1015px}
-.module_coupon.coupon_type1 .owl-prev, .module_coupon.coupon_type1 .owl-next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-100px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0;font-size:0;line-height:0;cursor:pointer}
+.module_coupon.coupon_type1 .owl-prev, .module_coupon.coupon_type1 .owl-next{position:absolute;z-index:1;top:50%;width:100px;height:100px;margin-top:-100px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat 0 0;font-size:0;line-height:0;cursor:pointer}
 .module_coupon.coupon_type1 .owl-prev.disabled, .module_coupon.coupon_type1 .owl-next.disabled{display:none}
 .module_coupon.coupon_type1 .owl-prev{left:50%;margin-left:-600px;background-position:-234px 0}
 .module_coupon.coupon_type1 .owl-next{left:50%;margin-left:500px;background-position:-340px 0}
 .module_coupon.coupon_type1 .owl-dots{bottom:-18px}
 .module_coupon.coupon_type1 .coupon_box{text-align:center}
 .module_coupon.coupon_type1 .coupon_box .info{margin-bottom: 25px;font-size: 21px;color: #000;display: inline-block;*display:inline; zoom:1;border: 1px solid #d4d4d4;line-height: 40px;padding: 0 36px;font-family:'NS Korean';overflow:hidden;height:40px;max-width:100%;text-overflow:ellipsis;white-space:nowrap;box-sizing:border-box;}
-.module_coupon.coupon_type1 .coupon_box .inbox{display:block;position:relative;width:455px;height:221px;padding-left:47px;padding-top:42px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0px -247px;text-align:left;background-size:160%;cursor:pointer}
-.module_coupon.coupon_type1 .coupon_box .logo{display:block;width:60px;height:43px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -350px -910px;font-size:0;line-height:0}
-.module_coupon.coupon_type1 .coupon_box .cp_down{position:absolute;bottom:-5px;right:43px;width:66px;height:66px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0 -910px;font-size:0;line-height:0;}
+.module_coupon.coupon_type1 .coupon_box .inbox{display:block;position:relative;width:455px;height:221px;padding-left:47px;padding-top:42px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0px 0;text-align:left;cursor:pointer}
+.module_coupon.coupon_type1 .coupon_box .logo{display:block;width:60px;height:43px;background-position:-350px -910px;font-size:0;line-height:0}
+.module_coupon.coupon_type1 .coupon_box .cp_down{position:absolute;bottom:-5px;right:43px;width:66px;height:66px;background-color:#ff3b45;background-position:0 -910px;font-size:0;line-height:0;}
 .module_coupon.coupon_type1 .coupon_box .tag_apply{position:absolute;bottom:-5px;right:109px;height:66px;font-size:0}
-.module_coupon.coupon_type1 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:150px;height:100%;background:#302f33 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0px -884px;font-size:0;line-height:0}
-.module_coupon.coupon_type1 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:151px;height:100%;background:#271f61 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -145px 0;font-size:0;line-height:0}
+.module_coupon.coupon_type1 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:150px;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat;background-color:#302f33;background-position:-640px -750px;font-size:0;line-height:0}
+.module_coupon.coupon_type1 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:151px;height:100%;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat;background-color:#271f61;background-position:-510px 0;font-size:0;line-height:0}
 .module_coupon.coupon_type1 .coupon_box .apply{display:inline-block;*display:inline;zoom:1;color:#1e1e1e;border-bottom:7px solid #000;padding-bottom:6px;}
 .msie .module_coupon.coupon_type1 .coupon_box .apply{padding-bottom:4px;}
 .ie_low .module_coupon.coupon_type1 .coupon_box .apply{padding-bottom:7px;}
@@ -756,7 +750,7 @@ a{text-decoration:none}
 .module_coupon.coupon_type1 .coupon_box .btn_cp span.ico_cp{width:24px;height:24px;margin-left:8px;background:none}
 .module_coupon.coupon_type1 .btn_noti_cp{display:block;text-align:center;background:none;margin:8px auto 0;white-space:nowrap}
 .module_coupon.coupon_type1 .btn_noti_cp span{display:inline-block;font-size:17px;letter-spacing:-1px;color:#222;vertical-align:middle;font-family:'NS Korean'}
-.module_coupon.coupon_type1 .btn_noti_cp span.ico_cp{margin:1px 0 0 5px;width:18px;height:18px;background:none;font-size:0;line-height:0;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -690px -49px;vertical-align:middle}
+.module_coupon.coupon_type1 .btn_noti_cp span.ico_cp{margin:3px 0 0 5px;width:18px;height:18px;font-size:0;line-height:0;background-position:-690px -50px;vertical-align:middle}
 .module_coupon.coupon_type1 .item .inbox + .btn_noti_cp{margin-top:55px;}
 .module_coupon.coupon_type1 .condition{margin-top:14px;font-size:22px;letter-spacing:-1px;color:#666;font-family:'NS Korean';height:33px;overflow:hidden;}
 .ie_low .module_coupon.coupon_type1 .condition{line-height:33px;}
@@ -765,7 +759,7 @@ a{text-decoration:none}
 .module_coupon.coupon_type1 .layer_noti_cp .btn_close .ico_cp{position:absolute;top:23px;right:23px;width:24px;height:24px;background-position:-114px -816px}
 .module_coupon.coupon_type1 .layer_noti_cp .layer_tit{margin-bottom:25px}
 .module_coupon.coupon_type1 .layer_noti_cp .layer_tit span{font-size:20px;font-weight:bold;color:#1e1e1e}
-.module_coupon.coupon_type1 .layer_noti_cp li{position:relative;margin-bottom:8px;padding-left:80px;background:url(http://pics.g9.co.kr/pc/hanbando/common/dot_1.gif) no-repeat 0 9px;font-size:16px;line-height:22px;color:#646464}
+.module_coupon.coupon_type1 .layer_noti_cp li{position:relative;margin-bottom:8px;padding-left:80px;background:url(//pics.g9.co.kr/pc/hanbando/common/dot_1.gif) no-repeat 0 9px;font-size:16px;line-height:22px;color:#646464}
 .module_coupon.coupon_type1 .layer_noti_cp li .info_tit{position:absolute;top:0;left:8px}
 .module_coupon.coupon_type1 .layer_noti_cp li.detail, .module_coupon.coupon_type1 .layer_noti_cp li.warning{padding-left:8px}
 .module_coupon.coupon_type1 .layer_noti_cp li.detail .info_tit{position:static;display:block;margin-bottom:4px}
@@ -785,12 +779,12 @@ a{text-decoration:none}
 .module_coupon.coupon_type2 .coupon_box{text-align:center}
 .module_coupon.coupon_type2 .coupon_box .info{margin-bottom:13px;font-size:20px;font-family:'NS Korean';color:#222;height:29px;overflow:hidden;}
 .ie_low .module_coupon.coupon_type2 .coupon_box .info{line-height:29px;}
-.module_coupon.coupon_type2 .coupon_box .inbox{display:block;position:relative;width:206px;height:295px;padding-left:30px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 100% -491px;text-align:left;cursor:pointer;}
-.module_coupon.coupon_type2 .coupon_box .logo{display:inline-block;width:50px;height:36px;margin-top:43px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 100% -64px;font-size:0;line-height:0}
-.module_coupon.coupon_type2 .coupon_box .cp_down{position:absolute;bottom:-6px;right:22px;width:62px;height:62px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 100% 0;font-size:0;line-height:0}
+.module_coupon.coupon_type2 .coupon_box .inbox{display:block;position:relative;width:206px;height:295px;padding-left:30px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -764px 0;text-align:left;cursor:pointer;}
+.module_coupon.coupon_type2 .coupon_box .logo{display:inline-block;width:50px;height:36px;margin-top:43px;background-position:-510px -910px;font-size:0;line-height:0}
+.module_coupon.coupon_type2 .coupon_box .cp_down{position:absolute;bottom:-6px;right:22px;width:62px;height:62px;background-color:#ff3b45;background-position:-168px -910px;font-size:0;line-height:0}
 .module_coupon.coupon_type2 .coupon_box .tag_apply{position:absolute;bottom:-6px;right:84px;height:62px;font-size:0}
-.module_coupon.coupon_type2 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:130px;height:100%;background:#302f33 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -8px -886px;font-size:0;line-height:0}
-.module_coupon.coupon_type2 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:130px;height:100%; background:#271f61 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -155px -2px;font-size:0;line-height:0}
+.module_coupon.coupon_type2 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:130px;height:100%;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat;background-position:-640px -840px;font-size:0;line-height:0}
+.module_coupon.coupon_type2 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:130px;height:100%;background-color:#271f61;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) no-repeat;background-position:-514px -150px;font-size:0;line-height:0}
 .module_coupon.coupon_type2 .coupon_box .apply{margin-top:-2px;color:#1e1e1e}
 .module_coupon.coupon_type2 .coupon_box .apply:after{content:'';display:block;clear:both;}
 .module_coupon.coupon_type2 .coupon_box .apply span{height:39px;font-size:35px;}
@@ -801,7 +795,7 @@ a{text-decoration:none}
 .module_coupon.coupon_type2 .coupon_box .btn_cp span.ico_cp{width:24px;height:24px;margin-left:8px;background:none}
 .module_coupon.coupon_type2 .btn_noti_cp{display:block;background:none;white-space:nowrap;text-align:center;margin:2px auto 0}
 .module_coupon.coupon_type2 .btn_noti_cp span{display:inline-block;font-size:16px;letter-spacing:-1px;color:#222;vertical-align:middle}
-.module_coupon.coupon_type2 .btn_noti_cp span.ico_cp{margin:2px 0 0 4px;width:16px;height:16px;background:none;font-size:0;line-height:0;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -720px -45px;vertical-align:middle}
+.module_coupon.coupon_type2 .btn_noti_cp span.ico_cp{margin:3px 0 0 4px;width:16px;height:16px;font-size:0;line-height:0;background-position:-690px -80px;vertical-align:middle}
 .module_coupon.coupon_type2 .condition{margin-top:21px;font-family:'NS Korean';font-size:18px;letter-spacing:-0.8px;color:#666;height:27px;overflow:hidden;}
 .ie_low .module_coupon.coupon_type2 .condition{line-height:28px;}
 .module_coupon.coupon_type2 .layer_noti_cp{display:none;position:absolute;z-index:100;width:430px;margin-left:-195px;padding:30px 24px 25px 24px;background-color:#fff;border:1px solid #222;text-align:left}
@@ -809,7 +803,7 @@ a{text-decoration:none}
 .module_coupon.coupon_type2 .layer_noti_cp .btn_close .ico_cp{position:absolute;top:23px;right:23px;width:24px;height:24px;background-position:-114px -816px}
 .module_coupon.coupon_type2 .layer_noti_cp .layer_tit{margin-bottom:25px}
 .module_coupon.coupon_type2 .layer_noti_cp .layer_tit span{font-size:20px;font-weight:bold;color:#1e1e1e}
-.module_coupon.coupon_type2 .layer_noti_cp li{position:relative;margin-bottom:8px;padding-left:80px;background:url(http://pics.g9.co.kr/pc/hanbando/common/dot_1.gif) no-repeat 0 9px;font-size:16px;line-height:22px;color:#646464}
+.module_coupon.coupon_type2 .layer_noti_cp li{position:relative;margin-bottom:8px;padding-left:80px;background:url(//pics.g9.co.kr/pc/hanbando/common/dot_1.gif) no-repeat 0 9px;font-size:16px;line-height:22px;color:#646464}
 .module_coupon.coupon_type2 .layer_noti_cp li .info_tit{position:absolute;top:0;left:8px}
 .module_coupon.coupon_type2 .layer_noti_cp li.detail, .module_coupon.coupon_type2 .layer_noti_cp li.warning{padding-left:8px}
 .module_coupon.coupon_type2 .layer_noti_cp li.detail .info_tit{position:static;display:block;margin-bottom:4px}
@@ -830,7 +824,7 @@ a{text-decoration:none}
 .layer_type_1 .info_msg{height:100px;text-align:center;overflow:hidden;padding:48px 10px 18px;}
 .layer_type_1 .info_msg .desc{font-size:24px;line-height:33px;letter-spacing:-1.3px;color:#222}
 .layer_type_1 .btn_ok{margin:0 auto;display:block;width:170px;height:40px;background-color:#222;font-size:17px;line-height:40px;text-align:center;color:#fff}
-.layer_type_1 .btn_close{right:20px; top:21px;background:#47321f url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -108px -38px}
+.layer_type_1 .btn_close{right:20px; top:21px;background:#47321f url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -680px -20px}
 /* ·¹ÀÌ¾î - ÄíÆù¿¡ ´ëÇÑ ¾È³» */
 .layer_type_2{width:356px;min-height:255px;padding:15px 21px 77px;margin:-180px 0 0 -160px;}
 .layer_type_2 .layer_tit{font-size:20px;letter-spacing:-0.5px;color:#222;font-family:'NS Korean';font-weight:bold;padding-bottom:10px;}
@@ -841,10 +835,10 @@ a{text-decoration:none}
 .layer_type_2 .warning{padding:12px 9px 0;}
 .layer_type_2 .warning .text{font-size:12px; color:#999;line-height:17px;letter-spacing:-0.5px;}
 .layer_type_2 .btn_ok{width:130px;height:34px;line-height:34px;color:#fff;background-color:#222;display:block;font-size:15px;letter-spacing:-0.5px;position: absolute;left: 50%;bottom: 23px;margin-left: -65px;}
-.layer_type_2 .btn_close{width:17px;height:17px;right:15px; top:15px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -67px -41px}
+.layer_type_2 .btn_close{width:17px;height:17px;right:15px; top:15px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -680px 0}
 
 /* Á¾·áµÈ ±âÈ¹Àü ¾Ë¸² */
-.promotion_close{position:fixed;z-index:101;top:0;left:0;right:0;bottom:0;background:url(http://pics.auction.co.kr/pc/hanbando/common/dim_80.png) repeat}
+.promotion_close{position:fixed;z-index:101;top:0;left:0;right:0;bottom:0;background:url(//pics.auction.co.kr/pc/hanbando/common/dim_80.png) repeat}
 .promotion_close .close_wrap{position:absolute;top:50%;left:50%;width:500px;height:218px;margin:-109px 0 0 -250px;text-align:center}
 .promotion_close .promotion_title span{display:inline-block;max-width:none;padding:0 1px 2px 0;border-bottom:2px solid #fff;font-size:24px;line-height:31px;color:#fff;letter-spacing:-0.5px}
 .ie_low .promotion_close .promotion_title span{padding-bottom:4px}
@@ -853,17 +847,17 @@ a{text-decoration:none}
 .promotion_close .sorry_txt{margin-top:17px;font-size:39px;line-height:55px;color:#fff;letter-spacing:-0.5px}
 .msie .promotion_close .sorry_txt{margin-top:18px}
 .promotion_close .sorry_img{display:none}
-.promotion_close .link_home{display:block;width:183px;height:40px;margin:24px auto 0;border:1px solid rgba(255,255,255,0.25);border:1px solid #5c5a5b;background:url(http://pics/auction.co.kr/pc/hanbando/common/dim_25.png) no-repeat}
+.promotion_close .link_home{display:block;width:183px;height:40px;margin:24px auto 0;border:1px solid rgba(255,255,255,0.25);border:1px solid #5c5a5b;background:url(//pics/auction.co.kr/pc/hanbando/common/dim_25.png) no-repeat}
 .promotion_close .link_home .txt{font-size:16px;font-weight:normal;line-height:40px;color:#fff;letter-spacing:-0.5px;vertical-align:top;opacity:0.7;-ms-filter:'progid:DXImageTransform.Microsoft.Alpha(Opacity=70)'}
 .ie_low .promotion_close .link_home .txt{line-height:38px}
 .promotion_close .link_home .ico{width:5px;height:10px;margin:15px 0 0 5px;background-position:-176px -134px;vertical-align:top}
 .ie_7 .promotion_close .link_home .ico{margin-top:5px}
 
-/** Tablet**/
+/** Tablet **/
 @media screen and (max-width:1199px){
     .ico{background-size:250px auto}
-    .module .paginate a{background:url(http://pics.auction.co.kr/pc/hanbando/common/paging_rtn.png) no-repeat 0 0;background-size:16px auto}
-    .module .owl-dots .owl-dot{background:url(http://pics.auction.co.kr/pc/hanbando/common/paging_rtn.png) no-repeat 0 0;background-size:16px auto}
+    .module .paginate a{background:url(//pics.auction.co.kr/pc/hanbando/common/paging_rtn.png) no-repeat 0 0;background-size:16px auto}
+    .module .owl-dots .owl-dot{background:url(//pics.auction.co.kr/pc/hanbando/common/paging_rtn.png) no-repeat 0 0;background-size:16px auto}
     .module_wrap{min-width:768px;font-family:AppleSDGothicNeo, Helvetica, sans-serif !important}
     .module .section{width:100%}
     .module .prev_banner, .module .next_banner{display:none}
@@ -1082,11 +1076,11 @@ a{text-decoration:none}
     .module_item .elements_item {min-height:150px;margin-bottom:6px}
     .module_item .elements_item .inner{width:98.45%}
     .module_item .elements_img{width:150px;height:150px}
-    .module_item .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/300_noimg.gif);background-size:cover}
+    .module_item .elements_img .noimg{background-image:url(//pics.auction.co.kr/pc/hanbando/common/300_noimg.gif);background-size:cover}
     .module_item .elements_item .label_soldout{width:94px;height:94px;margin:-47px 0 0 -47px;background-size:230.3921568627452px auto;background-position:0 -280.1568627450981px}
     .module_item .elements_item .label_adult{width:94px;height:94px;margin:-47px 0 0 -47px;background-size:230.3921568627452px auto;background-position:-115.1960784313726px -280.1568627450981px}
     .module_item .elements_info{position:relative;height:140px;padding:10px 10px 0 12px}
-    .module_item .elements_item .title{height:38px;margin:-3px 0px 8px 0;font-size:15px;line-height:19px}
+    .module_item .elements_item .title{height:38px;margin:-3px 60px 8px 0;font-size:15px;line-height:19px}
     .module_item .elements_item .price{margin-bottom:2px;line-height:1}
     .module_item .elements_item .price .discount{float:none;height:18px;margin-bottom:3px;font-size:18px}
     .module_item .elements_item .price .selling{font-size:14px;margin:0 5px 0 0;line-height:15px;vertical-align:text-bottom}
@@ -1115,7 +1109,7 @@ a{text-decoration:none}
     .filter_view-change_gallery .elements_item .label_soldout{width:100px;height:100px;margin:-50px 0 0 -50px;background-size:245.0980392156863px auto;background-position:0 -298.0392156862745px}
     .filter_view-change_gallery .elements_item .label_adult{width:100px;height:100px;margin:-50px 0 0 -50px;background-size:245.0980392156863px auto;background-position:-122.5490196078431px -298.0392156862745px}
     .filter_view-change_gallery .elements_img{width:184px;height:184px}
-    .filter_view-change_gallery .elements_item .title{margin:-1px 0px 9px 0;font-size:14px;line-height:18px}
+    .filter_view-change_gallery .elements_item .title{margin:-1px 34px 9px 0;font-size:14px;line-height:18px}
     .filter_view-change_gallery .elements_item .price{line-height:16px}
     .filter_view-change_gallery .elements_item .price li{float:left;margin-right:3px}
     .filter_view-change_gallery .elements_item .price .discount{float:left;margin-top:0;margin-bottom:0;letter-spacing:-0.5px;line-height:18px}
@@ -1134,9 +1128,9 @@ a{text-decoration:none}
     .filter_view-change_deal .elements_item .label_soldout{width:123px;height:124px;margin:-62px 0 0 -62px;background-size:250px auto;background-position:0 -177px}
     .filter_view-change_deal .elements_item .label_adult{width:123px;height:124px;margin:-62px 0 0 -62px;background-size:250px auto;background-position:-125px -177px}
     .filter_view-change_deal .elements_img{width:372px;height:193px}
-    .filter_view-change_deal .elements_img .noimg{background-image:url(http://pics.auction.co.kr/pc/hanbando/common/688_noimg.gif);background-size:cover}
+    .filter_view-change_deal .elements_img .noimg{background-image:url(//pics.auction.co.kr/pc/hanbando/common/688_noimg.gif);background-size:cover}
     .filter_view-change_deal .elements_info{height:95px;padding-top:13px}
-    .filter_view-change_deal .elements_item .title{height:19px;margin:0 0px 6px 0;text-overflow:ellipsis}
+    .filter_view-change_deal .elements_item .title{height:19px;margin:0 49px 6px 0;text-overflow:ellipsis}
     .filter_view-change_deal .elements_item .price .discount{float:left;font-size:22px;line-height:22px}
     .filter_view-change_deal .elements_item.joinprd .price .selling span{display:inline-block;font-size:19px}
     .filter_view-change_deal .elements_item .price .selling strong{font-size:22px;line-height:22px;letter-spacing:-0.5px}
@@ -1144,13 +1138,13 @@ a{text-decoration:none}
     .filter_view-change_deal .elements_item .delivery{height:15px;margin:0;padding:10px 0 11px 9px}
     .filter_view-change_deal .elements_item .delivery span{height:15px;line-height:15px}
     .filter_view-change_deal .elements_item .add-info{height:15px;line-height:15px;margin-bottom:0;padding:0 0 11px}
-    .filter_view-change_deal .elements_item .add-info span:first-child{font-size:12px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -274px -153px;}
+    .filter_view-change_deal .elements_item .add-info span:first-child{font-size:12px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front.png) no-repeat -274px -153px;}
     .filter_view-change_deal .elements_item .btn_wish{top:8px;right:9px;width:30px;height:30px;background-position:0 -77px}
     .filter_view-change_deal .elements_item .btn_wish.active{background-position:-31px -77px}
     .filter_view-change_deal .elements_img > a:hover + .option_wrap{display:none}
 
     /* ÄíÆù */
-    .ico_cp{background-size:508px auto}
+    .ico_cp{background-size:500px auto}
     /*
     ÄíÆù Å¸ÀÔº° ³ëÃâ ÄíÆùÅØ½ºÆ®
 
@@ -1163,21 +1157,21 @@ a{text-decoration:none}
     .module_coupon.coupon_type1 .coupon_information_contents{margin-top:12px;height:37px;overflow:visible;}
     .module_coupon.coupon_type1 .coupon_information_contents .system{vertical-align:bottom;font-size:32px;margin-top:-2px;}
     .module_coupon.coupon_type1 .coupon_information_contents .system.percent{padding-right:35px;}
-    .module_coupon.coupon_type1 .coupon_information_contents .system.percent .unit{width:35px;height:31px;background-position:-284px 1px;background-size:530px auto;}
+    .module_coupon.coupon_type1 .coupon_information_contents .system.percent .unit{top:2px;right:-2px;width:35px;height:31px;background-size:500px auto;background-position:-355px -468px}
     .module_coupon.coupon_type1 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;margin-top:0;}
-    .module_coupon.coupon_type1 .item.discount_coupon .coupon_image_text{width:116px;height:30px;background-position: 0 -452px;}
-    .module_coupon.coupon_type1 .item.duplication_coupon .coupon_image_text{width:116px;height:30px;background-position: 0 -488px;}
-    .module_coupon.coupon_type1 .item.high_price_coupon .coupon_image_text{width:58px;height:30px;background-position: 0 -523px;}
+    .module_coupon.coupon_type1 .item.discount_coupon .coupon_image_text{width:116px;height:30px;background-position:0 -420px}
+    .module_coupon.coupon_type1 .item.duplication_coupon .coupon_image_text{width:116px;height:30px;background-position:0 -353px}
+    .module_coupon.coupon_type1 .item.high_price_coupon .coupon_image_text{width:61px;height:30px;background-position:-230px -352px}
     /* ¼¼·Î ÄíÆù¿ë */
     .module_coupon.coupon_type2 .coupon_information_contents{margin-top:13px;}
-    .module_coupon.coupon_type2 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;background-size:568px auto;margin-bottom:1px;}
-    .module_coupon.coupon_type2 .item.discount_coupon .coupon_image_text{width:94px;height:24px;background-position: -371px 0px;}
-    .module_coupon.coupon_type2 .item.duplication_coupon .coupon_image_text{width:94px;height:24px;background-position:-371px -31px;}
-    .module_coupon.coupon_type2 .item.high_price_coupon .coupon_image_text{width:47px;height:24px;background-position:-418px -62px;}
+    .module_coupon.coupon_type2 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;margin-bottom:1px;}
+    .module_coupon.coupon_type2 .item.discount_coupon .coupon_image_text{width:94px;height:25px;background-position:-130px -400px}
+    .module_coupon.coupon_type2 .item.duplication_coupon .coupon_image_text{width:94px;height:25px;background-position:-130px -346px}
+    .module_coupon.coupon_type2 .item.high_price_coupon .coupon_image_text{width:51px;height:25px;background-position:-230px -406px}
     .module_coupon.coupon_type2 .item .system{line-height:1;padding-bottom:0;}
     .module_coupon.coupon_type2 .item .coupon_image_text{padding-bottom:2px;}
-    .module_coupon.coupon_type2 .item .system.percent{padding-right:27px;}
-    .module_coupon.coupon_type2 .item .system.percent .unit{top:2px;width:26px;height:24px;background-position:-362px -58px;background-size:530px auto;}
+    .module_coupon.coupon_type2 .item .system.percent{padding-right:28px}
+    .module_coupon.coupon_type2 .item .system.percent .unit{top:2px;width:27px;height:24px;background-size:500px auto;background-position:-412px -468px}
 
     /* coupon_type1 - °¡·ÎÄíÆù */
     .module_coupon.coupon_type1{padding:50px 0 38px}
@@ -1185,7 +1179,7 @@ a{text-decoration:none}
     .module_coupon.coupon_type1 .tit{font-size:24px;line-height:24px;letter-spacing:-1px;height:24px;}
     .module_coupon.coupon_type1 .tit .line{height:2px;bottom:-3px;}
     .msie .module_coupon.coupon_type1 .tit .line{bottom:-6px;}
-    .module_coupon.coupon_type1 .coupon_box .logo{width:38px;height:27px;background: url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0 -41px;background-size:490px auto;}
+    .module_coupon.coupon_type1 .coupon_box .logo{width:38px;height:27px;background-position:-210px -455px}
     .module_coupon.coupon_type1 .coupon_box .info{display:inline-block;margin:0 auto;height:36px;padding:0 18px;border:1px solid #d4d4d4;font-size:17px;line-height:36px;max-width:100%;text-overflow:ellipsis;white-space:nowrap;box-sizing:border-box;overflow:hidden;}
     .module_coupon.coupon_type1 .coupon_box .addtxt{font-size:11px;font-family:'NS Korean';margin-top:9px}
     .module_coupon.coupon_type1 .coupon_box .condition{font-size:17px;margin-top:15px;line-height:19px;height:19px;}
@@ -1197,20 +1191,20 @@ a{text-decoration:none}
     .module_coupon.coupon_type1 .sliderwrap .owl-carousel .item{width:300px;margin:0 12px}
     .module_coupon.coupon_type1 .owl-dots{bottom:2px}
     .module_coupon.coupon_type1 .sliderwrap.only .item{margin:0 auto 30px;}
-    .module_coupon.coupon_type1 .coupon_box .cp_down{width:40px;height:40px;right:18px;bottom:-6px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -290px -64px;background-size:400px auto;}
+    .module_coupon.coupon_type1 .coupon_box .cp_down{width:40px;height:40px;right:18px;bottom:-6px;background-position:-38px -455px}
     .module_coupon.coupon_type1 .coupon_box .tag_apply{bottom:-6px;right:57px;height:40px;}
-    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_mobile{width:80px;background-position:-4px -531px;background-size:480px auto}
-    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_smiledelivery{width:90px;background:#5b5b5d url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -147px -70px;}
-    .module_coupon.coupon_type1 .coupon_box .inbox{width:273px;height:134px;margin:11px 0 0 0;padding-left:28px;padding-top:24px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0 -393px}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_mobile{width:80px;background-position:-404px -375px;background-size:500px auto}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_smiledelivery{width:84px;background-position:-255px -34px;background-size:500px auto}
+    .module_coupon.coupon_type1 .coupon_box .inbox{width:273px;height:134px;margin:11px 0 0 0;padding-left:28px;padding-top:24px;background-position:0 -155px;background-size:500px auto}
     .module_coupon.coupon_type1 .coupon_box .apply{margin-top:0;border-bottom:4px solid #000;padding-bottom:2px;}
-    .module_coupon.coupon_type1 .coupon_box .apply .system{font-size:32px;}
+    .module_coupon.coupon_type1 .coupon_box .apply .system{font-size:33px;margin-left:3px}
     .msie .module_coupon.coupon_type1 .coupon_box .apply{padding-bottom:0px;}
     .msie .module_coupon.coupon_type1 .coupon_box .apply .system{line-height:1.1;}
     .module_coupon.coupon_type1 .coupon_box .btn_cp{width:270px;height:51px;margin-top:20px}
     .module_coupon.coupon_type1 .coupon_box .btn_cp span{font-size:17px;line-height:46px}
     .module_coupon.coupon_type1 .coupon_box .btn_noti_cp{margin:7px auto 0;}
     .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span{font-size:15px}
-    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico_cp{width:16px;height:16px;margin:1px 0 0 5px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -367px -67px;}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico_cp{width:16px;height:16px;margin:2px 0 0 5px;background-position:-360px -25px}
     .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico{background-position:-70px -40px;background-size:400px auto}
     .module_coupon.coupon_type1 .item .inbox + .btn_noti_cp{margin-top:41px;}
     .module_coupon.coupon_type1 .layer_noti_cp{top:140px;left:50%;width:296px;margin-left:-164px;padding:19px 16px 20px;border:none}
@@ -1246,22 +1240,23 @@ a{text-decoration:none}
     .module_coupon.coupon_type2 .coupon_container .item:nth-last-child(2){margin-bottom:0;padding-bottom:0;}
     .module_coupon.coupon_type2 .coupon_box{text-align:center}
     .module_coupon.coupon_type2 .coupon_box .info{margin-bottom:12px;font-size:17px;font-family:'NS Korean';color:#222;height:25px;overflow:hidden;}
-    .module_coupon.coupon_type2 .coupon_box .inbox{display:block;position:relative;width:147px;height:207px;padding-left:19px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 100% -278px;text-align:left}
-    .module_coupon.coupon_type2 .coupon_box .logo{display:inline-block;width:35px;height:25px;margin-top:29px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0px -268px;font-size:0;line-height:0;background-size:225px auto;}
-    .module_coupon.coupon_type2 .coupon_box .cp_down{position:absolute;bottom:-4px;right:15px;width:45px;height:45px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -865px -83px;font-size:0;line-height:0;background-size:500px auto}
+    .module_coupon.coupon_type2 .coupon_box .inbox{display:block;position:relative;width:147px;height:207px;padding-left:19px;background-size:500px auto;background-position:-332px -155px;text-align:left}
+    .module_coupon.coupon_type2 .coupon_box .logo{display:inline-block;width:35px;height:25px;margin-top:29px;background-position:-286px -455px;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .cp_down{position:absolute;bottom:-4px;right:15px;width:45px;height:45px;background-position:-120px -455px;font-size:0;line-height:0}
     .module_coupon.coupon_type2 .coupon_box .tag_apply{position:absolute;bottom:-4px;right:60px;height:45px;font-size:0}
-    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:93px;height:100%;background:#302f33 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0 -574px;font-size:0;line-height:0;background-size:520px auto;}
-    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:93px;height:100%; background:#271f61 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -146px -67px;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:93px;height:100%;background-position:-395px -420px;background-size:500px auto;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:93px;height:100%; background-position:-259px -108px;background-size:500px auto;font-size:0;line-height:0}
     .module_coupon.coupon_type2 .coupon_box .apply{margin-top:-2px;color:#1e1e1e}
-    .module_coupon.coupon_type2 .coupon_box .apply span{height:26px;font-size:25px;}
-    .module_coupon.coupon_type2 .coupon_box .apply .coupon_image_text, .module_coupon.coupon_type2 .coupon_box .apply .system{border-bottom:4px solid #000;}
+    .module_coupon.coupon_type2 .coupon_box .apply span{height:28px;font-size:26px}
+    .module_coupon.coupon_type2 .coupon_box .apply .coupon_image_text, .module_coupon.coupon_type2 .coupon_box .apply .system{border-bottom:3px solid #000;letter-spacing:0}
+    .module_coupon.coupon_type2 .coupon_box .apply .system{margin-top:2px}
     .module_coupon.coupon_type2 .coupon_box .addtxt{margin-top:15px;font-size:10px;font-family:'NS Korean';color:#666}
     .module_coupon.coupon_type2 .coupon_box .btn_cp{display:block;width:158px;height:44px;margin:19px auto 0;background-color:#222}
     .module_coupon.coupon_type2 .coupon_box .btn_cp span{display:inline-block;font-size:16px;line-height:44px;letter-spacing:-0.5px;color:#fff;vertical-align:middle}
     .module_coupon.coupon_type2 .coupon_box .btn_cp span.ico_cp{width:24px;height:24px;margin-left:8px;background:none}
     .module_coupon.coupon_type2 .btn_noti_cp{display:block;background:none;white-space:nowrap;text-align:center;margin:2px auto 0}
     .module_coupon.coupon_type2 .btn_noti_cp span{margin-top:2px;display:inline-block;font-size:14px;letter-spacing:-0.5px;color:#222;vertical-align:middle}
-    .module_coupon.coupon_type2 .btn_noti_cp span.ico_cp{margin:7px 0 0 3px;width:14px;height:14px;background:none;font-size:0;line-height:0;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -706px -47px;vertical-align:middle}
+    .module_coupon.coupon_type2 .btn_noti_cp span.ico_cp{margin:4px 0 0 4px;width:16px;height:16px;font-size:0;line-height:0;background-position:-357px -42px;vertical-align:middle}
     .module_coupon.coupon_type2 .condition{margin-top:13px;font-family:'NS Korean';font-size:14px;letter-spacing:-0.5px;color:#666;height:20px;overflow:hidden;}
     .module_coupon.coupon_type2 .layer_noti_cp{top:140px;left:50%;width:296px;margin-left:-164px;padding:19px 16px 20px;border:none}
     .module_coupon.coupon_type2 .layer_noti_cp .btn_close{width:44px;height:44px}
@@ -1295,16 +1290,16 @@ a{text-decoration:none}
     .layer_type_1 .info_msg{height:65px;text-align:center;overflow:hidden;padding:30px 10px 16px;}
     .layer_type_1 .info_msg .desc{font-size:16px;line-height:21px;letter-spacing:-1px;}
     .layer_type_1 .btn_ok{width:130px;height:34px;line-height:34px;font-size:16px;letter-spacing: -0.5px;}
-    .layer_type_1 .btn_close{right:15px; top:15px;width:17px;height:17px;background:#47321f url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -67px -41px}
+    .layer_type_1 .btn_close{right:15px; top:15px;width:17px;height:17px;background-color:#47321f;background-size:500px auto;background-position:-355px 0}
     /* ·¹ÀÌ¾î - ÄíÆù¿¡ ´ëÇÑ ¾È³» */
     .layer_type_2{width:320px;}
-    .layer_type_2 .btn_close{right:15px; top:15px;width:17px;height:17px;background:#47321f url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -67px -41px}
+    .layer_type_2 .btn_close{right:15px; top:15px;width:17px;height:17px;background-color:#47321f;background-size:500px auto;background-position:-355px 0}
 }
 
 /** Mobile **/
 @media screen and (max-width: 767px) {
     .module_wrap{min-width:320px}
-    .module .section{width:100%; padding-bottom: 5% !important}
+    .module .section{width:100%}
     .module .top_banner.mimg_left img.spot{left:0;top:0;margin-left:-2%}
     .module .top_banner.mimg_right img.spot{left:auto;right:0;top:0;margin-right:-2%}
     @media screen and (max-width: 359px) {
@@ -1412,7 +1407,7 @@ a{text-decoration:none}
     .module_item .elements_img .noimg{height:0;padding-bottom:100%}
     .module_item .elements_item{float:none;width:100%}
     .module_item .elements_item .inner{width:100%}
-    .module_item .elements_item .title{margin-right:0px;}
+    .module_item .elements_item .title{margin-right:40px;}
     .module_item .elements_item .price .discount{line-height:18px}
     .module_item .elements_item .btn_wish{right:10px}
 
@@ -1422,7 +1417,7 @@ a{text-decoration:none}
     .filter_view-change_gallery .elements_img a{position:absolute;top:0;left:0}
     .filter_view-change_gallery .elements_item{float:left;width:50%;min-height:188px}
     .filter_view-change_gallery .elements_item .inner{width:96%}
-    .filter_view-change_gallery .elements_item .title{margin-right:0px}
+    .filter_view-change_gallery .elements_item .title{margin-right:34px}
     .filter_view-change_gallery .elements_item .price{margin-right:-10px}
     .filter_view-change_gallery .elements_item .delivery{position:absolute}
     .filter_view-change_gallery .elements_item .btn_wish{right:1px}    
@@ -1435,8 +1430,6 @@ a{text-decoration:none}
     .filter_view-change_deal .elements_img .noimg{width:100%;height:0;padding-bottom:52.61627906976744%}
     .filter_view-change_deal .elements_item .price .discount{float:left;height:26px;font-size:22px;line-height:23px}
 
-    /* ÄíÆù */
-    .ico_cp{background-size:450px auto}
     /*
     ÄíÆù Å¸ÀÔº° ³ëÃâ ÄíÆùÅØ½ºÆ®
 
@@ -1448,19 +1441,19 @@ a{text-decoration:none}
     /* °¡·Î ÄíÆù¿ë */
     .module_coupon.coupon_type1 .coupon_information_contents{margin-top:9px;height:35px;}
     .module_coupon.coupon_type1 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;}
-    .module_coupon.coupon_type1 .item.discount_coupon .coupon_image_text{width:104px;height:26px;background-position: 0px -400px;}
-    .module_coupon.coupon_type1 .item.duplication_coupon .coupon_image_text{width:104px;height:26px;background-position: 0 -432px;}
-    .module_coupon.coupon_type1 .item.high_price_coupon .coupon_image_text{width:52px;height:26px;background-position: 0 -463px;}
+    .module_coupon.coupon_type1 .item.discount_coupon .coupon_image_text{width:101px;height:26px;background-position:-113px -665px}
+    .module_coupon.coupon_type1 .item.duplication_coupon .coupon_image_text{width:101px;height:26px;background-position:-220px -665px}
+    .module_coupon.coupon_type1 .item.high_price_coupon .coupon_image_text{width:53px;height:26px;background-position:-113px -723px}
     /* ¼¼·Î ÄíÆù¿ë */
     .module_coupon.coupon_type2 .coupon_information_contents{margin-top:9px;}
-    .module_coupon.coupon_type2 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1;background-size:450px auto;}
-    .module_coupon.coupon_type2 .item.discount_coupon .coupon_image_text{width:74px;height:19px;background-position: -294px 0px;}
-    .module_coupon.coupon_type2 .item.duplication_coupon .coupon_image_text{width:74px;height:19px;background-position:-294px -25px;}
-    .module_coupon.coupon_type2 .item.high_price_coupon .coupon_image_text{width:38px;height:19px;background-position:-331px -49px;}
+    .module_coupon.coupon_type2 .coupon_information_contents .coupon_image_text{display:inline-block;*display:inline;zoom:1}
+    .module_coupon.coupon_type2 .item.discount_coupon .coupon_image_text{width:76px;height:19px;background-position: -113px -700px}
+    .module_coupon.coupon_type2 .item.duplication_coupon .coupon_image_text{width:76px;height:19px;background-position:-195px -700px}
+    .module_coupon.coupon_type2 .item.high_price_coupon .coupon_image_text{width:39px;height:19px;background-position:-172px -723px}
     .module_coupon.coupon_type2 .item .system{line-height:1;padding-bottom:0;}
     .module_coupon.coupon_type2 .item .coupon_image_text{padding-bottom:2px;}
     .module_coupon.coupon_type2 .item .system.percent{padding-right:23px;margin-left:-1px;}
-    .module_coupon.coupon_type2 .item .system.percent .unit{top:1px;width:22px;height:20px;background-position:-307px -49px;background-size:450px auto;}
+    .module_coupon.coupon_type2 .item .system.percent .unit{top:2px;width:22px;height:20px;background-position:-80px -728px}
 
     /* coupon_type1 - °¡·ÎÄíÆù */
     .module_coupon.coupon_type1 .sliderwrap{width:100%}
@@ -1470,7 +1463,7 @@ a{text-decoration:none}
     .module_coupon.coupon_type1 .title{margin:0 0 22px}
     .module_coupon.coupon_type1 .tit{font-size:21px;line-height:24px;letter-spacing:-1px;height:24px;}
     .module_coupon.coupon_type1 .tit .line{height:2px;bottom:-1px;}
-    .module_coupon.coupon_type1 .coupon_box .logo{width:34px;height:25px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0px -268px;background-size:225px auto;}
+    .module_coupon.coupon_type1 .coupon_box .logo{width:34px;height:25px;background-position:0 -665px}
     .module_coupon.coupon_type1 .coupon_box .info{display:inline-block;margin:0 auto;height:33px;padding:0 18px;border:1px solid #d4d4d4;font-size:15px;line-height:33px;max-width:100%;text-overflow:ellipsis;white-space:nowrap;box-sizing:border-box;overflow:hidden;}
     .module_coupon.coupon_type1 .coupon_box .addtxt{font-size:11px;font-family:'NS Korean';margin-top:4px}
     .module_coupon.coupon_type1 .coupon_box .condition{font-size:15px;margin-top:10px;line-height:19px;letter-spacing:-0.5px;}
@@ -1479,19 +1472,19 @@ a{text-decoration:none}
     .module_coupon.coupon_type1 .sliderwrap .owl-carousel .item{width:272px;margin:0 12px}
     .module_coupon.coupon_type1 .owl-dots{bottom:2px}
     .module_coupon.coupon_type1 .sliderwrap.only .item{margin:0 auto 30px;}
-    .module_coupon.coupon_type1 .coupon_box .cp_down{width:37px;height:37px;right:18px;bottom:-2px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -291px -65px;background-size:400px auto;}
+    .module_coupon.coupon_type1 .coupon_box .cp_down{width:37px;height:37px;right:18px;bottom:-2px;background-color:#ff3b45;background-position:0 -700px}
     .module_coupon.coupon_type1 .coupon_box .tag_apply{bottom:-2px;right:54px;height:37px;}
-    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_mobile{width:76px;background-position:-4px -521px;background-size:470px auto}
-    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_smiledelivery{width:79px;background:#5b5b5d url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -239px -67px}
-    .module_coupon.coupon_type1 .coupon_box .inbox{width:251px;height:123px;margin:7px 0 0 0;padding-top:26px;padding-left:24px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0 -564px}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_mobile{width:76px;background-position:-280px -515px}
+    .module_coupon.coupon_type1 .coupon_box .tag_apply .cp_smiledelivery{width:84px;background-color:#5b5b5d;background-position:-280px -700px}
+    .module_coupon.coupon_type1 .coupon_box .inbox{width:251px;height:123px;margin:7px 0 0 0;padding-top:26px;padding-left:24px;background-size:500px auto;background-position:0 -515px}
     .module_coupon.coupon_type1 .coupon_box .apply{margin-top:0;border-bottom:4px solid #000;padding-bottom:3px;height:34px;box-sizing:border-box;}
     .module_coupon.coupon_type1 .coupon_box .apply .system{font-size:28px;margin-left:-2px;margin-top:0;}
     .module_coupon.coupon_type1 .coupon_information_contents .system.percent{padding-right:30px;margin-top:0;}
-    .module_coupon.coupon_type1 .coupon_information_contents .system.percent .unit{width:30px;height:28px;background-position:-239px 1px;background-size: 445px auto;}
+    .module_coupon.coupon_type1 .coupon_information_contents .system.percent .unit{width:30px;height:28px;background-position:-80px -700px}
     .module_coupon.coupon_type1 .coupon_box .btn_cp{width:244px;height:46px;margin-top:18px}
     .module_coupon.coupon_type1 .coupon_box .btn_cp span{font-size:17px;line-height:46px}
     .module_coupon.coupon_type1 .coupon_box .btn_noti_cp{margin:4px auto 0;}
-    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico_cp{width:16px;height:16px;margin:1px 0 0 5px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -367px -67px;}
+    .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico_cp{width:13px;height:13px;margin:3px 0 0 5px;background-position:-75px -665px}
     .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span{font-size:13px}
     .module_coupon.coupon_type1 .coupon_box .btn_noti_cp span.ico{background-position:-70px -40px;background-size:400px auto}
     .module_coupon.coupon_type1 .item .inbox + .btn_noti_cp{margin-top:33px;}
@@ -1527,14 +1520,14 @@ a{text-decoration:none}
     .module_coupon.coupon_type2 .coupon_container .item:nth-last-child(2){margin-bottom:0;padding-bottom:0;}
     .module_coupon.coupon_type2 .coupon_box{text-align:center}
     .module_coupon.coupon_type2 .coupon_box .info{margin-bottom:10px;font-size:13px;font-family:'NS Korean';color:#222;line-height:14px;height:14px;}
-    .module_coupon.coupon_type2 .coupon_box .inbox{display:block;position:relative;width:120px;height:170px;padding-left:17px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) right -105px;text-align:left}
-    .module_coupon.coupon_type2 .coupon_box .logo{display:inline-block;width:29px;height:21px;margin-top:24px;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) 0px -582px;font-size:0;line-height:0;background-size:190px auto;}
-    .module_coupon.coupon_type2 .coupon_box .cp_down{position:absolute;bottom:-3px;right:14px;width:36px;height:36px;background:#ff3b45 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -292px -66px;background-size:400px auto;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .inbox{display:block;position:relative;width:120px;height:170px;padding-left:17px;background:url(//pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -363px -515px;background-size:500px auto;text-align:left}
+    .module_coupon.coupon_type2 .coupon_box .logo{display:inline-block;width:29px;height:21px;margin-top:24px;background-position:-40px -665px;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .cp_down{position:absolute;bottom:-3px;right:14px;width:36px;height:36px;background-color:#ff3b45;background-position:-40px -700px;font-size:0;line-height:0}
     .module_coupon.coupon_type2 .coupon_box .tag_apply{position:absolute;bottom:-3px;right:49px;height:36px;font-size:0}
-    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:76px;height:100%;background:#302f33 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -4px -504px;font-size:0;line-height:0;background-size:455px auto;}
-    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:76px;height:100%; background:#271f61 url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png)  -239px -69px;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_mobile{display:inline-block;width:76px;height:100%;background-color:#302f33;background-position:-280px -554px;font-size:0;line-height:0}
+    .module_coupon.coupon_type2 .coupon_box .tag_apply .cp_smiledelivery{display:inline-block;width:76px;height:100%; background-color:#271f61;background-position:-372px -700px;font-size:0;line-height:0}
     .module_coupon.coupon_type2 .coupon_box .apply{margin-top:9px;color:#1e1e1e}
-    .module_coupon.coupon_type2 .coupon_box .apply span{height:23px;font-size:22px;}
+    .module_coupon.coupon_type2 .coupon_box .apply span{height:23px;font-size:21px}
     .module_coupon.coupon_type2 .coupon_box .apply .system{margin-top:1px;}
     .module_coupon.coupon_type2 .coupon_box .apply .coupon_image_text, .module_coupon.coupon_type2 .coupon_box .apply .system{border-bottom:3px solid #000;}
     .module_coupon.coupon_type2 .coupon_box .addtxt{margin-top:9px;font-size:9px;letter-spacing:-1.5px;font-family:'NS Korean';color:#666}
@@ -1543,7 +1536,7 @@ a{text-decoration:none}
     .module_coupon.coupon_type2 .coupon_box .btn_cp span.ico_cp{width:24px;height:24px;margin-left:8px;background:none}
     .module_coupon.coupon_type2 .btn_noti_cp{display:block;background:none;white-space:nowrap;text-align:center;margin:2px auto 0}
     .module_coupon.coupon_type2 .btn_noti_cp span{display:inline-block;font-size:12px;letter-spacing:-0.5px;color:#222;vertical-align:middle;margin-top:2px;}
-    .module_coupon.coupon_type2 .btn_noti_cp span.ico_cp{margin:5px 0 0 3px;width:14px;height:14px;background:none;font-size:0;line-height:0;background:url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -706px -47px;vertical-align:middle}
+    .module_coupon.coupon_type2 .btn_noti_cp span.ico_cp{margin:3px 0 0 4px;width:12px;height:12px;font-size:0;line-height:0;background-position:-90px -665px;vertical-align:middle}
     .module_coupon.coupon_type2 .condition{margin-top:9px;font-family:'NS Korean';font-size:12px;letter-spacing:-0.5px;color:#666;height:18px;overflow:hidden;}
     .module_coupon.coupon_type2 .layer_noti_cp{top:140px;left:50%;width:296px;margin-left:-164px;padding:19px 16px 20px;border:none}
     .module_coupon.coupon_type2 .layer_noti_cp .btn_close{width:44px;height:44px}
@@ -1563,10 +1556,8 @@ a{text-decoration:none}
     .layer_type_1 .info_msg{height:65px;text-align:center;overflow:hidden;padding:30px 10px 16px;}
     .layer_type_1 .info_msg .desc{font-size:16px;line-height:21px;letter-spacing:-1px;}
     .layer_type_1 .btn_ok{width:130px;height:34px;line-height:34px;font-size:16px;letter-spacing: -0.5px;}
-    .layer_type_1 .btn_close{right:15px; top:15px;width:17px;height:17px;background:#47321f url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -67px -41px}
     /* ·¹ÀÌ¾î - ÄíÆù¿¡ ´ëÇÑ ¾È³» */
     .layer_type_2{width:300px;margin-left:-150px;}
-    .layer_type_2 .btn_close{right:15px; top:15px;width:17px;height:17px;background:#47321f url(http://pics.auction.co.kr/pc/hanbando/sprite-front-coupon.png) -67px -41px}
 }
 
 /** Mobile landscape **/
