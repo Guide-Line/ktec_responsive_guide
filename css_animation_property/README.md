@@ -44,7 +44,7 @@
     <Multiple animations>
         animation-timing-function: ease, step-start, cubic-bezier(0.1, 0.7, 1.0, 0.1);
 
-    <3Global values>
+    <Global values>
         animation-timing-function: inherit;
         animation-timing-function: initial;
         animation-timing-function: unset;
