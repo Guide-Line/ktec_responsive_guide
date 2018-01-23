@@ -22,7 +22,7 @@
 
 - [Css Animation property](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/css_animation_property)![screen](goods/img/n_icon.gif)
 
-- [SVG property](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/svg_script)![screen](goods/img/n_icon.gif)
+- [SVG Event](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/svg_script)![screen](goods/img/n_icon.gif)
 
 
 <br>
