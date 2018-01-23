@@ -20,6 +20,7 @@
 
 - [swipe helper](http://ktecguide.herokuapp.com/public/swiper.html)
 
+- [Css Animation property](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/css_animation_property)
 
 
 <br>
