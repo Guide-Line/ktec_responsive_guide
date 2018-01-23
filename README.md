@@ -4,7 +4,7 @@
 >browse( IE9이상 , chrome , firefox ) , mobile ( android , ios)  
 >responsive size :  320 < 768(767) < 1200(1199)
 
-- [JavaScript Style Guide](https://github.com/Guide-Line/javascript) ![screen](goods/img/n_icon.gif)
+- [JavaScript Style Guide](https://github.com/Guide-Line/javascript)
 
 - [JavaScript 기초](https://github.com/Guide-Line/JavaScriptWebDevelopers)
 
@@ -14,13 +14,13 @@
 
 - [px to em](http://pxtoem.com/)
 
-- [하단상품 올킬형 고정사이즈로 변환](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/goods_before) ![screen](goods/img/n_icon.gif)
+- [하단상품 올킬형 고정사이즈로 변환](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/goods_before) 
 
-- [svg Animation](https://github.com/Guide-Line/ktec_svg_animte) ![screen](goods/img/n_icon.gif)
+- [svg Animation](https://github.com/Guide-Line/ktec_svg_animte)
 
 - [swipe helper](http://ktecguide.herokuapp.com/public/swiper.html)
 
-- [Css Animation property](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/css_animation_property)
+- [Css Animation property](https://github.com/Guide-Line/ktec_responsive_guide/tree/master/css_animation_property)![screen](goods/img/n_icon.gif)
 
 
 <br>
