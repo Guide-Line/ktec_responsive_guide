@@ -2,7 +2,7 @@
 
 
 
-## Script
+## Event
 
 ``` html
    onclick    : ¸¶¿ì½º¸¦ ´­·¶´Ù°¡ ¶¿¶¼
@@ -117,15 +117,6 @@
         <text x="10" y="185" id="mouseouts">onmouseout = 0</text>    
 
     </svg>    
-```
-
-
-
-## ÇØ¼³
-``` html
-    
-
-
 ```
 
 
