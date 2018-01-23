@@ -11,6 +11,21 @@
    animation-play-state: running (에니메이션을 중지 또는 실행 등 지정할수있고 , 에니메이션이 끝나고 난후 어떤 값이 적용될지 지정한다.)    
 
    예) http://jsfiddle.net/77zkj4yk/4/
+    div{
+      position:relative;
+      width:100px;height:100px;text-align:center;background: red;
+      -webkit-animation-name: slidein; /* Chrome, Safari, Opera */
+      -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+      -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+      -webkit-animation-direction : normal;
+      -webkit-animation-play-state : play;
+      animation-name: slidein;
+      animation-duration: 2s;
+      animation-delay: 2s;
+      animation-direction : normal;
+      animation-play-state : play;
+    }
+   
     @keyframes slidein {
        from {
            margin-left: 100%;
